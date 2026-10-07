@@ -1,5 +1,5 @@
 const UA =
-  'dubois-outloud/1.0 (+https://github.com/OWNER/dubois-outloud; zach.thomas@hey.com)';
+  'dubois-outloud/1.0 (+https://github.com/zdcthomas/dubois-outloud; zach.thomas@hey.com)';
 
 export const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
