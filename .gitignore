@@ -10,3 +10,6 @@ node_modules/
 
 # Execution ledger and review packages — scratch, not source
 .superpowers/
+
+# Page scans pulled for working out crop boxes
+.probe/

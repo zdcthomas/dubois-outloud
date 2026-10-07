@@ -1,0 +1,42 @@
+---
+import { Image } from 'astro:assets';
+
+interface Props {
+  songTitle: string;
+  notation: ImageMetadata | null;
+  iaItem: string | null;
+  page: number | null;
+}
+
+const { songTitle, notation, iaItem, page } = Astro.props;
+---
+{notation && (
+  <figure class="epigraph">
+    <Image
+      src={notation}
+      alt={`A bar of musical notation for the spiritual "${songTitle}", printed without words at the head of this chapter in the 1903 edition.`}
+      widths={[480, 960]}
+      sizes="(max-width: 40rem) 100vw, 40rem"
+    />
+    <figcaption>
+      <cite>{songTitle}</cite>, as Du Bois printed it — the melody alone, with
+      no words.
+      {iaItem && page !== null && (
+        <>
+          {' '}From the 1903 first edition,
+          {' '}<a href={`https://archive.org/details/${iaItem}/page/n${page}`}>page
+          scan at the Internet Archive</a>.
+        </>
+      )}
+    </figcaption>
+    <style>
+      .epigraph { margin: 2rem 0; }
+      .epigraph img { width: 100%; height: auto; }
+      .epigraph figcaption { font-size: .85rem; opacity: .85; margin-top: .5rem; }
+      /* The scan is black on white; invert it so it reads in a dark theme. */
+      @media (prefers-color-scheme: dark) {
+        .epigraph img { filter: invert(1); }
+      }
+    </style>
+  </figure>
+)}

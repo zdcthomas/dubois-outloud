@@ -7,7 +7,14 @@
 - slug: nobody-knows-the-trouble-ive-seen
   chapter: 1
   title: "Nobody Knows the Trouble I've Seen"
-  scan: null
+  # `page` is the 0-based IIIF leaf index, not the printed page number.
+  # Find the next one with:
+  #   node scripts/crop-scans.mjs --probe cu31924024920492 <page>
+  # then read the staff's bounds off the written PNG. Pages are 1272x2079.
+  scan:
+    ia_item: cu31924024920492
+    page: 16
+    crop: [130, 1170, 1150, 1350]
 - slug: my-lord-what-a-mourning
   chapter: 2
   title: "My Lord, What a Mourning"

@@ -46,8 +46,16 @@ describe('songs.yaml', () => {
     }
   });
 
-  it('starts every song with scan null, for Task 10 to fill in', () => {
-    for (const song of songs) expect(song.scan).toBeNull();
+  it('gives any song that has scan coordinates a sane crop box', () => {
+    // Most songs are still null — finding each page index is curation work.
+    // The ones that are filled in must describe a real rectangle, because a
+    // zero or inverted box crops to nothing and sharp throws at build time.
+    for (const song of songs.filter((s) => s.scan !== null)) {
+      const [left, top, right, bottom] = song.scan!.crop;
+      expect(right).toBeGreaterThan(left);
+      expect(bottom).toBeGreaterThan(top);
+      expect(song.scan!.page).toBeGreaterThan(0);
+    }
   });
 
   it('rejects a chapter outside 1..14', () => {

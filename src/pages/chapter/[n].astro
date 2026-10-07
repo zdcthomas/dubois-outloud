@@ -1,9 +1,23 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import Epigraph from '../../components/Epigraph.astro';
 import RecordingList from '../../components/RecordingList.astro';
 
 export async function getStaticPaths() {
+  // Declared inside getStaticPaths, not in module scope: Astro hoists this
+  // function and evaluates it on its own, so a module-scope const is simply
+  // not defined by the time it runs.
+  //
+  // Eager, so the template receives ImageMetadata directly rather than a
+  // loader it would have to await inside a .map(), which Astro disallows.
+  // src/assets/notation is a build artifact, so this is {} until
+  // `pnpm fetch:scans` has run; a song with no cropped staff shows none.
+  const notation = import.meta.glob<{ default: ImageMetadata }>(
+    '../../assets/notation/*.png',
+    { eager: true },
+  );
+
   const chapters = await getCollection('chapters', (c) => c.data.chapter !== null);
   const songs = await getCollection('songs');
   const approved = await getCollection('recordings', (r) => r.data.status === 'approved');
@@ -16,6 +30,9 @@ export async function getStaticPaths() {
         .filter((s) => s.data.chapter === entry.data.chapter)
         .map((s) => ({
           title: s.data.title,
+          scan: s.data.scan,
+          notation:
+            notation[`../../assets/notation/${s.data.slug}.png`]?.default ?? null,
           // The manifest gate guarantees an approved entry has a non-null
           // audio_url and a delivery, so narrowing here is safe and keeps the
           // component's props honest about never receiving a null source.
@@ -39,7 +56,15 @@ const n = entry.data.chapter!;
   <h1>{entry.data.heading}</h1>
 
   {songs.map((song) => (
-    <RecordingList recordings={song.recordings} songTitle={song.title} />
+    <>
+      <Epigraph
+        songTitle={song.title}
+        notation={song.notation}
+        iaItem={song.scan?.ia_item ?? null}
+        page={song.scan?.page ?? null}
+      />
+      <RecordingList recordings={song.recordings} songTitle={song.title} />
+    </>
   ))}
 
   <article><Content /></article>
