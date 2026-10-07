@@ -1,0 +1,7 @@
+# `song` names a slug that is not in songs.yaml. The build must refuse this.
+- song: no-such-song
+  loc_id: jukebox-4649
+  status: unreviewed
+  delivery: null
+  note: null
+  loc: null

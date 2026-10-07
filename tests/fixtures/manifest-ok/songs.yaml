@@ -1,0 +1,78 @@
+# The spiritual Du Bois placed at each chapter head, from the 1903 edition.
+# `scan` holds the page index and crop box within Internet Archive item
+# cu31924024920492; Task 10 fills them in by inspection.
+#
+# Chapter 14, "Of the Sorrow Songs", carries five songs rather than one.
+# The Forethought and the Afterthought carry none and so have no entry.
+- slug: nobody-knows-the-trouble-ive-seen
+  chapter: 1
+  title: "Nobody Knows the Trouble I've Seen"
+  scan: null
+- slug: my-lord-what-a-mourning
+  chapter: 2
+  title: "My Lord, What a Mourning"
+  scan: null
+- slug: a-great-camp-meeting-in-the-promised-land
+  chapter: 3
+  title: "A Great Camp-meeting in the Promised Land"
+  scan: null
+- slug: my-ways-cloudy
+  chapter: 4
+  title: "My Way's Cloudy"
+  scan: null
+- slug: the-rocks-and-the-mountains
+  chapter: 5
+  title: "The Rocks and the Mountains"
+  scan: null
+- slug: march-on
+  chapter: 6
+  title: "March On"
+  scan: null
+- slug: bright-sparkles-in-the-churchyard
+  chapter: 7
+  title: "Bright Sparkles in the Churchyard"
+  scan: null
+- slug: children-youll-be-called-on
+  chapter: 8
+  title: "Children, You'll Be Called On"
+  scan: null
+- slug: im-a-rolling
+  chapter: 9
+  title: "I'm a Rolling"
+  scan: null
+- slug: steal-away
+  chapter: 10
+  title: "Steal Away"
+  scan: null
+- slug: i-hope-my-mother-will-be-there
+  chapter: 11
+  title: "I Hope My Mother Will Be There"
+  scan: null
+- slug: swing-low-sweet-chariot
+  chapter: 12
+  title: "Swing Low, Sweet Chariot"
+  scan: null
+- slug: ill-hear-the-trumpet-sound
+  chapter: 13
+  title: "I'll Hear the Trumpet Sound"
+  scan: null
+- slug: wrestlin-jacob
+  chapter: 14
+  title: "Wrestlin' Jacob"
+  scan: null
+- slug: do-bana-coba
+  chapter: 14
+  title: "Do Bana Coba"
+  scan: null
+- slug: my-soul-wants-something-thats-new
+  chapter: 14
+  title: "My Soul Wants Something That's New"
+  scan: null
+- slug: poor-rosy
+  chapter: 14
+  title: "Poor Rosy"
+  scan: null
+- slug: weary-traveller
+  chapter: 14
+  title: "Weary Traveller"
+  scan: null

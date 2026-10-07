@@ -1,0 +1,26 @@
+# The vetting file. You own `status`, `delivery` and `note`.
+# Scripts own the `loc:` block and never touch anything above it.
+#
+#   status:   unreviewed | approved | rejected
+#   delivery: selfhost | stream
+#
+# Run `pnpm fetch:loc` to refresh metadata, `pnpm find:recordings` to add
+# candidates, and `pnpm fetch:audio` to download what you approved.
+- song: nobody-knows-the-trouble-ive-seen
+  loc_id: jukebox-879940
+  status: unreviewed
+  delivery: null
+  note: null
+  loc: null
+- song: my-lord-what-a-mourning
+  loc_id: lomaxbib000533
+  status: unreviewed
+  delivery: null
+  note: null
+  loc: null
+- song: swing-low-sweet-chariot
+  loc_id: jukebox-128141
+  status: unreviewed
+  delivery: null
+  note: null
+  loc: null
