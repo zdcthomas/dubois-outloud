@@ -1,0 +1,16 @@
+{
+  "item": {
+    "title": "Sheet music, no recording",
+    "date": "1899",
+    "rights": ["<p>No known restrictions on publication.</p>"],
+    "online_format": ["image"],
+    "partof": ["notated music"]
+  },
+  "resources": [
+    {
+      "image": "https://tile.loc.gov/image-services/x/default.jpg",
+      "files": [[{ "mimetype": "image/jpeg", "url": "https://tile.loc.gov/x.jpg" }]],
+      "url": "https://www.loc.gov/item/no-audio/"
+    }
+  ]
+}

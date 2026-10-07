@@ -41,7 +41,12 @@ export const chaptersSchema = z.object({
 export const locSchema = z.object({
   title: z.string().min(1),
   date: z.string().nullable(),
+  // `collection` is the display name. `collections` holds every collection the
+  // item belongs to, which is what the delivery rule reads: loc.gov does not
+  // put the rights-bearing collection first. Defaults to [] so manifests
+  // written before the field existed still validate.
   collection: z.string().nullable(),
+  collections: z.array(z.string()).default([]),
   performers: z.array(z.string()),
   place: z.string().nullable(),
   duration_seconds: z.number().nullable(),

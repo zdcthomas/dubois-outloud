@@ -1,0 +1,1328 @@
+{
+  "articles_and_essays": null,
+  "cite_this": {
+    "apa": "Unidentified Singers, Lomax, J. A., Lomax, R. T. &amp; Coson, A. F. (1939) <cite>My Lord, What a Mornin'</cite>. near Clemson, South Carolina, June 11. [Audio] Retrieved from the Library of Congress, https://www.loc.gov/item/lomaxbib000533/.",
+    "chicago": "Unidentified Singers, John A Lomax, Ruby T Lomax, and Anna F Coson. <cite>My Lord, What a Mornin'</cite>. near Clemson, South Carolina, June 11, 1939. Audio. https://www.loc.gov/item/lomaxbib000533/.",
+    "mla": "Unidentified Singers, et al. <cite>My Lord, What a Mornin'</cite>. near Clemson, South Carolina, June 11, 1939. Audio. Retrieved from the Library of Congress, &lt;www.loc.gov/item/lomaxbib000533/&gt;."
+  },
+  "item": {
+    "_version_": 1751574168112988200,
+    "access_restricted": false,
+    "aka": [
+      "http://www.loc.gov/item/lomaxbib000533/",
+      "https://hdl.loc.gov/loc.afc/afcss39.2726a2",
+      "http://www.loc.gov/resource/afc1939001.afc1939001_02726a2/",
+      "http://www.loc.gov/item/afc1939001.afc1939001_02726a2/"
+    ],
+    "call_number": [
+      "AFC 1939/001: AFS 02726a02"
+    ],
+    "campaigns": [],
+    "contributor_names": [
+      "Unidentified singers (Performer)",
+      "Lomax, John A. (John Avery), 1867-1948 (Collector)",
+      "Lomax, Ruby T. (Ruby Terrill) (Collector)",
+      "Coson, Anna F. (Performer)"
+    ],
+    "contributors": [
+      {
+        "coson, anna f.": "https://www.loc.gov/search/?fa=contributor:coson,+anna+f.&fo=json"
+      },
+      {
+        "lomax, john a. (john avery)": "https://www.loc.gov/search/?fa=contributor:lomax,+john+a.+%28john+avery%29&fo=json"
+      },
+      {
+        "lomax, ruby t. (ruby terrill)": "https://www.loc.gov/search/?fa=contributor:lomax,+ruby+t.+%28ruby+terrill%29&fo=json"
+      },
+      {
+        "unidentified singers": "https://www.loc.gov/search/?fa=contributor:unidentified+singers&fo=json"
+      }
+    ],
+    "created_published": [
+      "near Clemson, South Carolina, June 11, 1939"
+    ],
+    "date": "1939-06-11",
+    "dates": [
+      {
+        "1939-06-11": "https://www.loc.gov/search/?dates=1939-06-11/1939-06-11&fo=json"
+      }
+    ],
+    "digital_id": [
+      "http://hdl.loc.gov/loc.afc/afcss39.2726a2"
+    ],
+    "digitized": true,
+    "display_offsite": true,
+    "extract_timestamp": "2022-12-07T16:37:49.971Z",
+    "extract_urls": [
+      "http://c2vlpdmtool01.loc.gov/data-management-tool/export_group_xml/lomaxbib/lomaxbib000533.xml#lomaxbib"
+    ],
+    "format": [
+      {
+        "sound recording": "https://www.loc.gov/search/?fa=original_format:sound+recording&fo=json"
+      }
+    ],
+    "genre": [
+      "Music",
+      "Songs",
+      "Hymns",
+      "Religious songs"
+    ],
+    "group": [
+      "lomaxbib",
+      "john-and-ruby-lomax"
+    ],
+    "hassegments": false,
+    "id": "http://www.loc.gov/item/lomaxbib000533/",
+    "image_url": [],
+    "index": 1,
+    "item": {
+      "call_number": [
+        "AFC 1939/001: AFS 02726a02"
+      ],
+      "contributors": [
+        "Unidentified singers (Performer)",
+        "Lomax, John A. (John Avery), 1867-1948 (Collector)",
+        "Lomax, Ruby T. (Ruby Terrill) (Collector)",
+        "Coson, Anna F. (Performer)"
+      ],
+      "created_published": [
+        "near Clemson, South Carolina, June 11, 1939"
+      ],
+      "date": "19390611",
+      "digital_id": [
+        "http://hdl.loc.gov/loc.afc/afcss39.2726a2"
+      ],
+      "format": "sound recording",
+      "genre": [
+        "Music",
+        "Songs",
+        "Hymns",
+        "Religious songs"
+      ],
+      "language": [
+        "eng"
+      ],
+      "location": [
+        "United States -- South Carolina -- Pickens County -- Clemson"
+      ],
+      "medium": [
+        "sound disc : analog, 78 rpm ; 12 in."
+      ],
+      "notes": [
+        "New Zion Baptist Church congregation",
+        "Venue: Little Hope School House",
+        "Performer referred to elsewhere as Anna Cason",
+        "Performance Note: \"My Lord, What a Mornin'\" performed by Anna F. Coson and unidentified singers (vocals) at Little Hope School House, near Clemson, South Carolina, on June 11, 1939."
+      ],
+      "other_title": [
+        "My Lord What a Mournin'",
+        "My Lord, What a Mourning"
+      ],
+      "related_items": [
+        {
+          "title": "Disc sleeve for AFS Disc #2726",
+          "url": "/item/lomaxbib000847"
+        }
+      ],
+      "repository": "American Folklife Center",
+      "rights": "No known restrictions on use or reproduction.",
+      "source_collection": "John and Ruby Lomax 1939 Southern States Recording Trip (AFC 1939/001)",
+      "subjects": [
+        "United States -- South Carolina -- Pickens County -- Clemson",
+        "Music",
+        "Songs",
+        "Hymns",
+        "Religious songs"
+      ],
+      "title": "My Lord, What a Mornin'"
+    },
+    "language": [
+      "english"
+    ],
+    "languages": [
+      {
+        "english": "https://www.loc.gov/search/?fa=language:english&fo=json"
+      }
+    ],
+    "location": [
+      "pickens county",
+      "south carolina",
+      "clemson",
+      "united states"
+    ],
+    "locations": [
+      {
+        "clemson": "https://www.loc.gov/search/?fa=location:clemson&fo=json"
+      },
+      {
+        "pickens county": "https://www.loc.gov/search/?fa=location:pickens+county&fo=json"
+      },
+      {
+        "south carolina": "https://www.loc.gov/search/?fa=location:south+carolina&fo=json"
+      },
+      {
+        "united states": "https://www.loc.gov/search/?fa=location:united+states&fo=json"
+      }
+    ],
+    "medium": [
+      "sound disc : analog, 78 rpm ; 12 in."
+    ],
+    "mime_type": [
+      "application/x-audio"
+    ],
+    "notes": [
+      "New Zion Baptist Church congregation",
+      "Venue: Little Hope School House",
+      "Performer referred to elsewhere as Anna Cason",
+      "Performance Note: \"My Lord, What a Mornin'\" performed by Anna F. Coson and unidentified singers (vocals) at Little Hope School House, near Clemson, South Carolina, on June 11, 1939."
+    ],
+    "online_format": [
+      "audio"
+    ],
+    "original_format": [
+      "sound recording"
+    ],
+    "other_formats": [],
+    "other_title": [
+      "My Lord What a Mournin'",
+      "My Lord, What a Mourning"
+    ],
+    "partof": [
+      {
+        "count": 895,
+        "title": "southern mosaic: the john and ruby lomax 1939 southern states recording trip",
+        "url": "https://www.loc.gov/collections/john-and-ruby-lomax/?fo=json"
+      },
+      {
+        "count": 2398,
+        "title": "performing arts encyclopedia",
+        "url": "https://www.loc.gov/search/?fa=partof:performing+arts+encyclopedia&fo=json"
+      },
+      {
+        "count": 51839,
+        "title": "the library of congress celebrates the songs of america",
+        "url": "https://www.loc.gov/collections/songs-of-america/?fo=json"
+      },
+      {
+        "count": 181278,
+        "title": "american folklife center",
+        "url": "https://www.loc.gov/search/?fa=partof:american+folklife+center&fo=json"
+      },
+      {
+        "count": 418988,
+        "title": "american memory",
+        "url": "https://www.loc.gov/search/?fa=partof:american+memory&fo=json"
+      }
+    ],
+    "related_items": [
+      {
+        "title": "Disc sleeve for AFS Disc #2726",
+        "url": "/item/lomaxbib000847"
+      }
+    ],
+    "repository": [
+      "American Folklife Center"
+    ],
+    "resources": [
+      {
+        "audio": "https://tile.loc.gov/storage-services/media/ingested/api/loc.afc.afcss39.2726a2.mp3",
+        "download_restricted": true,
+        "files": 1,
+        "media_object_id": "CEA2B42FBEFC0108E0438C93F0280108"
+      },
+      {
+        "audio": "https://tile.loc.gov/storage-services/media/afc/lomax/afc1939001_02726a2.mp3",
+        "files": 1,
+        "media_object_id": "04344243B0D801E0E0538C93F02801E0"
+      }
+    ],
+    "rights": [
+      "<p>The Library of Congress is not aware of any U.S. copyright protection (see Title 17, U.S.C.) or any other restrictions in the material in this collection, except as noted below. Users should keep in mind that the Library of Congress is providing access to these materials strictly for educational and research purposes. The written permission of the copyright owners and/or other holders of rights (such as publicity and/or privacy rights) is required for distribution, reproduction, or other use of protected items beyond that allowed by fair use or other statutory exemptions. Responsibility for making an independent legal assessment of an item and securing any necessary permissions ultimately rests with persons desiring to use the item. See our <a href=\"/legal/\">Legal Notices</a> and <a href=\"https://memory.loc.gov/ammem/copothr.html\">Privacy and Publicity Rights</a> for additional information and restrictions. </p>\n<p>The Center asks that researchers approach the materials in this collection with respect for the culture and sensibilities of the people whose lives, ideas, and creativity are documented here. Researchers are also reminded that <a href=\"/legal/#privacy_publicity\">privacy and  publicity</a> rights may pertain to certain uses of this material.</p>\n<p>A small subset the sound recordings in this collection are not included in this online presentation because there is a strong possibility that there may be underlying rights in musical lyrics or compositions. Researchers with an interest or need to review the entire body of material are encouraged to <a href=\"https://www.loc.gov/folklife/address.html\">contact the American Folklife  Center</a>: Those song titles not included are: </p>\n<ul>\n  <li>Bull-Cow Blues</li>\n  <li>Don't You Leave Me Here</li>\n  <li>Everybody's Down on Me</li>\n  <li>Little Log Cabin</li>\n  <li>Louise</li>\n  <li>Maria</li>\n  <li>Springtime in the Rockies</li>\n</ul>\n<p><strong>Credit line</strong></p>\n<p>John and Ruby Lomax 1939 southern states recording trip (AFC 1939/001), American Folklife Center, Library of Congress</p>\n"
+    ],
+    "score": 17.029846,
+    "shard": "01",
+    "shelf_id": "AFC 1939/001: AFS 02726a02",
+    "site": [],
+    "source_collection": "John and Ruby Lomax 1939 Southern States Recording Trip (AFC 1939/001)",
+    "subject": [
+      "music",
+      "hymns",
+      "religious songs",
+      "songs"
+    ],
+    "subject_headings": [
+      "United States -- South Carolina -- Pickens County -- Clemson",
+      "Music",
+      "Songs",
+      "Hymns",
+      "Religious songs"
+    ],
+    "subjects": [
+      {
+        "hymns": "https://www.loc.gov/search/?fa=subject:hymns&fo=json"
+      },
+      {
+        "music": "https://www.loc.gov/search/?fa=subject:music&fo=json"
+      },
+      {
+        "religious songs": "https://www.loc.gov/search/?fa=subject:religious+songs&fo=json"
+      },
+      {
+        "songs": "https://www.loc.gov/search/?fa=subject:songs&fo=json"
+      }
+    ],
+    "timestamp": "2022-12-07T16:41:37.354Z",
+    "title": "My Lord, What a Mornin'",
+    "type": [
+      "sound recording"
+    ],
+    "url": "https://www.loc.gov/item/lomaxbib000533/"
+  },
+  "more_like_this": [
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/lomaxbib000532/",
+        "https://hdl.loc.gov/loc.afc/afcss39.2726a1",
+        "http://www.loc.gov/resource/afc1939001.afc1939001_02726a1/",
+        "http://www.loc.gov/item/afc1939001.afc1939001_02726a1/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "lomax, ruby t. (ruby terrill)",
+        "williams, harvey, deacon",
+        "lomax, john a. (john avery)",
+        "unidentified singers"
+      ],
+      "date": "1939-06-11",
+      "dates": [
+        "1939-06-11"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2022-12-07T16:37:49.971Z",
+      "group": [
+        "lomaxbib",
+        "john-and-ruby-lomax"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/lomaxbib000532/",
+      "image_url": [],
+      "index": 1,
+      "language": [
+        "english"
+      ],
+      "location": [
+        "pickens county",
+        "south carolina",
+        "clemson",
+        "united states"
+      ],
+      "mime_type": [
+        "application/x-audio"
+      ],
+      "online_format": [
+        "audio"
+      ],
+      "original_format": [
+        "sound recording"
+      ],
+      "partof": [
+        "the library of congress celebrates the songs of america",
+        "american folklife center",
+        "performing arts encyclopedia",
+        "southern mosaic: the john and ruby lomax 1939 southern states recording trip",
+        "american memory"
+      ],
+      "score": 84.550835,
+      "shelf_id": "AFC 1939/001: AFS 02726a01",
+      "subject": [
+        "music",
+        "hymns",
+        "religious songs",
+        "songs"
+      ],
+      "timestamp": "2022-12-07T16:41:37.354Z",
+      "title": "Go Preach My Gospel",
+      "type": [
+        "sound recording"
+      ],
+      "url": "https://www.loc.gov/item/lomaxbib000532/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/lomaxbib000535/",
+        "https://hdl.loc.gov/loc.afc/afcss39.2726b1",
+        "http://www.loc.gov/resource/afc1939001.afc1939001_02726b1/",
+        "http://www.loc.gov/item/afc1939001.afc1939001_02726b1/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "coson, frances",
+        "lomax, john a. (john avery)",
+        "lomax, ruby t. (ruby terrill)",
+        "pearson, polly",
+        "unidentified singers",
+        "holmes, judie",
+        "english, mandie"
+      ],
+      "date": "1939-06-11",
+      "dates": [
+        "1939-06-11"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2022-12-07T16:37:49.971Z",
+      "group": [
+        "lomaxbib",
+        "john-and-ruby-lomax"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/lomaxbib000535/",
+      "image_url": [],
+      "index": 2,
+      "language": [
+        "english"
+      ],
+      "location": [
+        "pickens county",
+        "south carolina",
+        "clemson",
+        "united states"
+      ],
+      "mime_type": [
+        "application/x-audio"
+      ],
+      "online_format": [
+        "audio"
+      ],
+      "original_format": [
+        "sound recording"
+      ],
+      "other_title": [
+        "It's) a Roughy, Rocky Road",
+        "A Rough, Rocky Road"
+      ],
+      "partof": [
+        "the library of congress celebrates the songs of america",
+        "american folklife center",
+        "performing arts encyclopedia",
+        "southern mosaic: the john and ruby lomax 1939 southern states recording trip",
+        "american memory"
+      ],
+      "score": 78.43834,
+      "shelf_id": "AFC 1939/001: AFS 02726b01",
+      "subject": [
+        "music",
+        "religious songs",
+        "songs"
+      ],
+      "timestamp": "2022-12-07T16:41:37.354Z",
+      "title": "Roughy, Rocky Road, The",
+      "type": [
+        "sound recording"
+      ],
+      "url": "https://www.loc.gov/item/lomaxbib000535/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/lomaxbib000536/",
+        "https://hdl.loc.gov/loc.afc/afcss39.2726b2",
+        "http://www.loc.gov/resource/afc1939001.afc1939001_02726b2/",
+        "http://www.loc.gov/item/afc1939001.afc1939001_02726b2/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "lee, mary",
+        "coson, frances",
+        "lomax, john a. (john avery)",
+        "lomax, ruby t. (ruby terrill)",
+        "pearson, ed",
+        "unidentified singers",
+        "holmes, judie",
+        "mcdonald, eula c."
+      ],
+      "date": "1939-06-11",
+      "dates": [
+        "1939-06-11"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2022-12-07T16:37:49.971Z",
+      "group": [
+        "lomaxbib",
+        "john-and-ruby-lomax"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/lomaxbib000536/",
+      "image_url": [],
+      "index": 3,
+      "language": [
+        "english"
+      ],
+      "location": [
+        "pickens county",
+        "south carolina",
+        "clemson",
+        "united states"
+      ],
+      "mime_type": [
+        "application/x-audio"
+      ],
+      "online_format": [
+        "audio"
+      ],
+      "original_format": [
+        "sound recording"
+      ],
+      "other_title": [
+        "Near Buryin' Ground"
+      ],
+      "partof": [
+        "the library of congress celebrates the songs of america",
+        "american folklife center",
+        "performing arts encyclopedia",
+        "southern mosaic: the john and ruby lomax 1939 southern states recording trip",
+        "american memory"
+      ],
+      "score": 78.43834,
+      "shelf_id": "AFC 1939/001: AFS 02726b02",
+      "subject": [
+        "music",
+        "religious songs",
+        "songs"
+      ],
+      "timestamp": "2022-12-07T16:41:37.354Z",
+      "title": "New Buryin' Ground",
+      "type": [
+        "sound recording"
+      ],
+      "url": "https://www.loc.gov/item/lomaxbib000536/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/lomaxbib000589/",
+        "https://hdl.loc.gov/loc.afc/afcss39.2721a4",
+        "http://www.loc.gov/resource/afc1939001.afc1939001_02721a4/",
+        "http://www.loc.gov/item/afc1939001.afc1939001_02721a4/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "lee, mary",
+        "lomax, john a. (john avery)",
+        "lomax, ruby t. (ruby terrill)",
+        "walker, brady",
+        "grant, william",
+        "trimmer, thomas",
+        "butler, phil"
+      ],
+      "date": "1939-06-10",
+      "dates": [
+        "1939-06-10"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2022-12-07T16:37:49.971Z",
+      "group": [
+        "lomaxbib",
+        "john-and-ruby-lomax"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/lomaxbib000589/",
+      "image_url": [],
+      "index": 4,
+      "language": [
+        "english"
+      ],
+      "location": [
+        "pickens county",
+        "south carolina",
+        "clemson",
+        "united states"
+      ],
+      "mime_type": [
+        "application/x-audio"
+      ],
+      "online_format": [
+        "audio"
+      ],
+      "original_format": [
+        "sound recording"
+      ],
+      "other_title": [
+        "De Communion"
+      ],
+      "partof": [
+        "the library of congress celebrates the songs of america",
+        "american folklife center",
+        "performing arts encyclopedia",
+        "southern mosaic: the john and ruby lomax 1939 southern states recording trip",
+        "american memory"
+      ],
+      "score": 75.68173,
+      "shelf_id": "AFC 1939/001: AFS 02721a04",
+      "subject": [
+        "music",
+        "hymns",
+        "religious songs",
+        "songs"
+      ],
+      "timestamp": "2022-12-07T16:41:37.354Z",
+      "title": "Communion Hymn",
+      "type": [
+        "sound recording"
+      ],
+      "url": "https://www.loc.gov/item/lomaxbib000589/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/lomaxbib000534/",
+        "https://hdl.loc.gov/loc.afc/afcss39.2726b3",
+        "http://www.loc.gov/resource/afc1939001.afc1939001_02726b3/",
+        "http://www.loc.gov/item/afc1939001.afc1939001_02726b3/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "pearson, polly",
+        "coson, anna f.",
+        "lomax, john a. (john avery)",
+        "lomax, ruby t. (ruby terrill)"
+      ],
+      "date": "1939-06-11",
+      "dates": [
+        "1939-06-11"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2022-12-07T16:37:49.971Z",
+      "group": [
+        "lomaxbib",
+        "john-and-ruby-lomax"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/lomaxbib000534/",
+      "image_url": [],
+      "index": 5,
+      "language": [
+        "english"
+      ],
+      "location": [
+        "pickens county",
+        "south carolina",
+        "clemson",
+        "united states"
+      ],
+      "mime_type": [
+        "application/x-audio"
+      ],
+      "online_format": [
+        "audio"
+      ],
+      "original_format": [
+        "sound recording"
+      ],
+      "other_title": [
+        "Bye, Baby Bunting",
+        "Your Mama's a Lady"
+      ],
+      "partof": [
+        "the library of congress celebrates the songs of america",
+        "american folklife center",
+        "performing arts encyclopedia",
+        "southern mosaic: the john and ruby lomax 1939 southern states recording trip",
+        "american memory"
+      ],
+      "score": 71.4876,
+      "shelf_id": "AFC 1939/001: AFS 02726b03",
+      "subject": [
+        "music",
+        "lullabies",
+        "songs",
+        "children's songs"
+      ],
+      "timestamp": "2022-12-07T16:41:37.354Z",
+      "title": "Your Mamma's a Lady",
+      "type": [
+        "sound recording"
+      ],
+      "url": "https://www.loc.gov/item/lomaxbib000534/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/lomaxbib000517/",
+        "https://hdl.loc.gov/loc.afc/afcss39.2723a1",
+        "http://www.loc.gov/resource/afc1939001.afc1939001_02723a1/",
+        "http://www.loc.gov/item/afc1939001.afc1939001_02723a1/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "lee, mary",
+        "lomax, john a. (john avery)",
+        "lomax, ruby t. (ruby terrill)",
+        "walker, brady",
+        "grant, william",
+        "trimmer, thomas",
+        "butler, phil"
+      ],
+      "date": "1939-06-10",
+      "dates": [
+        "1939-06-10"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2022-12-07T16:37:49.971Z",
+      "group": [
+        "lomaxbib",
+        "john-and-ruby-lomax"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/lomaxbib000517/",
+      "image_url": [],
+      "index": 6,
+      "language": [
+        "english"
+      ],
+      "location": [
+        "pickens county",
+        "south carolina",
+        "clemson",
+        "united states"
+      ],
+      "mime_type": [
+        "application/x-audio"
+      ],
+      "online_format": [
+        "audio"
+      ],
+      "original_format": [
+        "sound recording"
+      ],
+      "other_title": [
+        "I Know My Time Ain't Long"
+      ],
+      "partof": [
+        "the library of congress celebrates the songs of america",
+        "american folklife center",
+        "performing arts encyclopedia",
+        "southern mosaic: the john and ruby lomax 1939 southern states recording trip",
+        "american memory"
+      ],
+      "score": 69.56924,
+      "shelf_id": "AFC 1939/001: AFS 02723a01",
+      "subject": [
+        "music",
+        "religious songs",
+        "songs"
+      ],
+      "timestamp": "2022-12-07T16:41:37.354Z",
+      "title": "Sometimes I Feel Like My Time Ain't Long",
+      "type": [
+        "sound recording"
+      ],
+      "url": "https://www.loc.gov/item/lomaxbib000517/"
+    }
+  ],
+  "notice": {
+    "info": "<strong>COLUMBUS DAY HOLIDAY:</strong> On Monday, October 12, 2026, The Jefferson Building Great Hall and exhibitions will be open from 10 a.m. - 5 p.m. to guests with timed-entry passes. The Main Reading Room will be open to visitors, no research or collections services available. All other reading rooms, the Madison and Adams Buildings will be CLOSED to the public. Regularly scheduled access resumes on Tuesday, October 13. \n",
+    "status": "production"
+  },
+  "options": {
+    "access_group": [
+      ""
+    ],
+    "access_group_raw": "",
+    "all": null,
+    "api_version": "1",
+    "app_context": null,
+    "application_shim": null,
+    "application_version": "$Revision$",
+    "attribute": null,
+    "attribute!": null,
+    "attribute_map": null,
+    "cache_tags": [
+      "lomaxbib",
+      "john-and-ruby-lomax"
+    ],
+    "callback": null,
+    "clip": null,
+    "clip_image_width": null,
+    "clip_rotation": null,
+    "content_filter": null,
+    "content_replacement": "",
+    "count": null,
+    "dates": null,
+    "default_count": 25,
+    "delimiter": null,
+    "digital_id": null,
+    "display_level": null,
+    "distance": null,
+    "downloadOption": null,
+    "duration": 1.92903733253479,
+    "embed": [],
+    "embed!": [],
+    "error_response_status": null,
+    "excludeTerms": null,
+    "facetLimits": "",
+    "facetPrefix": null,
+    "facet_count": null,
+    "facet_style": null,
+    "field": null,
+    "format": "json",
+    "host": "www.loc.gov",
+    "ical": false,
+    "id": "lomaxbib000533/",
+    "iiif": false,
+    "index": null,
+    "inputEncoding": "UTF-8",
+    "item": null,
+    "items": null,
+    "keys": null,
+    "language": null,
+    "latlong": null,
+    "method": "GET",
+    "newSearch": null,
+    "new_clip_url": false,
+    "onsite": false,
+    "operator": null,
+    "outputEncoding": "UTF-8",
+    "page_campaigns": [],
+    "path_info": "/item/lomaxbib000533/",
+    "port": "443",
+    "proxypath": null,
+    "query_string": "fo=json",
+    "redirect_proxy": false,
+    "redirect_to_item": null,
+    "referer": "",
+    "region": "",
+    "release_id": 123456789,
+    "request_host": "www.loc.gov",
+    "request_params": {
+      "fo": [
+        "json"
+      ]
+    },
+    "request_url": "https://www.loc.gov/item/lomaxbib000533/?fo=json",
+    "resource": "",
+    "resource_sequence": null,
+    "scheme": "https",
+    "searchIn": null,
+    "searchTerms": "",
+    "segments": null,
+    "shards": [
+      "01"
+    ],
+    "site_id": null,
+    "site_type": null,
+    "solrQuery": "",
+    "sortBy": null,
+    "sortOrder": null,
+    "startPage": null,
+    "style": null,
+    "suggested": null,
+    "target": null,
+    "template": "layouts/item/layout",
+    "timestamp": 1791385680.300859,
+    "tz_aware": null,
+    "unionFacets": "",
+    "webcast_permalink": null
+  },
+  "related_items": [
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/lomaxbib000842/",
+        "https://hdl.loc.gov/loc.afc/afcss39.dj0092",
+        "http://www.loc.gov/resource/afc1939001.afc1939001_dj0092/",
+        "http://www.loc.gov/item/afc1939001.afc1939001_dj0092/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "lomax, ruby t. (ruby terrill)"
+      ],
+      "date": "1939-06-08",
+      "dates": [
+        "1939-06-08"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2022-12-07T16:39:19.088Z",
+      "group": [
+        "lomaxbib",
+        "john-and-ruby-lomax"
+      ],
+      "hassegments": true,
+      "id": "http://www.loc.gov/item/lomaxbib000842/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/service:afc:afc1939001:afc1939001_dj0092:dj0092fu/full/pct:25/0/default.jpg",
+        "https://tile.loc.gov/image-services/iiif/service:afc:afc1939001:afc1939001_dj0092:dj0092fu/full/pct:25/0/default.jpg#h=286&w=311",
+        "https://tile.loc.gov/image-services/iiif/service:afc:afc1939001:afc1939001_dj0092:dj0092fu/full/pct:50/0/default.jpg#h=572&w=623",
+        "https://tile.loc.gov/image-services/iiif/service:afc:afc1939001:afc1939001_dj0092:dj0092fu/full/pct:100/0/default.jpg#h=1145&w=1247"
+      ],
+      "index": 1,
+      "language": [
+        "english"
+      ],
+      "location": [
+        "murrells inlet",
+        "clemson",
+        "georgetown county",
+        "pickens county",
+        "united states",
+        "south carolina"
+      ],
+      "mime_type": [
+        "image/tiff",
+        "image/jpeg",
+        "image/jp2"
+      ],
+      "online_format": [
+        "image"
+      ],
+      "original_format": [
+        "manuscript/mixed material"
+      ],
+      "partof": [
+        "the library of congress celebrates the songs of america",
+        "american folklife center",
+        "performing arts encyclopedia",
+        "southern mosaic: the john and ruby lomax 1939 southern states recording trip",
+        "american memory"
+      ],
+      "score": 46.5298,
+      "shelf_id": "AFC 1939/001: dj0092",
+      "subject": [
+        "manuscripts"
+      ],
+      "timestamp": "2022-12-07T16:42:10.746Z",
+      "title": "Disc sleeve for AFS Disc #2721",
+      "type": [
+        "Manuscript"
+      ],
+      "url": "https://www.loc.gov/item/lomaxbib000842/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/lomaxbib000844/",
+        "https://hdl.loc.gov/loc.afc/afcss39.dj0094",
+        "http://www.loc.gov/resource/afc1939001.afc1939001_dj0094/",
+        "http://www.loc.gov/item/afc1939001.afc1939001_dj0094/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "lomax, ruby t. (ruby terrill)"
+      ],
+      "date": "1939-06-10",
+      "dates": [
+        "1939-06-10"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2022-12-07T16:39:19.088Z",
+      "group": [
+        "lomaxbib",
+        "john-and-ruby-lomax"
+      ],
+      "hassegments": true,
+      "id": "http://www.loc.gov/item/lomaxbib000844/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/service:afc:afc1939001:afc1939001_dj0094:dj0094fu/full/pct:25/0/default.jpg",
+        "https://tile.loc.gov/image-services/iiif/service:afc:afc1939001:afc1939001_dj0094:dj0094fu/full/pct:25/0/default.jpg#h=291&w=312",
+        "https://tile.loc.gov/image-services/iiif/service:afc:afc1939001:afc1939001_dj0094:dj0094fu/full/pct:50/0/default.jpg#h=582&w=625",
+        "https://tile.loc.gov/image-services/iiif/service:afc:afc1939001:afc1939001_dj0094:dj0094fu/full/pct:100/0/default.jpg#h=1165&w=1251"
+      ],
+      "index": 2,
+      "language": [
+        "english"
+      ],
+      "location": [
+        "pickens county",
+        "south carolina",
+        "clemson",
+        "united states"
+      ],
+      "mime_type": [
+        "image/tiff",
+        "image/jpeg",
+        "image/jp2"
+      ],
+      "online_format": [
+        "image"
+      ],
+      "original_format": [
+        "manuscript/mixed material"
+      ],
+      "partof": [
+        "the library of congress celebrates the songs of america",
+        "american folklife center",
+        "performing arts encyclopedia",
+        "southern mosaic: the john and ruby lomax 1939 southern states recording trip",
+        "american memory"
+      ],
+      "score": 46.5298,
+      "shelf_id": "AFC 1939/001: dj0094",
+      "subject": [
+        "manuscripts"
+      ],
+      "timestamp": "2022-12-07T16:42:10.746Z",
+      "title": "Disc sleeve for AFS Disc #2723",
+      "type": [
+        "Manuscript"
+      ],
+      "url": "https://www.loc.gov/item/lomaxbib000844/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/lomaxbib000845/",
+        "https://hdl.loc.gov/loc.afc/afcss39.dj0095",
+        "http://www.loc.gov/resource/afc1939001.afc1939001_dj0095/",
+        "http://www.loc.gov/item/afc1939001.afc1939001_dj0095/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "lomax, ruby t. (ruby terrill)"
+      ],
+      "date": "1939-06-10",
+      "dates": [
+        "1939-06-10"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2022-12-07T16:39:19.088Z",
+      "group": [
+        "lomaxbib",
+        "john-and-ruby-lomax"
+      ],
+      "hassegments": true,
+      "id": "http://www.loc.gov/item/lomaxbib000845/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/service:afc:afc1939001:afc1939001_dj0095:dj0095bu/full/pct:25/0/default.jpg",
+        "https://tile.loc.gov/image-services/iiif/service:afc:afc1939001:afc1939001_dj0095:dj0095bu/full/pct:25/0/default.jpg#h=289&w=311",
+        "https://tile.loc.gov/image-services/iiif/service:afc:afc1939001:afc1939001_dj0095:dj0095bu/full/pct:50/0/default.jpg#h=579&w=622",
+        "https://tile.loc.gov/image-services/iiif/service:afc:afc1939001:afc1939001_dj0095:dj0095bu/full/pct:100/0/default.jpg#h=1159&w=1244"
+      ],
+      "index": 3,
+      "language": [
+        "english"
+      ],
+      "location": [
+        "clemson",
+        "sand springs",
+        "anderson county",
+        "pickens county",
+        "united states",
+        "south carolina"
+      ],
+      "mime_type": [
+        "image/tiff",
+        "image/jpeg",
+        "image/jp2"
+      ],
+      "online_format": [
+        "image"
+      ],
+      "original_format": [
+        "manuscript/mixed material"
+      ],
+      "partof": [
+        "the library of congress celebrates the songs of america",
+        "american folklife center",
+        "performing arts encyclopedia",
+        "southern mosaic: the john and ruby lomax 1939 southern states recording trip",
+        "american memory"
+      ],
+      "score": 46.5298,
+      "shelf_id": "AFC 1939/001: dj0095",
+      "subject": [
+        "manuscripts"
+      ],
+      "timestamp": "2022-12-07T16:42:10.746Z",
+      "title": "Disc sleeve for AFS Disc #2724",
+      "type": [
+        "Manuscript"
+      ],
+      "url": "https://www.loc.gov/item/lomaxbib000845/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/lomaxbib000847/",
+        "https://hdl.loc.gov/loc.afc/afcss39.dj0097",
+        "http://www.loc.gov/resource/afc1939001.afc1939001_dj0097/",
+        "http://www.loc.gov/item/afc1939001.afc1939001_dj0097/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "lomax, ruby t. (ruby terrill)"
+      ],
+      "date": "1939-06-11",
+      "dates": [
+        "1939-06-11"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2022-12-07T16:39:19.088Z",
+      "group": [
+        "lomaxbib",
+        "john-and-ruby-lomax"
+      ],
+      "hassegments": true,
+      "id": "http://www.loc.gov/item/lomaxbib000847/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/service:afc:afc1939001:afc1939001_dj0097:dj0097fu/full/pct:25/0/default.jpg",
+        "https://tile.loc.gov/image-services/iiif/service:afc:afc1939001:afc1939001_dj0097:dj0097fu/full/pct:25/0/default.jpg#h=288&w=311",
+        "https://tile.loc.gov/image-services/iiif/service:afc:afc1939001:afc1939001_dj0097:dj0097fu/full/pct:50/0/default.jpg#h=577&w=622",
+        "https://tile.loc.gov/image-services/iiif/service:afc:afc1939001:afc1939001_dj0097:dj0097fu/full/pct:100/0/default.jpg#h=1155&w=1244"
+      ],
+      "index": 4,
+      "language": [
+        "english"
+      ],
+      "location": [
+        "pickens county",
+        "south carolina",
+        "clemson",
+        "united states"
+      ],
+      "mime_type": [
+        "image/tiff",
+        "image/jpeg",
+        "image/jp2"
+      ],
+      "online_format": [
+        "image"
+      ],
+      "original_format": [
+        "manuscript/mixed material"
+      ],
+      "partof": [
+        "the library of congress celebrates the songs of america",
+        "american folklife center",
+        "performing arts encyclopedia",
+        "southern mosaic: the john and ruby lomax 1939 southern states recording trip",
+        "american memory"
+      ],
+      "score": 46.5298,
+      "shelf_id": "AFC 1939/001: dj0097",
+      "subject": [
+        "manuscripts"
+      ],
+      "timestamp": "2022-12-07T16:42:10.746Z",
+      "title": "Disc sleeve for AFS Disc #2726",
+      "type": [
+        "Manuscript"
+      ],
+      "url": "https://www.loc.gov/item/lomaxbib000847/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/lomaxbib000834/",
+        "https://hdl.loc.gov/loc.afc/afcss39.dj0084",
+        "http://www.loc.gov/resource/afc1939001.afc1939001_dj0084/",
+        "http://www.loc.gov/item/afc1939001.afc1939001_dj0084/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "lomax, john a. (john avery)",
+        "lomax, ruby t. (ruby terrill)"
+      ],
+      "date": "1939-06-03",
+      "dates": [
+        "1939-06-03"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2022-12-07T16:39:19.088Z",
+      "group": [
+        "lomaxbib",
+        "john-and-ruby-lomax"
+      ],
+      "hassegments": true,
+      "id": "http://www.loc.gov/item/lomaxbib000834/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/service:afc:afc1939001:afc1939001_dj0084:dj0084fu/full/pct:25/0/default.jpg",
+        "https://tile.loc.gov/image-services/iiif/service:afc:afc1939001:afc1939001_dj0084:dj0084fu/full/pct:25/0/default.jpg#h=288&w=311",
+        "https://tile.loc.gov/image-services/iiif/service:afc:afc1939001:afc1939001_dj0084:dj0084fu/full/pct:50/0/default.jpg#h=577&w=622",
+        "https://tile.loc.gov/image-services/iiif/service:afc:afc1939001:afc1939001_dj0084:dj0084fu/full/pct:100/0/default.jpg#h=1155&w=1244"
+      ],
+      "index": 5,
+      "language": [
+        "english"
+      ],
+      "location": [
+        "murrells inlet",
+        "union county",
+        "florida",
+        "raiford",
+        "united states",
+        "georgetown county",
+        "south carolina"
+      ],
+      "mime_type": [
+        "image/tiff",
+        "image/jpeg",
+        "image/jp2"
+      ],
+      "online_format": [
+        "image"
+      ],
+      "original_format": [
+        "manuscript/mixed material"
+      ],
+      "partof": [
+        "the library of congress celebrates the songs of america",
+        "american folklife center",
+        "performing arts encyclopedia",
+        "southern mosaic: the john and ruby lomax 1939 southern states recording trip",
+        "american memory"
+      ],
+      "score": 36.70505,
+      "shelf_id": "AFC 1939/001: dj0084",
+      "subject": [
+        "manuscripts"
+      ],
+      "timestamp": "2022-12-07T16:42:10.746Z",
+      "title": "Disc sleeve for AFS Disc #2710",
+      "type": [
+        "Manuscript"
+      ],
+      "url": "https://www.loc.gov/item/lomaxbib000834/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/lomaxbib000835/",
+        "https://hdl.loc.gov/loc.afc/afcss39.dj0085",
+        "http://www.loc.gov/resource/afc1939001.afc1939001_dj0085/",
+        "http://www.loc.gov/item/afc1939001.afc1939001_dj0085/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "lomax, john a. (john avery)",
+        "lomax, ruby t. (ruby terrill)"
+      ],
+      "date": "1939-06-04",
+      "dates": [
+        "1939-06-04"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2022-12-07T16:39:19.088Z",
+      "group": [
+        "lomaxbib",
+        "john-and-ruby-lomax"
+      ],
+      "hassegments": true,
+      "id": "http://www.loc.gov/item/lomaxbib000835/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/service:afc:afc1939001:afc1939001_dj0085:dj0085fu/full/pct:25/0/default.jpg",
+        "https://tile.loc.gov/image-services/iiif/service:afc:afc1939001:afc1939001_dj0085:dj0085fu/full/pct:25/0/default.jpg#h=292&w=311",
+        "https://tile.loc.gov/image-services/iiif/service:afc:afc1939001:afc1939001_dj0085:dj0085fu/full/pct:50/0/default.jpg#h=584&w=623",
+        "https://tile.loc.gov/image-services/iiif/service:afc:afc1939001:afc1939001_dj0085:dj0085fu/full/pct:100/0/default.jpg#h=1169&w=1247"
+      ],
+      "index": 6,
+      "language": [
+        "english"
+      ],
+      "location": [
+        "murrells inlet",
+        "union county",
+        "florida",
+        "raiford",
+        "united states",
+        "georgetown county",
+        "south carolina"
+      ],
+      "mime_type": [
+        "image/tiff",
+        "image/jpeg",
+        "image/jp2"
+      ],
+      "online_format": [
+        "image"
+      ],
+      "original_format": [
+        "manuscript/mixed material"
+      ],
+      "partof": [
+        "the library of congress celebrates the songs of america",
+        "american folklife center",
+        "performing arts encyclopedia",
+        "southern mosaic: the john and ruby lomax 1939 southern states recording trip",
+        "american memory"
+      ],
+      "score": 36.70505,
+      "shelf_id": "AFC 1939/001: dj0085",
+      "subject": [
+        "manuscripts"
+      ],
+      "timestamp": "2022-12-07T16:42:10.746Z",
+      "title": "Disc sleeve for AFS Disc #2711",
+      "type": [
+        "Manuscript"
+      ],
+      "url": "https://www.loc.gov/item/lomaxbib000835/"
+    }
+  ],
+  "resources": [
+    {
+      "audio": "https://tile.loc.gov/storage-services/media/ingested/api/loc.afc.afcss39.2726a2.mp3",
+      "download_restricted": true,
+      "files": [
+        [
+          {
+            "aspectRatio": "4:3",
+            "autoPlay": false,
+            "canDownload": false,
+            "ccUrl": null,
+            "detailUrl": "https://www.loc.gov/item/lomaxbib000533/",
+            "download": "https://tile.loc.gov/storage-services/media/ingested/api/loc.afc.afcss39.2726a2.mp3",
+            "mediaObjectId": "CEA2B42FBEFC0108E0438C93F0280108",
+            "mediaType": "A",
+            "metadata": [
+              "My Lord, What a Mornin'|New Zion Baptist Church Congregation (performer)",
+              "near Clemson, South Carolina, June 11, 1939"
+            ],
+            "mimetype": "application/x-audio",
+            "poster": null,
+            "shortName": "My Lord, What a Mornin'"
+          },
+          {
+            "mimetype": "audio/mp3",
+            "url": "https://tile.loc.gov/storage-services/media/ingested/api/loc.afc.afcss39.2726a2.mp3"
+          }
+        ]
+      ],
+      "media_object_id": "CEA2B42FBEFC0108E0438C93F0280108",
+      "poster": null
+    },
+    {
+      "audio": "https://tile.loc.gov/storage-services/media/afc/lomax/afc1939001_02726a2.mp3",
+      "download_restricted": false,
+      "files": [
+        [
+          {
+            "aspectRatio": "4:3",
+            "autoPlay": false,
+            "canDownload": true,
+            "ccUrl": null,
+            "detailUrl": "https://www.loc.gov/item/lomaxbib000533/",
+            "download": "https://tile.loc.gov/storage-services/media/afc/lomax/afc1939001_02726a2.mp3",
+            "mediaObjectId": "04344243B0D801E0E0538C93F02801E0",
+            "mediaType": "A",
+            "metadata": [
+              "My Lord, What a Mornin'",
+              "near Clemson, South Carolina, June 11, 1939"
+            ],
+            "mimetype": "application/x-audio",
+            "poster": null,
+            "shortName": "My Lord, What a Mornin'"
+          },
+          {
+            "mimetype": "audio/mp3",
+            "url": "https://tile.loc.gov/storage-services/media/afc/lomax/afc1939001_02726a2.mp3"
+          }
+        ]
+      ],
+      "media_object_id": "04344243B0D801E0E0538C93F02801E0",
+      "poster": null
+    }
+  ],
+  "timestamp": 1791385682230,
+  "type": "legacyzoom"
+}
