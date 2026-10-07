@@ -1,0 +1,37 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+  </head>
+  <body>
+    <a href="#main" class="skip">Skip to content</a>
+    <header><a href="/">The Souls of Black Folk</a></header>
+    <main id="main"><slot /></main>
+    <footer>
+      <p>
+        Text and notation from the 1903 edition, in the public domain.
+        Recordings from the Library of Congress.
+        <a href="/about/">Sources and rights</a>.
+      </p>
+    </footer>
+    <style>
+      :root { color-scheme: light dark; }
+      .skip { position: absolute; left: -9999px; }
+      .skip:focus { left: 0; }
+      body {
+        max-width: 42rem; margin: 0 auto; padding: 1rem;
+        font: 1.125rem/1.6 Georgia, 'Times New Roman', serif;
+      }
+    </style>
+  </body>
+</html>

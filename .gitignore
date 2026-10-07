@@ -7,3 +7,6 @@ dist/
 node_modules/
 .direnv/
 .tmp/
+
+# Execution ledger and review packages — scratch, not source
+.superpowers/

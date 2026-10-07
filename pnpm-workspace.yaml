@@ -1,0 +1,16 @@
+# pnpm 12 blocks dependency build scripts by default and fails the install when
+# any were skipped. sharp and esbuild both ship a postinstall.
+#
+# The setting is `allowBuilds`. pnpm 10 called it `onlyBuiltDependencies` and
+# read it from package.json; pnpm 12 still *reads* that older key, so
+# `pnpm config get onlyBuiltDependencies` answers even though install ignores
+# it. Do not "fix" a failing install by moving this back to the old name.
+#
+# It lives in a committed file, rather than coming from `pnpm approve-builds`
+# (which writes to a local settings file), so CI and the Docker build install
+# exactly the way this dev shell does.
+# It is a mapping, not a list: `false` denies a package's scripts, mirroring
+# the `!name` deny prefix on `--allow-build`.
+allowBuilds:
+  esbuild: true
+  sharp: true
