@@ -11,6 +11,7 @@
     "test": "vitest run",
     "check:links": "node scripts/check-links.mjs",
     "candidates": "node scripts/candidates.mjs",
+    "vet": "node scripts/vet.mjs",
     "fetch:text": "node scripts/fetch-text.mjs",
     "fetch:loc": "node scripts/fetch-loc.mjs",
     "fetch:audio": "node scripts/fetch-audio.mjs",
