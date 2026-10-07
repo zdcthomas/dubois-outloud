@@ -1,5 +1,6 @@
 ---
 import { audioFilename } from '../../scripts/fetch-audio.mjs';
+import { creditLine } from '../credit.ts';
 
 interface Recording {
   loc_id: string;
@@ -27,14 +28,7 @@ const { recordings, songTitle } = Astro.props;
 
 const year = (date: string | null) => (date ? date.slice(0, 4) : 'date unknown');
 
-// Several named singers plus their ensemble is more than a citation line
-// needs, so the first credit leads and the rest are counted.
-const who = (r: Recording) => {
-  const names = r.loc.performers;
-  if (names.length === 0) return 'performer unnamed';
-  if (names.length === 1) return names[0];
-  return `${names[0]} and ${names.length - 1} others`;
-};
+const who = (r: Recording) => creditLine(r.loc.performers);
 
 const src = (r: Recording) =>
   r.delivery === 'selfhost' ? `/audio/${audioFilename(r)}` : r.loc.audio_url;

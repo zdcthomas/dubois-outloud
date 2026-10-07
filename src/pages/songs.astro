@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
+import { creditLine } from '../credit.ts';
 
 const songs = (await getCollection('songs')).sort(
   (a, b) => a.data.chapter - b.data.chapter,
@@ -9,7 +10,7 @@ const approved = await getCollection('recordings', (r) => r.data.status === 'app
 
 const forSong = (slug: string) => approved.filter((r) => r.data.song === slug);
 const year = (d: string | null) => (d ? d.slice(0, 4) : '—');
-const who = (performers: string[]) => performers[0] ?? 'performer unnamed';
+const who = (performers: string[]) => creditLine(performers);
 ---
 <Base
   title="Table of the songs — The Souls of Black Folk"
