@@ -8,9 +8,9 @@ primary_region = 'ewr'
   force_https = true
   auto_stop_machines = 'stop'
   auto_start_machines = true
-  # A class should not pay a cold start in the middle of a lesson. One warm
-  # machine costs about two dollars a month.
-  min_machines_running = 1
+  # Scales to zero. A static site boots fast enough that the occasional cold
+  # start is not worth ~$2/month to avoid.
+  min_machines_running = 0
 
 [[vm]]
   memory = '256mb'
