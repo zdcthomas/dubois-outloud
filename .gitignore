@@ -1,0 +1,9 @@
+# Build artifacts regenerated from src/data/*.yaml — see the design, section 6.1
+public/audio/
+src/assets/notation/
+dist/
+.astro/
+
+node_modules/
+.direnv/
+.tmp/
