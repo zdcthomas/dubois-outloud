@@ -1,0 +1,69 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+const songs = (await getCollection('songs')).sort(
+  (a, b) => a.data.chapter - b.data.chapter,
+);
+const approved = await getCollection('recordings', (r) => r.data.status === 'approved');
+
+const forSong = (slug: string) => approved.filter((r) => r.data.song === slug);
+const year = (d: string | null) => (d ? d.slice(0, 4) : '—');
+const who = (performers: string[]) => performers[0] ?? 'performer unnamed';
+---
+<Base
+  title="Table of the songs — The Souls of Black Folk"
+  description="Every spiritual Du Bois placed at a chapter head, with the vetted Library of Congress recordings of each."
+>
+  <h1>Table of the songs</h1>
+  <p>
+    Du Bois opened each chapter with a verse and a bar of music, naming neither.
+    This table lists each spiritual and every recording vetted for it.
+  </p>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th scope="col">Ch.</th><th scope="col">Spiritual</th><th scope="col">Recordings</th></tr>
+      </thead>
+      <tbody>
+        {songs.map((s) => (
+          <tr>
+            <td><a href={`/chapter/${s.data.chapter}/`}>{s.data.chapter}</a></td>
+            <td><cite>{s.data.title}</cite></td>
+            <td>
+              {forSong(s.data.slug).length === 0 ? (
+                <span class="none">none yet</span>
+              ) : (
+                <ul>
+                  {forSong(s.data.slug).map((r) => (
+                    <li>
+                      <a href={r.data.loc!.item_url}>{who(r.data.loc!.performers)}</a>,
+                      {' '}{year(r.data.loc!.date)}
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <p class="footnote">
+    A chapter showing “none yet” has no vetted recording. For some of these the
+    Library of Congress holds nothing usable; <cite>Do Bana Coba</cite> is the
+    likeliest to stay empty.
+  </p>
+
+  <style>
+    /* Wide content scrolls inside its own box rather than the page. */
+    .table-wrap { overflow-x: auto; }
+    table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+    th, td { text-align: left; vertical-align: top; padding: .5rem .4rem; border-bottom: 1px solid; }
+    td ul { margin: 0; padding-left: 1rem; }
+    .none { font-style: italic; opacity: .7; }
+    .footnote { font-size: .9rem; opacity: .85; }
+  </style>
+</Base>

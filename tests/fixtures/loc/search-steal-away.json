@@ -1,0 +1,2959 @@
+{
+  "results": [
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/jukebox/recordings/detail/id/8408",
+        "http://www.loc.gov/item/jukebox-4649/",
+        "http://www.loc.gov/resource/jukebox-4649.0/",
+        "http://www.loc.gov/resource/jukebox-4649.1/",
+        "http://www.loc.gov/resource/jukebox-4649.0",
+        "http://www.loc.gov/resource/jukebox-4649.1"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "dinwiddie colored quartet",
+        "thomas, j. mantell",
+        "meredith, clarence",
+        "rex, sterling",
+        "cruder, harry b."
+      ],
+      "contributor_primary": [
+        "dinwiddie colored quartet"
+      ],
+      "contributor_vocalist": [
+        "cruder, harry b.",
+        "meredith, clarence",
+        "rex, sterling",
+        "thomas, j. mantell"
+      ],
+      "date": "1902-10-29",
+      "dates": [
+        "1902-10-29"
+      ],
+      "description": [
+        "Victor 1716. Matrix/Take: [Pre-matrix B-]1716/M-2."
+      ],
+      "digitized": true,
+      "extract_timestamp": "2026-10-04T17:43:45.629Z",
+      "group": [
+        "nationaljukebox",
+        "national-jukebox"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/jukebox-4649/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/service:mbrsrs:mbrsjukebox:dgio_victor_1716_01_b1716_02:dgio_victor_1716_01_b1716_02/full/pct:12.5/0/default.jpg#h=249&w=247",
+        "https://tile.loc.gov/image-services/iiif/service:mbrsrs:mbrsjukebox:dgio_victor_1716_01_b1716_02:dgio_victor_1716_01_b1716_02/full/pct:25/0/default.jpg#h=498&w=494",
+        "https://tile.loc.gov/image-services/iiif/service:mbrsrs:mbrsjukebox:dgio_victor_1716_01_b1716_02:dgio_victor_1716_01_b1716_02/full/pct:50/0/default.jpg#h=996&w=988",
+        "https://tile.loc.gov/image-services/iiif/service:mbrsrs:mbrsjukebox:dgio_victor_1716_01_b1716_02:dgio_victor_1716_01_b1716_02/full/pct:100/0/default.jpg#h=1992&w=1976"
+      ],
+      "index": 1,
+      "item": {
+        "audio_type": "Vocal",
+        "contributors": [
+          "Cruder, Harry B. -- Vocalist -- Bass Vocal",
+          "Dinwiddie Colored Quartet -- Vocal Group -- Vocal Group",
+          "Meredith, Clarence -- Vocalist -- Tenor Vocal",
+          "Rex, Sterling -- Vocalist -- Tenor Vocal",
+          "Thomas, J. Mantell -- Vocalist -- Bass Vocal"
+        ],
+        "file_id": [
+          "dgio_victor_1716_01_b1716_02"
+        ],
+        "genre": [
+          "Ethnic music",
+          "Religious"
+        ],
+        "language": "English",
+        "media_size": "10-in.",
+        "profile": "jukebox",
+        "recording_catalog_number": "1716",
+        "recording_date": "1902-10-29",
+        "recording_label": "Victor",
+        "recording_matrix_number": "[Pre-matrix B-]1716 (Matrix ID)",
+        "recording_repository": "Source of original recording: Giovannoni/Lynch Collection (private collection).",
+        "recording_take_id": 4649,
+        "recording_take_number": "M-2",
+        "rights_advisory": "Inclusion of the recording in the National Jukebox, courtesy of Sony Music Entertainment or EMI Music",
+        "summary": "Male vocal quartet, unaccompanied"
+      },
+      "language": [
+        "english"
+      ],
+      "location": [
+        "united states",
+        "pennsylvania",
+        "philadelphia"
+      ],
+      "mime_type": [
+        "audio/mpeg",
+        "audio/wav",
+        "image/tif",
+        "image/jpeg"
+      ],
+      "online_format": [
+        "audio",
+        "image"
+      ],
+      "original_format": [
+        "sound recording"
+      ],
+      "partof": [
+        "national jukebox",
+        "giovannoni/lynch collection (private collection)",
+        "recorded sound research center"
+      ],
+      "partof_repository": [
+        "giovannoni/lynch collection (private collection)"
+      ],
+      "resources": [
+        {
+          "files": 1,
+          "media": "https://tile.loc.gov/streaming-services/iiif/service:mbrsrs:mbrsjukebox:dgio_victor_1716_01_b1716_02:dgio_victor_1716_01_b1716_02/full/full/0/full/default.mp3",
+          "url": "https://www.loc.gov/resource/jukebox-4649.0"
+        },
+        {
+          "files": 1,
+          "image": "https://tile.loc.gov/image-services/iiif/service:mbrsrs:mbrsjukebox:dgio_victor_1716_01_b1716_02:dgio_victor_1716_01_b1716_02/full/pct:100/0/default.jpg",
+          "mimetype": "image/jpeg",
+          "url": "https://www.loc.gov/resource/jukebox-4649.1"
+        }
+      ],
+      "shelf_id": "Victor 1716",
+      "site": [
+        "nationaljukebox"
+      ],
+      "subject": [
+        "vocal",
+        "religious",
+        "victor",
+        "ethnic music"
+      ],
+      "subject_category": [
+        "vocal"
+      ],
+      "subject_genre": [
+        "ethnic music",
+        "religious"
+      ],
+      "subject_label": [
+        "victor"
+      ],
+      "timestamp": "2026-10-05T14:22:08.925Z",
+      "title": "Steal away",
+      "type": [
+        "sound recording-musical"
+      ],
+      "url": "https://www.loc.gov/item/jukebox-4649/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/jukebox/recordings/detail/id/4766",
+        "http://www.loc.gov/item/jukebox-187640/",
+        "http://www.loc.gov/resource/jukebox-187640.0/",
+        "http://www.loc.gov/resource/jukebox-187640.1/",
+        "http://www.loc.gov/resource/jukebox-187640.0",
+        "http://www.loc.gov/resource/jukebox-187640.1"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "tuskegee institute singers"
+      ],
+      "contributor_primary": [
+        "tuskegee institute singers"
+      ],
+      "date": "1916-02-14",
+      "dates": [
+        "1916-02-14"
+      ],
+      "description": [
+        "Victor 17890. Matrix/Take: B-15172/5."
+      ],
+      "digitized": true,
+      "extract_timestamp": "2026-10-05T01:50:09.649Z",
+      "group": [
+        "nationaljukebox",
+        "national-jukebox"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/jukebox-187640/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/service:mbrsrs:mbrsjukebox:dlc_victor_17890_01_b15172_05:dlc_victor_17890_01_b15172_05/full/pct:12.5/0/default.jpg#h=211&w=220",
+        "https://tile.loc.gov/image-services/iiif/service:mbrsrs:mbrsjukebox:dlc_victor_17890_01_b15172_05:dlc_victor_17890_01_b15172_05/full/pct:25/0/default.jpg#h=423&w=440",
+        "https://tile.loc.gov/image-services/iiif/service:mbrsrs:mbrsjukebox:dlc_victor_17890_01_b15172_05:dlc_victor_17890_01_b15172_05/full/pct:50/0/default.jpg#h=846&w=881",
+        "https://tile.loc.gov/image-services/iiif/service:mbrsrs:mbrsjukebox:dlc_victor_17890_01_b15172_05:dlc_victor_17890_01_b15172_05/full/pct:100/0/default.jpg#h=1692&w=1762"
+      ],
+      "index": 2,
+      "item": {
+        "audio_type": "Vocal",
+        "contributors": [
+          "Tuskegee Institute Singers -- Vocal Group -- Vocal Group"
+        ],
+        "file_id": [
+          "dlc_victor_17890_01_b15172_05"
+        ],
+        "genre": [
+          "Educational",
+          "Religious",
+          "Educational"
+        ],
+        "language": "English",
+        "media_size": "10-in.",
+        "profile": "jukebox",
+        "recording_catalog_number": "17890",
+        "recording_date": "1916-02-14",
+        "recording_label": "Victor",
+        "recording_matrix_number": "B-15172 (Matrix ID)",
+        "recording_repository": "Source of original recording: Recorded Sound Section, Library of Congress.",
+        "recording_take_id": 187640,
+        "recording_take_number": "5",
+        "rights_advisory": "Inclusion of the recording in the National Jukebox, courtesy of Sony Music Entertainment or EMI Music",
+        "summary": "Male vocal double quartet, unaccompanied"
+      },
+      "language": [
+        "english"
+      ],
+      "location": [
+        "camden",
+        "united states",
+        "new jersey"
+      ],
+      "mime_type": [
+        "audio/mpeg",
+        "audio/wav",
+        "image/tif",
+        "image/jpeg"
+      ],
+      "online_format": [
+        "audio",
+        "image"
+      ],
+      "original_format": [
+        "sound recording"
+      ],
+      "other_title": [
+        "Old Negro spiritual"
+      ],
+      "partof": [
+        "recorded sound section, library of congress",
+        "national jukebox",
+        "recorded sound research center"
+      ],
+      "partof_repository": [
+        "recorded sound section, library of congress"
+      ],
+      "resources": [
+        {
+          "files": 1,
+          "media": "https://tile.loc.gov/streaming-services/iiif/service:mbrsrs:mbrsjukebox:dlc_victor_17890_01_b15172_05:dlc_victor_17890_01_b15172_05/full/full/0/full/default.mp3",
+          "url": "https://www.loc.gov/resource/jukebox-187640.0"
+        },
+        {
+          "files": 1,
+          "image": "https://tile.loc.gov/image-services/iiif/service:mbrsrs:mbrsjukebox:dlc_victor_17890_01_b15172_05:dlc_victor_17890_01_b15172_05/full/pct:100/0/default.jpg",
+          "mimetype": "image/jpeg",
+          "url": "https://www.loc.gov/resource/jukebox-187640.1"
+        }
+      ],
+      "shelf_id": "Victor 17890",
+      "site": [
+        "nationaljukebox"
+      ],
+      "subject": [
+        "educational",
+        "religious",
+        "victor",
+        "vocal"
+      ],
+      "subject_category": [
+        "vocal"
+      ],
+      "subject_genre": [
+        "religious"
+      ],
+      "subject_label": [
+        "victor"
+      ],
+      "subject_target_audience": [
+        "educational"
+      ],
+      "timestamp": "2026-10-05T14:00:28.666Z",
+      "title": "Steal away",
+      "type": [
+        "sound recording-musical"
+      ],
+      "url": "https://www.loc.gov/item/jukebox-187640/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/jukebox/recordings/detail/id/3771",
+        "http://www.loc.gov/item/jukebox-13468/",
+        "http://www.loc.gov/resource/jukebox-13468.0/",
+        "http://www.loc.gov/resource/jukebox-13468.1/",
+        "http://www.loc.gov/resource/jukebox-13468.0",
+        "http://www.loc.gov/resource/jukebox-13468.1"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "gilbert, jean",
+        "smith, harry b.",
+        "burt, benjamin hapgood",
+        "werrenrath, reinald",
+        "wheeler, elizabeth",
+        "kern, jerome",
+        "hooley, william f.",
+        "macdonough, harry",
+        "baker, elsie",
+        "murphy, lambert",
+        "hough, will m.",
+        "marsh, lucy isabelle",
+        "jerome, benjamin m.",
+        "rogers, walter b.",
+        "kline, olive",
+        "victor light opera company"
+      ],
+      "contributor_composer": [
+        "gilbert, jean",
+        "kern, jerome",
+        "jerome, benjamin m."
+      ],
+      "contributor_lyricist": [
+        "smith, harry b.",
+        "hough, will m.",
+        "burt, benjamin hapgood"
+      ],
+      "contributor_primary": [
+        "victor light opera company"
+      ],
+      "contributor_vocalist": [
+        "marsh, lucy isabelle",
+        "wheeler, elizabeth",
+        "baker, elsie",
+        "murphy, lambert",
+        "werrenrath, reinald",
+        "hooley, william f.",
+        "kline, olive",
+        "macdonough, harry"
+      ],
+      "date": "1915-05-27",
+      "dates": [
+        "1915-05-27"
+      ],
+      "description": [
+        "Victor 35471. Matrix/Take: C-16054/4."
+      ],
+      "digitized": true,
+      "extract_timestamp": "2026-10-04T18:05:44.494Z",
+      "group": [
+        "nationaljukebox",
+        "national-jukebox"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/jukebox-13468/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/service:mbrsrs:mbrsjukebox:ucsb_victor_35471_01_c16054_04:ucsb_victor_35471_01_c16054_04/full/pct:25/0/default.jpg#h=300&w=300",
+        "https://tile.loc.gov/image-services/iiif/service:mbrsrs:mbrsjukebox:ucsb_victor_35471_01_c16054_04:ucsb_victor_35471_01_c16054_04/full/pct:50/0/default.jpg#h=600&w=600",
+        "https://tile.loc.gov/image-services/iiif/service:mbrsrs:mbrsjukebox:ucsb_victor_35471_01_c16054_04:ucsb_victor_35471_01_c16054_04/full/pct:100/0/default.jpg#h=1200&w=1200"
+      ],
+      "index": 3,
+      "item": {
+        "audio_type": "Vocal",
+        "contributors": [
+          "Smith, Harry B. -- Lyricist -- Lyricist",
+          "Hough, Will M. -- Lyricist -- Lyricist",
+          "Marsh, Lucy Isabelle -- Vocalist -- Soprano Vocal",
+          "Wheeler, Elizabeth -- Vocalist -- Soprano Vocal",
+          "Baker, Elsie -- Vocalist -- Contralto",
+          "Victor Light Opera Company -- Vocal Group -- Vocal Group",
+          "Murphy, Lambert -- Vocalist -- Tenor Vocal",
+          "Werrenrath, Reinald -- Vocalist -- Baritone Vocal",
+          "Hooley, William F. -- Vocalist -- Bass Vocal",
+          "Gilbert, Jean -- Composer -- Composer",
+          "Kern, Jerome -- Composer -- Composer",
+          "Kline, Olive -- Vocalist -- Soprano Vocal",
+          "Rogers, Walter B. -- Conductor -- Conductor",
+          "Macdonough, Harry -- Vocalist -- Tenor Vocal",
+          "Jerome, Benjamin M. -- Composer -- Composer",
+          "Burt, Benjamin Hapgood -- Lyricist -- Lyricist"
+        ],
+        "file_id": [
+          "ucsb_victor_35471_01_c16054_04"
+        ],
+        "genre": [
+          "Musical theater"
+        ],
+        "language": "English",
+        "media_size": "12-in.",
+        "profile": "jukebox",
+        "recording_catalog_number": "35471",
+        "recording_date": "1915-05-27",
+        "recording_label": "Victor",
+        "recording_matrix_number": "C-16054 (Matrix ID)",
+        "recording_repository": "Source of original recording: Department of Special Collections, Davidson Library, University of California, Santa Barbara.",
+        "recording_take_id": 13468,
+        "recording_take_number": "4",
+        "rights_advisory": "Inclusion of the recording in the National Jukebox, courtesy of Sony Music Entertainment or EMI Music",
+        "summary": "Vocal chorus and soloists, with orchestra"
+      },
+      "language": [
+        "english"
+      ],
+      "location": [
+        "camden",
+        "united states",
+        "new jersey"
+      ],
+      "mime_type": [
+        "audio/mpeg",
+        "audio/wav",
+        "image/jpeg"
+      ],
+      "online_format": [
+        "audio",
+        "image"
+      ],
+      "original_format": [
+        "sound recording"
+      ],
+      "other_title": [
+        "When the madam goes away ; When love comes stealing in ; Quiet little evenings at home ; I've just been waiting for you ; Good-bye, everybody"
+      ],
+      "partof": [
+        "department of special collections, davidson library, university of california, santa barbara",
+        "national jukebox",
+        "recorded sound research center"
+      ],
+      "partof_repository": [
+        "department of special collections, davidson library, university of california, santa barbara"
+      ],
+      "resources": [
+        {
+          "files": 1,
+          "media": "https://tile.loc.gov/streaming-services/iiif/service:mbrsrs:mbrsjukebox:ucsb_victor_35471_01_c16054_04:ucsb_victor_35471_01_c16054_04/full/full/0/full/default.mp3",
+          "url": "https://www.loc.gov/resource/jukebox-13468.0"
+        },
+        {
+          "files": 1,
+          "image": "https://tile.loc.gov/image-services/iiif/service:mbrsrs:mbrsjukebox:ucsb_victor_35471_01_c16054_04:ucsb_victor_35471_01_c16054_04/full/pct:100/0/default.jpg",
+          "mimetype": "image/jpeg",
+          "url": "https://www.loc.gov/resource/jukebox-13468.1"
+        }
+      ],
+      "shelf_id": "Victor 35471",
+      "site": [
+        "nationaljukebox"
+      ],
+      "subject": [
+        "vocal",
+        "victor",
+        "musical theater"
+      ],
+      "subject_category": [
+        "vocal"
+      ],
+      "subject_genre": [
+        "musical theater"
+      ],
+      "subject_label": [
+        "victor"
+      ],
+      "timestamp": "2026-10-05T13:48:03.933Z",
+      "title": "Gems from A modern Eve",
+      "type": [
+        "sound recording-musical"
+      ],
+      "url": "https://www.loc.gov/item/jukebox-13468/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://d2cv0ie6dlin9h.cloudfront.net/C05284/C05284_image_148x230.jpg",
+        "http://lccn.loc.gov/2019624506",
+        "https://www.recordedbooks.com/title-details/9781501998508",
+        "http://www.loc.gov/item/2019624506/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "berry, t. j.",
+        "ross, jonathan todd"
+      ],
+      "date": "2018",
+      "dates": [
+        "2018"
+      ],
+      "description": [
+        "A misfit crew race across the galaxy to prevent the genocide of magical creatures, in this unique science fiction debut. Having magical powers makes you less than human, a resource to be exploited. Half-unicorn Gary Cobalt is sick of slavery, captivity, and his horn being ground down to power faster-than-light travel. When he's finally free, all he wants is to run away in his ancestors' stone ship. Instead, Captain Jenny Perata steals the ship out from under him, so she can make an urgent delivery. But Jenny held him captive for a decade, and then Gary murdered her best friend ... who was also the wife of her co-pilot, Cowboy Jim. What could possibly go right?"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2023-06-02T16:07:54.989Z",
+      "group": [
+        "catalog-split-03",
+        "catalog",
+        "main-catalog-split-03",
+        "main-catalog"
+      ],
+      "hassegments": false,
+      "id": "http://lccn.loc.gov/2019624506",
+      "image_url": [],
+      "index": 4,
+      "item": {
+        "call_number": [
+          "RZC 6650"
+        ],
+        "contributors": [
+          "Berry, T. J., author.",
+          "Ross, Jonathan Todd, narrator."
+        ],
+        "created_published": [
+          "Prince Frederick, MD : Recorded Books, [2018]",
+          "℗2018"
+        ],
+        "date": "2018",
+        "format": [
+          "sound recording-nonmusical"
+        ],
+        "genre": [
+          "Fantasy fiction",
+          "Science fiction",
+          "Audiobooks"
+        ],
+        "language": [
+          "eng"
+        ],
+        "medium": [
+          "10 audio discs (11 hr., 45 min.) : digital ; 4 3/4 in."
+        ],
+        "notes": [
+          "In container (17 cm.).",
+          "Title from disc label.",
+          "Recordable compact discs.",
+          "Narrated by Jonathan Todd Ross."
+        ],
+        "subjects": [
+          "Fantasy fiction",
+          "Science fiction"
+        ],
+        "summary": [
+          "A misfit crew race across the galaxy to prevent the genocide of magical creatures, in this unique science fiction debut. Having magical powers makes you less than human, a resource to be exploited. Half-unicorn Gary Cobalt is sick of slavery, captivity, and his horn being ground down to power faster-than-light travel. When he's finally free, all he wants is to run away in his ancestors' stone ship. Instead, Captain Jenny Perata steals the ship out from under him, so she can make an urgent delivery. But Jenny held him captive for a decade, and then Gary murdered her best friend ... who was also the wife of her co-pilot, Cowboy Jim. What could possibly go right?"
+        ],
+        "title": "Space unicorn blues"
+      },
+      "language": [
+        "english"
+      ],
+      "number": [
+        "2019624506",
+        "2020-03-27t14:45:49",
+        "audio disc"
+      ],
+      "number_carrier_type": [
+        "audio disc"
+      ],
+      "number_lccn": [
+        "2019624506"
+      ],
+      "number_source_modified": [
+        "2020-03-27t14:45:49"
+      ],
+      "original_format": [
+        "sound recording"
+      ],
+      "partof": [
+        "catalog"
+      ],
+      "resources": [],
+      "shelf_id": "RZC 6650",
+      "site": [
+        "catalog"
+      ],
+      "subject": [
+        "audiobooks",
+        "fantasy fiction",
+        "science fiction"
+      ],
+      "timestamp": "2023-07-08T01:29:14.821Z",
+      "title": "Space unicorn blues",
+      "type": [
+        "sound recording-nonmusical"
+      ],
+      "url": "//lccn.loc.gov/2019624506"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/2020616722/",
+        "http://midwesttapes.com/images/movies/000/000/000/012/407/000000000012407264.jpg",
+        "https://www.recordedbooks.com/title-details/9781470391300",
+        "http://lccn.loc.gov/2020616722",
+        "http://d2cv0ie6dlin9h.cloudfront.net/C02862/C02862_image_148x230.jpg"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "krueger, william kent",
+        "brick, scott"
+      ],
+      "date": "2019",
+      "dates": [
+        "2019"
+      ],
+      "description": [
+        "Minnesota, 1932. The Lincoln School is a pitiless place where hundreds of Native American children, forcibly separated from their parents, are sent to be educated. It is also home to an orphan named Odie O'Banion, a lively boy whose exploits earn him the superintendent's wrath. After commiting a terrible crime, Odie and his brother Albert are forced to flee, along with their best friend Mose and a brokenhearted little girl named Emmy. Together they steal away in a canoe, heading for the mighty Mississippi in search of a place to call home. Over the course of one unforgettable summer, these four orphans journey into the unknown, crossing paths with others who are adrift, from struggling farmers and traveling faith healers to displaced families and lost souls of all kinds."
+      ],
+      "digitized": true,
+      "extract_timestamp": "2023-06-02T21:56:12.812Z",
+      "group": [
+        "catalog-split-12",
+        "catalog",
+        "main-catalog-split-12",
+        "main-catalog"
+      ],
+      "hassegments": false,
+      "id": "http://lccn.loc.gov/2020616722",
+      "image_url": [],
+      "index": 5,
+      "item": {
+        "call_number": [
+          "RZC 7114"
+        ],
+        "contributors": [
+          "Krueger, William Kent.",
+          "Brick, Scott, narrator."
+        ],
+        "created_published": [
+          "Prince Frederick, MD : Recorded Books, [2019]"
+        ],
+        "date": "2019",
+        "format": [
+          "sound recording-nonmusical"
+        ],
+        "genre": [
+          "Action and adventure fiction",
+          "Audiobooks",
+          "Fiction",
+          "Historical fiction",
+          "Novels"
+        ],
+        "language": [
+          "eng"
+        ],
+        "location": [
+          "Minnesota"
+        ],
+        "medium": [
+          "13 audio discs (14.25 hr.) : digital ; 4 3/4 in."
+        ],
+        "notes": [
+          "Title from container.",
+          "Read by Scott Brick.",
+          "Compact discs.",
+          "In container (17 cm.)."
+        ],
+        "reproduction_number": [
+          "60disu",
+          "40disu"
+        ],
+        "subjects": [
+          "Brothers--Fiction",
+          "Orphans--Fiction",
+          "Friendship--Fiction",
+          "Indians of North America--Fiction",
+          "Voyages and travels--Fiction",
+          "Minnesota--Fiction",
+          "FICTION / Literary",
+          "FICTION / Historical",
+          "Voyages and travels",
+          "Nineteen thirty-two, A.D",
+          "Indians of North America",
+          "Brothers",
+          "Friendship",
+          "Orphans",
+          "Minnesota"
+        ],
+        "summary": [
+          "Minnesota, 1932. The Lincoln School is a pitiless place where hundreds of Native American children, forcibly separated from their parents, are sent to be educated. It is also home to an orphan named Odie O'Banion, a lively boy whose exploits earn him the superintendent's wrath. After commiting a terrible crime, Odie and his brother Albert are forced to flee, along with their best friend Mose and a brokenhearted little girl named Emmy. Together they steal away in a canoe, heading for the mighty Mississippi in search of a place to call home. Over the course of one unforgettable summer, these four orphans journey into the unknown, crossing paths with others who are adrift, from struggling farmers and traveling faith healers to displaced families and lost souls of all kinds."
+        ],
+        "title": "This tender land : a novel"
+      },
+      "language": [
+        "english"
+      ],
+      "location": [
+        "minnesota"
+      ],
+      "number": [
+        "n1111272586",
+        "2020-02-07t18:17:24",
+        "audio disc",
+        "2020616722"
+      ],
+      "number_carrier_type": [
+        "audio disc"
+      ],
+      "number_lccn": [
+        "2020616722"
+      ],
+      "number_oclc": [
+        "n1111272586"
+      ],
+      "number_source_modified": [
+        "2020-02-07t18:17:24"
+      ],
+      "original_format": [
+        "sound recording"
+      ],
+      "partof": [
+        "catalog"
+      ],
+      "resources": [],
+      "shelf_id": "RZC 7114",
+      "site": [
+        "catalog"
+      ],
+      "subject": [
+        "minnesota",
+        "orphans",
+        "fiction / historical",
+        "audiobooks",
+        "novels",
+        "brothers",
+        "nineteen thirty-two, a.d",
+        "friendship",
+        "fiction",
+        "indians of north america",
+        "voyages and travels",
+        "action and adventure fiction",
+        "fiction / literary",
+        "historical fiction"
+      ],
+      "timestamp": "2023-07-10T17:02:12.159Z",
+      "title": "This tender land : a novel",
+      "type": [
+        "sound recording-nonmusical"
+      ],
+      "url": "//lccn.loc.gov/2020616722"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://lccn.loc.gov/2020706013",
+        "http://www.loc.gov/item/2020706013/",
+        "https://search.catalog.loc.gov/instances/ef2a95a3-eb5c-57a5-9871-e035cba11ca5",
+        "https://hdl.loc.gov/loc.asian/asiantoha.OR_0070_01",
+        "http://www.loc.gov/resource/asiantoha.OR_0070_01/",
+        "https://hdl.loc.gov/loc.asian/asiantoha.OR_0070_02",
+        "http://www.loc.gov/resource/asiantoha.OR_0070_02/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "goldstein, melvyn c.",
+        "tibet oral history and archive project"
+      ],
+      "date": "2001",
+      "dates": [
+        "2001"
+      ],
+      "description": [
+        "The subject was born into a very poor trepa family in Lhoka as an illegitimate child. In this interview, he discusses being sent at the age of seven by his mother to Gongkar Chöde Monastery to become a monk. He discusses how he ran away from the monaster repeatedly and was frequently beaten by his teacher. After he finally left for good at age 15, he worked as a donkey herder and muleteer from the age of 16 to 25. He talks about his interesting experiences with receiving tax exemptions from his mother's lord [for her] by working for them, even though be belonged to a different lord via his father, and he also briefly discusses the period after 1959. [NOTE: ID numbers instead of subject names are used in OR interviews to maintain confidentiality.]"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2026-07-28T13:43:13.231Z",
+      "group": [
+        "asian/tohap",
+        "catalog-split-05",
+        "catalog",
+        "tibetan-oral-histories",
+        "main-catalog-split-05"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/2020706013/",
+      "image_url": [],
+      "index": 6,
+      "item": {
+        "contents": [
+          "Part 1. The subject was born into a very poor trepa family in Lhoka as an illegitimate child. In this interview, he discusses being sent at the age of seven by his mother to Gongkar Chöde Monastery to become a monk. He discusses how he ran away from the monaster repeatedly and was frequently beaten by his teacher. After he finally left for good at age 15, he worked as a donkey herder and muleteer from the age of 16 to 25. He talks about his interesting experiences with receiving tax exemptions from his mother's lord [for her] by working for them, even though be belonged to a different lord via his father, and he also briefly discusses the period after 1959. [NOTE: ID numbers instead of subject names are used in OR interviews to maintain confidentiality.]",
+          "Part 2. The subject was born into a very poor trepa family in Lhoka as an illegitimate child. In this interview, he tells about working as a donkey herder transporting firewood for the rukhag after he was demoted from the director's position. He was also the Deputy Xian Zhang in charge of Tsapanang Xiang, Chushul's Phu Xiang and Chushul Xiang at the time of the democratic reforms. He discusses in detail how he planted the leftover fields that used to belong to the dzong and didn't sell the grain to the State, instead using it to buy plowing animals for the masses. This action and others acts ultimately led to him being accused of stealing and embezzling from the State. Additionally, he discusses the struggles between the Gyenlo and Nyamdre revolutionary factions during the Cultural Revolution, and how the people held struggle sessions against the people in power. [NOTE: ID numbers instead of subject names are used in OR interviews to maintain confidentiality.]."
+        ],
+        "contributors": [
+          "Goldstein, Melvyn C., editor",
+          "Tibet Oral History and Archive Project"
+        ],
+        "created_published": [
+          "Cleveland, Ohio : Case Western Reserve University, 2001."
+        ],
+        "date": "2001",
+        "digital_id": [
+          "https://hdl.loc.gov/loc.asian/asiantoha.OR_0070_01",
+          "https://hdl.loc.gov/loc.asian/asiantoha.OR_0070_02"
+        ],
+        "format": [
+          "sound recording-nonmusical"
+        ],
+        "genre": [
+          "Oral histories",
+          "Biographies"
+        ],
+        "language": [
+          "tib"
+        ],
+        "medium": [
+          "1 online resource (audio files)"
+        ],
+        "notes": [
+          "Recordings of interviews, supplemented by transcriptions of the interviews, translated into English.",
+          "Forms part of the Tibet Oral History and Archive Project (TOHAP), edited by Melvyn Goldstein, and published by the Center for Research on Tibet, Department of Anthropology, Case Western Reserve University, Cleveland, Ohio."
+        ],
+        "repository": [
+          "Library of Congress Asian Division Washington, D.C. U.S.A. 20540 https://hdl.loc.gov/loc.asian/asian.home"
+        ],
+        "subjects": [
+          "Tibetans--Interviews",
+          "Tibetans--Biography"
+        ],
+        "summary": [
+          "The subject was born into a very poor trepa family in Lhoka as an illegitimate child. In this interview, he discusses being sent at the age of seven by his mother to Gongkar Chöde Monastery to become a monk. He discusses how he ran away from the monaster repeatedly and was frequently beaten by his teacher. After he finally left for good at age 15, he worked as a donkey herder and muleteer from the age of 16 to 25. He talks about his interesting experiences with receiving tax exemptions from his mother's lord [for her] by working for them, even though be belonged to a different lord via his father, and he also briefly discusses the period after 1959. [NOTE: ID numbers instead of subject names are used in OR interviews to maintain confidentiality.]"
+        ],
+        "title": "Oral history interview of Tsündru"
+      },
+      "language": [
+        "tibetan"
+      ],
+      "mime_type": [
+        "application/pdf",
+        "application/xml",
+        "application/x-audio"
+      ],
+      "number": [
+        "2020-08-17t09:50:57",
+        "online resource",
+        "2020706013",
+        "2025-06-07t10:28:12.800000"
+      ],
+      "number_carrier_type": [
+        "online resource"
+      ],
+      "number_lccn": [
+        "2020706013"
+      ],
+      "number_source_modified": [
+        "2025-06-07t10:28:12.800000",
+        "2020-08-17t09:50:57"
+      ],
+      "online_format": [
+        "pdf",
+        "online text",
+        "audio"
+      ],
+      "original_format": [
+        "sound recording"
+      ],
+      "partof": [
+        "tibetan oral history archive project",
+        "asian division",
+        "catalog"
+      ],
+      "resources": [
+        {
+          "audio": "https://tile.loc.gov/storage-services/service/asian/asiantoha/OR_0070_01/OR_0070_01.mp3",
+          "caption": "Part 1, 2001, Chushul",
+          "files": 1,
+          "fulltext": "https://tile.loc.gov/storage-services/service/asian/asiantoha/OR_0070_01_Transcriptions/OR_0070_01.xml",
+          "media_object_id": "B1A73869A0CEE649E053CAE7938CD290",
+          "pdf": "https://tile.loc.gov/storage-services/service/asian/asiantoha/OR_0070_01_Transcriptions/OR_0070_01.pdf",
+          "url": "https://www.loc.gov/resource/asiantoha.OR_0070_01/"
+        },
+        {
+          "audio": "https://tile.loc.gov/storage-services/service/asian/asiantoha/OR_0070_02/OR_0070_02.mp3",
+          "caption": "Part 2, 2001, Chushul",
+          "files": 1,
+          "fulltext": "https://tile.loc.gov/storage-services/service/asian/asiantoha/OR_0070_02_Transcriptions/OR_0070_02.xml",
+          "media_object_id": "B1A7386F1D0AE64CE053CAE7938C14E5",
+          "pdf": "https://tile.loc.gov/storage-services/service/asian/asiantoha/OR_0070_02_Transcriptions/OR_0070_02.pdf",
+          "url": "https://www.loc.gov/resource/asiantoha.OR_0070_02/"
+        }
+      ],
+      "shelf_id": "http://lccn.loc.gov/2020706013",
+      "site": [
+        "catalog"
+      ],
+      "subject": [
+        "oral histories",
+        "biography",
+        "tibetans",
+        "interviews",
+        "biographies"
+      ],
+      "timestamp": "2026-07-28T13:44:58.533Z",
+      "title": "Oral history interview of Tsündru",
+      "type": [
+        "sound recording-nonmusical"
+      ],
+      "url": "https://www.loc.gov/item/2020706013/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/2005650097/",
+        "http://lccn.loc.gov/2005650097"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "voice of america music library collection (library of congress)",
+        "florida folk festival"
+      ],
+      "date": "2004",
+      "dates": [
+        "2004"
+      ],
+      "description": [
+        "Title from original tape container. Recorded on Monday morning, May 2, 1955. Recorded by the VOA for possible broadcast. Digital preservation master recorded from original master analog tapes by the Library of Congress Magnetic Recording Laboratory in 2004. For many recordings in this collection there are cue sheets, playlists, concert brochures and/or other accompanying documents on file in the M/B/RS Recorded Sound Section paperwork file. Original masters: [Washington, D.C. : Voice of America], [1979] 3 sound tape reels : analog, 7 1/2 ips ; 7 in. RXD 2030-RXD 2032. MAVIS title no.: 185389."
+      ],
+      "digitized": true,
+      "extract_timestamp": "2023-06-02T15:14:55.414Z",
+      "group": [
+        "catalog-split-02",
+        "catalog",
+        "main-catalog-split-02",
+        "main-catalog"
+      ],
+      "hassegments": false,
+      "id": "http://lccn.loc.gov/2005650097",
+      "image_url": [],
+      "index": 7,
+      "item": {
+        "access_advisory": [
+          "Due to copyright or other restrictions, online playback of audio files is limited to authorized sites."
+        ],
+        "contents": [
+          "Way down upon the Swanee River (audience sings) -- Green corn dance ceremonial (Seminole music and dances) (Billy and Frances Osceola ; Frankie Commie) -- Wind up the May tree (boys and girls from Jennings School, Jennings, Fla.) -- Circassian circle (7th and 8th graders from White Springs School, White Springs, Fla.) -- Sword dances by Columbia High School, Lake City, Fla. -- A Jack tale by Richard Chase, Beech Creek, N.C.) -- Turn the glasses over ; The noble Duke of York ; The Roman soldiers (singing games by elementary school children of Jasper, Fla.) -- The star spangled banner ; Leather breeches (Zeke Stephens on fiddle, Panama City, Fla.) -- Paraphrase of Psalm 3 ; Rock-a my soul ; Drill, ye tarriers, drill ; Molly tu-dum-day ; Davey Crockett (Stephen Foster Elementary School Chorus, Gainesville, Fla.) -- The Kerry dancers (Kerry Kelly, Gainesville, Fla.) -- Zoodio ; Father was a deacon (singing games by J.R.E. Lee School of Jasper, Fla.) -- Circassian circle (Jennings Elementary School of Jennings, Fla.) -- Oh Susanna (Starke Jr. High School with Vivian Knight, director) -- Old folks at home ; Steal away to Jesus (Stanton Negro High School from Duval Co., Fla. with Annette M. Esty, director) -- The ace of diamonds (Lake City Boy and Girl Scouts) -- Chippewa deer hunter dance (Wawoyaka dancers, Alachua District Boy Scouts with Jake Jacobson, Chief)."
+        ],
+        "contributors": [
+          "Voice of America Music Library Collection (Library of Congress)",
+          "Florida Folk Festival 1955)"
+        ],
+        "created_published": [
+          "[2004]"
+        ],
+        "date": "2004",
+        "format": [
+          "sound recording-musical"
+        ],
+        "language": [
+          "eng"
+        ],
+        "location": [
+          "North America"
+        ],
+        "medium": [
+          "3 sound files : digital preservation master, WAV file (96 kHz, 24 bit)"
+        ],
+        "notes": [
+          "Title from original tape container.",
+          "Recorded on Monday morning, May 2, 1955.",
+          "Recorded by the VOA for possible broadcast.",
+          "Digital preservation master recorded from original master analog tapes by the Library of Congress Magnetic Recording Laboratory in 2004.",
+          "For many recordings in this collection there are cue sheets, playlists, concert brochures and/or other accompanying documents on file in the M/B/RS Recorded Sound Section paperwork file.",
+          "Original masters: [Washington, D.C. : Voice of America], [1979] 3 sound tape reels : analog, 7 1/2 ips ; 7 in. RXD 2030-RXD 2032. MAVIS title no.: 185389."
+        ],
+        "subjects": [
+          "Indians of North America--Music",
+          "Indian dance--North America",
+          "Folk dance music",
+          "Singing games",
+          "Folk songs, English",
+          "Spirituals (Songs)"
+        ],
+        "title": "Third Florida Folk Festival. 1955-05-02, 10:30 a.m."
+      },
+      "language": [
+        "english"
+      ],
+      "location": [
+        "north america"
+      ],
+      "number": [
+        "2005650097",
+        "2005-06-01t16:46:20"
+      ],
+      "number_lccn": [
+        "2005650097"
+      ],
+      "number_source_modified": [
+        "2005-06-01t16:46:20"
+      ],
+      "original_format": [
+        "sound recording"
+      ],
+      "partof": [
+        "catalog"
+      ],
+      "resources": [],
+      "shelf_id": "http://lccn.loc.gov/2005650097",
+      "site": [
+        "catalog"
+      ],
+      "subject": [
+        "music",
+        "indian dance",
+        "north america",
+        "spirituals (songs)",
+        "folk songs, english",
+        "singing games",
+        "indians of north america",
+        "folk dance music"
+      ],
+      "timestamp": "2023-07-07T01:45:21.380Z",
+      "title": "Third Florida Folk Festival. 1955-05-02, 10:30 a.m.",
+      "type": [
+        "sound recording-musical"
+      ],
+      "url": "//lccn.loc.gov/2005650097"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://lccn.loc.gov/2020705957",
+        "http://www.loc.gov/item/2020705957/",
+        "https://search.catalog.loc.gov/instances/e93e6200-aea0-501c-87cb-5ae0d31706df",
+        "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_01",
+        "http://www.loc.gov/resource/asiantoha.M_0042_01/",
+        "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_02",
+        "http://www.loc.gov/resource/asiantoha.M_0042_02/",
+        "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_03",
+        "http://www.loc.gov/resource/asiantoha.M_0042_03/",
+        "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_04",
+        "http://www.loc.gov/resource/asiantoha.M_0042_04/",
+        "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_05",
+        "http://www.loc.gov/resource/asiantoha.M_0042_05/",
+        "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_06",
+        "http://www.loc.gov/resource/asiantoha.M_0042_06/",
+        "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_07",
+        "http://www.loc.gov/resource/asiantoha.M_0042_07/",
+        "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_08",
+        "http://www.loc.gov/resource/asiantoha.M_0042_08/",
+        "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_09",
+        "http://www.loc.gov/resource/asiantoha.M_0042_09/",
+        "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_10",
+        "http://www.loc.gov/resource/asiantoha.M_0042_10/",
+        "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_11",
+        "http://www.loc.gov/resource/asiantoha.M_0042_11/",
+        "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_12",
+        "http://www.loc.gov/resource/asiantoha.M_0042_12/",
+        "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_13",
+        "http://www.loc.gov/resource/asiantoha.M_0042_13/",
+        "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_14",
+        "http://www.loc.gov/resource/asiantoha.M_0042_14/",
+        "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_15",
+        "http://www.loc.gov/resource/asiantoha.M_0042_15/",
+        "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_16",
+        "http://www.loc.gov/resource/asiantoha.M_0042_16/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "goldstein, melvyn c.",
+        "tibet oral history and archive project"
+      ],
+      "date": "1991",
+      "dates": [
+        "1991"
+      ],
+      "description": [
+        "Within this interview this individual provides details on how he first entered the monastery, at what age, and the circumstances surrounding his family when he joined. He discusses his gegen, including how he lived with him and his gegen_s livelihood. He discusses his feelings about entering the monastery, and details his education when he first arrived. He describes the living arrangements of his segment of the monastery. He discusses the nature of the shag in relation to the larger shagtsang. He then provides details on the position of the jiso, including the roles and responsibilities. He then provides details of his daily activities, including what work he did as a Gomang monk, as well as what he did for work until he ran away at age 17. Within details of the daily activities within the monastery, he describes the process of making tea with butter, the preparation of thukpa, the monks involved, and the distribution of income within the monastery."
+      ],
+      "digitized": true,
+      "extract_timestamp": "2026-07-28T13:43:14.062Z",
+      "group": [
+        "asian/tohap",
+        "catalog-split-05",
+        "catalog",
+        "tibetan-oral-histories",
+        "main-catalog-split-05"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/2020705957/",
+      "image_url": [],
+      "index": 8,
+      "item": {
+        "contents": [
+          "Part 1. Within this interview this individual provides details on how he first entered the monastery, at what age, and the circumstances surrounding his family when he joined. He discusses his gegen, including how he lived with him and his gegen_s livelihood.  He discusses his feelings about entering the monastery, and details his education when he first arrived.  He describes the living arrangements of his segment of the monastery.  He discusses the nature of the shag in relation to the larger shagtsang.  He then provides details on the position of the jiso, including the roles and responsibilities.  He then provides details of his daily activities, including what work he did as a Gomang monk, as well as what he did for work until he ran away at age 17.  Within details of the daily activities within the monastery, he describes the process of making tea with butter, the preparation of thukpa, the monks involved, and the distribution of income within the monastery. ",
+          "Part 2. This brief interview provides a discussion of his teacher going for büdü, and how, when monks are away to Amdo, what obligations they have to their monastery.  The majority of this interview is given to details of the Gomang dispute, which was primarily based on a salary dispute among monks, and split within two factions, the pechawa and lagyüba.  This individual provides great detail on the aspects of this dispute, and how the government had to intervene within this process to settle the matter.",
+          "Part 3.This interview begins with details of how the dispute between the pechawa and lagyüba was settled by the Yigtsang and how there was no punishment of individuals.There are details of this individuals'career within the monastery, and he provides a narrative on why he ran away from the monastery, and how this issues involved his relationship with a new gegen after his previous gegen died.  He discusses how this involved two gegens actually. He also discusses how he had planned on going to India, and how this did not come about, as he became attached to the Phara Jiso, and eventually became a servant in the kitchen at Pena Gadong [tib. pa snam dga' gdong] for one year rather than continue his travels.  After the one year, he went to dö which included 6 estates and how, as a personal servant he worked mostly in the winter addressing issues of grain collection.  He provides accounts of the responsibilities of the Phara Jiso as well as the Tsangja's main work on the estates, including how his jinda was a Thangar [tib. thang dkar] Shiga, and this individual's relationship with the Phara Jiso.  He provides details on the hierarchy of who settles disputes, i.e. the Tsangja to to the 2 Jiso.  He also discusses specifics on the problems with accounts at the end of the term for Jiso.  He also provides details of the disputes between the nomads and the Jiso regarding taxes on livestock and how these disputes were settled in the past. He also provides details of the handing over , which is the accounting during the appointment of a new Jiso. He finally provides details of when he was a nyerba, a type of steward within the monastery, and responsibilities and duties of this work.",
+          "Part 4. Within this interview are descriptions of the events surrounding grain collection, and the 3 days of activities incorporated into this collection.  There are details on how the grain is examined for quality, the size of the storage facilities for the grain, and how it is sold, and the taxes surrounding this sale.  There are also descriptions of how the labor is divided up among the seasons, and how seasonal labor is hired, and what the duties of these seasonal workers are.  There are also discussions on the mibo, and the relationship of the Jiso and chandzö to the mibo.  Finally, there are details on the Dalai Lama's decree on run-away serfs, and how it was decided that after three years lords would not have hold over run-away serfs if they surrendered to the dewashung.",
+          "Part 5. This interview discusses differences between the shungdzin and bawma estates, and the miser's responsibilities on the shungdzin estate.  Details on how grain was sold and to who is also provided within this interviews, including details of how grain was exchanged for money.  This individuals also recounts several Jiso proverbs.  He discusses some history of the Drepung monastery, detailing how the 5th Dalai Lama provided authority to this monastery over particular matters.  The later half of this interviews details how disputes were settled within this individual's particular monastery, and the rights of settling disputes on the estates of the monastery, and the roles of the shidü and Jiso within this process.  Settling of individuals' disputes based on their positions (e.g. miser's lords) is also discussed.  Finally, this individuals details a specific case of dispute settlement within the monastery when an individual was killed, and how this conflict was resolved, including the positions involved.",
+          "Part 6. This interview begins with a general discussion of the position of Jiso, how this individual runs the estate, and how nyertsang has to be done prior to being eligible for the Jiso position.  This individual discusses his duties as simpön of the Tsangja and doing work for the kungö, the types of food he ate, and customs of preparing food in the monastery at this time.  Within this interview he also discusses the regulations of monks making fire for warmth.  He also provides details on how an individual, Kapshöba, purchased an estate from the monastery, the details of the transaction, the role of the government in this purchase, and monks_ reactions to this purchasing.  Finally, he provides details of how a particular Phara Jiso_s shatsang was divided.  He provides details of how a family became associated with a particular shagtsang, and how this shagtsang was eventually two branches, but same family, and divided into lay section, monk sections.  He discusses details of his own work for the lay family.  He discusses the events leading up to the family's son eventually becoming Phara Jiso in the monastery.  Finally, he discusses details of Phara Jiso's shag buying Samding [tib. bsam lding] House in Lhasa.",
+          "Part 7. This interview provides details of the position of shengo. It is discussed how the shengo provides a ceremony at least onece during his term, the appointments that the shengo makes within the monastery. This individual recounts how he was appointed to position of the Jija [tib. spyi phyag], and within this discussion he provides details of how this position is transferred, for example, how the accounting of the estates is part of this transition from old to new Jija.  He also provides details on how the Jija was appointed and how this was done through divination.  He provides details of his work as a Jija, how he had reservations about doing this work, and how he was encouraged to do this work.  He provides details of the work he did, in particular the summer, and where he was living at the time. He also provides descriptions of the position of nangsen, how this is selected, appointed, and how it is paid.  He also discusses the position of Jiso, how this individuals travels with others.  He discusses details and regulations of the jikhang [tib. spyi khang] in the monastery, and how lay persons live in these quarters.  Finally, he discusses daily work within the jikhang including details of the Chapel of the Wealth Deity called Namsekhang [tib. rnam sras khang] which was also a store room and details of the Jija and where they live.",
+          "Part 8. This interview discusses how grain is stored and how it is measured and the composition and make-up of the buildings within the monastery (e.g. which ones are for grain), including the upper Jiso (tib. simteng [gzim steng]) and the lower Jiso (tib. simshö [gzim shod]).  Also discussed  are the issues of nambu, the storage and use, how it is woven, and the materials that are used in its creation.  There are also details of the responsibilities of the Jija [tib. spyi phyag] on a daily basis, the accounting that is done daily.  There are details provided on the exchange of paper notes and coins within financial transactions with businessmen, and how the coins are distributed to the monks. The responsibilities of the Jiso are discussed, including a list of the most difficult and most common responsibilities.  There are explanations of the ordering of mangja and the relationship between this event and the endowments (tib. thebtsa [thebs rtsa], and mangja.  There are details provided on the provision of mangja from the interest accumulated on 30 dotse, and how this accounting works when distributing it to the monks.  There are details of serving tea in Mönlam, and the roles and responsibilities of the position of the tea servers, Olo in this ceremony.  There ae also details of how mangja is done in Drepung and the chabril_s relationship to the mangja.  There are details provided on how the jama work was given out as bawma to Gugi [tib. gu ge] Khamtsen monks and the income of the jama.  There are details of holding the post of Loseling nyertsang and the sources of income for this post.  There are details of the position of the chief caretaker,(tib. konyerbön [dkon gnyer dpon])and the provision of donggo with thukpa to college monks and the reasons why older monks will not partake in this thukpa. Finally, this individual provides details of when he was attempting to resign from the Phara Jiso household.",
+          "Part 9. This interview provides details on the duties involved in doing mangja, especially in relation to the position of the chama.  There is a long discussion on the collection of firewood, how a new procedure was in place to acquire firewood, and the economic issues surrounding this new procedure.  There are also details on how it was collected and the individuals generally involved in this collection.  There are also discussions on how the Simsho got the firewood, and how individuals worked with a miser in the area to get wood.  There are details on transportation of the firewood, and how it was transported to Lhasa; a road was made and how donkeys were used for transportation.  The salary of these workers is discussed.  There are details on preparation of langma, or sod, as who cut it and how it was worked.  There are also details on the shares of this for the Para Chiso.  There are also details of when this individual held position of Samdon Shig and what work he did, which was measuring the harvest grain.  He discusses how he worked with farmers, what his yields were like, and the process of replacing a work leader (leybon).  He also discusses exceptions for workers, and how these workers took days off, and where the 29 nagsen came from.",
+          "Part 10. This interview describes the Samdong Shiga, including the number of people involved on a daily basis.  There is a long discussion regarding how taxes collection is determined when a son leaves a father_s home.  There is also a long description on the details of a specific loan collection, part of the Loseling loan collecting, and how this individual made loans, and details of consultations with the Shido at this time.  There are also issues discussed surrounding the planting of the fields, and the accounting of these.  There is a story of a cripple who worked the lands, and how, when the time came, his lands were divided up.  There are then details of what happens when a person has tax responsibilities, such as when land is inherited.  These issues are directly related to when a son separates from his home, and the monastery_s lack of role in this issue.  There is also a description of when and under what circumstances the Shido is involved in disputes between father and son.  There is also a brief description of the punishment authority of the Chiso.  There are also discussions of the Shido_s role in repossessing a deceased person_s property.  There are also details provided of the salary for workers hired by the Shidu and the nomad miser taxes, and when the mibo payment is collected, and the responsibilities of nyerba in a mitsen.",
+          "Part 11. This interview describes the difference between mitsen chondze and tratsang chondze and the Enchondze - what this position is and what it includes.  The differences beween getting gye outside in inside the dukhang are also described.  There is also a description of who hands out phog in Gomang, either the Chabu or the servant, and the custom of monks in bringing out phog and the accounting of gye, and how these items are accounted for within the monastery.  There are also descriptions of how monks differentiate between different types of gye.  There are descriptions of the relationship between Khamtsen and Mitsen, who you ask to be a khamtsen mitsen.  There is also details of the hiring process of monks and lay persons to collect firewood and the issues surrounding this task.  There is also a description of a book with particular procedures written in it that is followed by monks for certain activities.  There is finally a detailed description of the making of khabse, the individuals involved within this process and how long it takes.",
+          "Part 12. This interview discusses his responsibilities as a jija within the monastery, and how he dealt with other monks stealing.  He discusses also the various ways in which he made money and how he associated these money-making activities with the fact that he was no longer celibate.  He discusses how much he made in planting fields and various financial arrangements he made with a family in order to lend out grain.  He discusses how he wanted to be released from the monastery due to his non-celibate status, but the monastery kept him on, as they needed him to work and discusses the responsibilities he had at this time.  He also remembers how the Chinese came and wanted him to sell them dru and the agreements that had to make in order to do this.  He also discusses a specific incident of collecting on a loan and taking the individual's guns in lieu of money, and how this caused problems with the Chinese.",
+          "Part 13. This interview provides a listing of all of the monastery_s estates, who held these estates (e.g. Chiso or monastery), and how these were ranked in terms of sonkhal.  There are descriptions of the Donggo of Chiso, including details of the serving of food and tea at various times, the amounts served, and to whom.  For example, there are descriptions of the barum and tea for monks, and how the barum was prepared, and the regulations surrounding tea distribution.  There are details on where the wheat is ground into flour and the process for this and the time it takes.  There are also descriptions of the Chiso phog, and how the Chomon is provided during the 12th Tibetan month, who does the work for Laji, and what the Chsio nangnyer do.  There is also an account of an individuals who ran away and of his tongba lands.  There is also an explanation of the Zhu Rten, a gift provided to lenders.  Finally, the interview concludes with a description of what monks were thinking about in the late 50_s and their perspectives on the Chinese.",
+          "Part 14. In this brief interview, this individual describes the nature of the Chushigandru's requests for help from the monastery and what he thought about this group fighting the Chinese. He also discusses briefly the payment of barley to the monks, and he discusses the changes he would have made in Drepun monastery.",
+          "Part 15. Within this interview, this individual discusses details of his family and how he first became a monk, and the details of the ceremony with the monastery_s abbot in order to become a student.  He provides details on the processes of studying and taking exams.  He makes distinctions between gyu tre and gyudro chemo.  He discusses the livelihood of his teacher and himself, and how they lived.  He discusses in details the various positions he held in the monastery, their names, and the responsibilities he had.  He discusses, for example, doing mitsen chontse and the lack of funds with this position.  He also discusses merging within a larger shagtsang after his teacher died, the conflicts there, and why he ran away.  He also discusses how he got rabjung, and provides details on the teaching of children within the monastery.  He finally discusses the various positions within the monastery that one must do, and the steps included in this process.  He also discusses issues about poor families_ seeking a teacher, and the issues surrounding this process.",
+          "Part 16. The interview provides significant biographical detail of this individual, including his perceptions of which life is better, that of the nomad layperson, of the household, or that of a monk, and why he believes this.  He discusses in detail how he was able to get out of his responsibilities as a monk, and what he would do with his time when he was avoiding studying.  He also discusses issues surrounding visiting his family.  The later half of the interview contains a lengthy detailed narrative on how he was able to get out of being the servant to a lord named Ser Laji as well as some detail on his family life after he was not a monk.  He also discusses issues surrounding older monks and the taking of tsamba."
+        ],
+        "contributors": [
+          "Goldstein, Melvyn C., editor",
+          "Tibet Oral History and Archive Project"
+        ],
+        "created_published": [
+          "Cleveland, Ohio : Case Western Reserve University, 1991-1992."
+        ],
+        "date": "1991",
+        "digital_id": [
+          "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_01",
+          "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_02",
+          "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_03",
+          "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_04",
+          "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_05",
+          "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_06",
+          "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_07",
+          "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_08",
+          "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_09",
+          "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_10",
+          "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_11",
+          "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_12",
+          "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_13",
+          "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_14",
+          "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_15",
+          "https://hdl.loc.gov/loc.asian/asiantoha.M_0042_16"
+        ],
+        "format": [
+          "sound recording-nonmusical"
+        ],
+        "genre": [
+          "Oral histories",
+          "Biographies"
+        ],
+        "language": [
+          "tib"
+        ],
+        "medium": [
+          "1 online resource (audio files)"
+        ],
+        "notes": [
+          "Recordings of interviews, supplemented by transcriptions of the interviews, translated into English.",
+          "Sex of interviewee: Male.",
+          "Forms part of the Tibet Oral History and Archive Project (TOHAP), edited by Melvyn Goldstein, and published by the Center for Research on Tibet, Department of Anthropology, Case Western Reserve University, Cleveland, Ohio."
+        ],
+        "repository": [
+          "Library of Congress Asian Division Washington, D.C. U.S.A. 20540 https://hdl.loc.gov/loc.asian/asian.home"
+        ],
+        "subjects": [
+          "Tibetans--Interviews",
+          "Tibetans--Biography"
+        ],
+        "summary": [
+          "Within this interview this individual provides details on how he first entered the monastery, at what age, and the circumstances surrounding his family when he joined. He discusses his gegen, including how he lived with him and his gegen_s livelihood.  He discusses his feelings about entering the monastery, and details his education when he first arrived.  He describes the living arrangements of his segment of the monastery.  He discusses the nature of the shag in relation to the larger shagtsang.  He then provides details on the position of the jiso, including the roles and responsibilities.  He then provides details of his daily activities, including what work he did as a Gomang monk, as well as what he did for work until he ran away at age 17.  Within details of the daily activities within the monastery, he describes the process of making tea with butter, the preparation of thukpa, the monks involved, and the distribution of income within the monastery. "
+        ],
+        "title": "Oral history interview of Samdrup"
+      },
+      "language": [
+        "tibetan"
+      ],
+      "mime_type": [
+        "application/pdf",
+        "application/xml",
+        "application/x-audio"
+      ],
+      "number": [
+        "2020705957",
+        "2025-06-07t10:28:12.100000",
+        "online resource",
+        "2020-08-17t09:50:32"
+      ],
+      "number_carrier_type": [
+        "online resource"
+      ],
+      "number_lccn": [
+        "2020705957"
+      ],
+      "number_source_modified": [
+        "2025-06-07t10:28:12.100000",
+        "2020-08-17t09:50:32"
+      ],
+      "online_format": [
+        "pdf",
+        "online text",
+        "audio"
+      ],
+      "original_format": [
+        "sound recording"
+      ],
+      "partof": [
+        "tibetan oral history archive project",
+        "asian division",
+        "catalog"
+      ],
+      "resources": [
+        {
+          "audio": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_01/M_0042_01.mp3",
+          "caption": "Part 1, 1991, Unknown",
+          "files": 1,
+          "fulltext": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_01_Transcriptions/M_0042_01.xml",
+          "media_object_id": "B1A7363762ADE468E053CAE7938C7A06",
+          "pdf": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_01_Transcriptions/M_0042_01.pdf",
+          "url": "https://www.loc.gov/resource/asiantoha.M_0042_01/"
+        },
+        {
+          "audio": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_02/M_0042_02.mp3",
+          "caption": "Part 2, 1991, Unknown",
+          "files": 1,
+          "fulltext": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_02_Transcriptions/M_0042_02.xml",
+          "media_object_id": "B1A7363B279FE46BE053CAE7938CFE0B",
+          "pdf": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_02_Transcriptions/M_0042_02.pdf",
+          "url": "https://www.loc.gov/resource/asiantoha.M_0042_02/"
+        },
+        {
+          "audio": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_03/M_0042_03.mp3",
+          "caption": "Part 3, 1991, Unknown",
+          "files": 1,
+          "fulltext": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_03_Transcriptions/M_0042_03.xml",
+          "media_object_id": "B1A7363F47AFE46EE053CAE7938CD437",
+          "pdf": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_03_Transcriptions/M_0042_03.pdf",
+          "url": "https://www.loc.gov/resource/asiantoha.M_0042_03/"
+        },
+        {
+          "audio": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_04/M_0042_04.mp3",
+          "caption": "Part 4, 1991, Unknown",
+          "files": 1,
+          "fulltext": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_04_Transcriptions/M_0042_04.xml",
+          "media_object_id": "B1A73643869EE470E053CAE7938C1DB1",
+          "pdf": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_04_Transcriptions/M_0042_04.pdf",
+          "url": "https://www.loc.gov/resource/asiantoha.M_0042_04/"
+        },
+        {
+          "audio": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_05/M_0042_05.mp3",
+          "caption": "Part 5, 1991, Unknown",
+          "files": 1,
+          "fulltext": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_05_Transcriptions/M_0042_05.xml",
+          "media_object_id": "B1A73647CCA6E476E053CAE7938CA8E2",
+          "pdf": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_05_Transcriptions/M_0042_05.pdf",
+          "url": "https://www.loc.gov/resource/asiantoha.M_0042_05/"
+        },
+        {
+          "audio": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_06/M_0042_06.mp3",
+          "caption": "Part 6, 1991, Unknown",
+          "files": 1,
+          "fulltext": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_06_Transcriptions/M_0042_06.xml",
+          "media_object_id": "B1A7364B8D4DE478E053CAE7938CD065",
+          "pdf": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_06_Transcriptions/M_0042_06.pdf",
+          "url": "https://www.loc.gov/resource/asiantoha.M_0042_06/"
+        },
+        {
+          "audio": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_07/M_0042_07.mp3",
+          "caption": "Part 7, 1991, TAR, China",
+          "files": 1,
+          "fulltext": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_07_Transcriptions/M_0042_07.xml",
+          "media_object_id": "B1A7364F64F9E47AE053CAE7938CF868",
+          "pdf": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_07_Transcriptions/M_0042_07.pdf",
+          "url": "https://www.loc.gov/resource/asiantoha.M_0042_07/"
+        },
+        {
+          "audio": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_08/M_0042_08.mp3",
+          "caption": "Part 8, 1991, TAR, China",
+          "files": 1,
+          "fulltext": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_08_Transcriptions/M_0042_08.xml",
+          "media_object_id": "B1A73653B273E47CE053CAE7938C3718",
+          "pdf": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_08_Transcriptions/M_0042_08.pdf",
+          "url": "https://www.loc.gov/resource/asiantoha.M_0042_08/"
+        },
+        {
+          "audio": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_09/M_0042_09.mp3",
+          "caption": "Part 9, 1991, TAR, China",
+          "files": 1,
+          "fulltext": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_09_Transcriptions/M_0042_09.xml",
+          "media_object_id": "B1A73657ED0EE480E053CAE7938C70E0",
+          "pdf": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_09_Transcriptions/M_0042_09.pdf",
+          "url": "https://www.loc.gov/resource/asiantoha.M_0042_09/"
+        },
+        {
+          "audio": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_10/M_0042_10.mp3",
+          "caption": "Part 10, 1991, Unknown",
+          "files": 1,
+          "fulltext": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_10_Transcriptions/M_0042_10.xml",
+          "media_object_id": "B1A7365CBD6CE483E053CAE7938CC3A7",
+          "pdf": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_10_Transcriptions/M_0042_10.pdf",
+          "url": "https://www.loc.gov/resource/asiantoha.M_0042_10/"
+        },
+        {
+          "audio": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_11/M_0042_11.mp3",
+          "caption": "Part 11, 1991, Unknown",
+          "files": 1,
+          "fulltext": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_11_Transcriptions/M_0042_11.xml",
+          "media_object_id": "B1A73660CE3AE485E053CAE7938CD1B7",
+          "pdf": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_11_Transcriptions/M_0042_11.pdf",
+          "url": "https://www.loc.gov/resource/asiantoha.M_0042_11/"
+        },
+        {
+          "audio": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_12/M_0042_12.mp3",
+          "caption": "Part 12, 1991, Unknown",
+          "files": 1,
+          "fulltext": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_12_Transcriptions/M_0042_12.xml",
+          "media_object_id": "B1A7366514D1E489E053CAE7938C1721",
+          "pdf": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_12_Transcriptions/M_0042_12.pdf",
+          "url": "https://www.loc.gov/resource/asiantoha.M_0042_12/"
+        },
+        {
+          "audio": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_13/M_0042_13.mp3",
+          "caption": "Part 13, 1991, Unknown",
+          "files": 1,
+          "fulltext": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_13_Transcriptions/M_0042_13.xml",
+          "media_object_id": "B1A73668EC9CE48CE053CAE7938CFDB9",
+          "pdf": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_13_Transcriptions/M_0042_13.pdf",
+          "url": "https://www.loc.gov/resource/asiantoha.M_0042_13/"
+        },
+        {
+          "audio": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_14/M_0042_14.mp3",
+          "caption": "Part 14, 1991, TAR, China",
+          "files": 1,
+          "fulltext": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_14_Transcriptions/M_0042_14.xml",
+          "media_object_id": "B1A7366CAFA5E48EE053CAE7938CB126",
+          "pdf": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_14_Transcriptions/M_0042_14.pdf",
+          "url": "https://www.loc.gov/resource/asiantoha.M_0042_14/"
+        },
+        {
+          "audio": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_15/M_0042_15.mp3",
+          "caption": "Part 15, 1992, Lhasa",
+          "files": 1,
+          "fulltext": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_15_Transcriptions/M_0042_15.xml",
+          "media_object_id": "B1A73670DD80E490E053CAE7938CEE7E",
+          "pdf": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_15_Transcriptions/M_0042_15.pdf",
+          "url": "https://www.loc.gov/resource/asiantoha.M_0042_15/"
+        },
+        {
+          "audio": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_16/M_0042_16.mp3",
+          "caption": "Part 16, 1992, Unknown",
+          "files": 1,
+          "fulltext": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_16_Transcriptions/M_0042_16.xml",
+          "media_object_id": "B1A73674EDECE494E053CAE7938CFCFA",
+          "pdf": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0042_16_Transcriptions/M_0042_16.pdf",
+          "url": "https://www.loc.gov/resource/asiantoha.M_0042_16/"
+        }
+      ],
+      "shelf_id": "http://lccn.loc.gov/2020705957",
+      "site": [
+        "catalog"
+      ],
+      "subject": [
+        "oral histories",
+        "biography",
+        "tibetans",
+        "interviews",
+        "biographies"
+      ],
+      "timestamp": "2026-07-28T13:44:43.371Z",
+      "title": "Oral history interview of Samdrup",
+      "type": [
+        "sound recording-nonmusical"
+      ],
+      "url": "https://www.loc.gov/item/2020705957/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/afc1982010_afs21080/",
+        "https://hdl.loc.gov/loc.afc/afc1982010.afc1982010_afs21080",
+        "http://www.loc.gov/resource/afc1982010.afc1982010_afs21080/",
+        "http://www.loc.gov/item/afc1982010.afc1982010_afs21080/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "newsome, mary",
+        "robinson, beverly j."
+      ],
+      "date": "1977-08-11",
+      "dates": [
+        "1977-08-11"
+      ],
+      "description": [
+        ""
+      ],
+      "digitized": true,
+      "extract_timestamp": "2025-09-16T16:56:18.317Z",
+      "group": [
+        "afc1982010",
+        "south-central-georgia-folklife-project"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/afc1982010_afs21080/",
+      "image_url": [],
+      "index": 9,
+      "item": {
+        "call_number": [
+          "Call number: AFC 1982/010: AFS 21080",
+          "MBRS shelflist: RXA 1656",
+          "Field project identifier: GA7-BR-R18"
+        ],
+        "contributors": [
+          "Robinson, Beverly J. (Collector)",
+          "Newsome, Mary"
+        ],
+        "created_published": [
+          "Fitzgerald, Georgia, August 11, 1977"
+        ],
+        "date": "19770811",
+        "digital_id": [
+          "https://hdl.loc.gov/loc.afc/afc1982010.afc1982010_afs21080"
+        ],
+        "format": [
+          "sound recording"
+        ],
+        "genre": [
+          "Field recordings",
+          "Interviews",
+          "Sound recording"
+        ],
+        "language": [
+          "eng"
+        ],
+        "location": [
+          "United States -- Georgia -- Ben Hill County -- Fitzgerald"
+        ],
+        "medium": [
+          "audiotape reel, 7 in."
+        ],
+        "notes": [
+          "Recording of visit with Mrs. Mary Newsome at the Colony Home, a nursing facility for the elderly, Fitzgerald GA: Mary Newsome sings, then others in the room (including nursing home staff) coax her to sing more, male voice is staff member Daniel Purdom, Mary Newsome sings, Daniel Purdom asks Mary to sing the \"Promised Land,\" Mary Newsome sings \"Promised Land\" as others around Mary join in, repeat of the song sung by Mary Newsome alone, Newsome talks about church sings in the past, Mary Newsome begins another song but stops in the middle, musical therapist Nan Lee asks Mary to begin a song, group sings \"Jacob's Ladder,\" Mary Newsome sings \"Steal Away,\" Claudia Golden, another resident at the home, finishes the song \"Steal Away,\" Daniel Purdom asks Mary about her ideas about Heaven is like, and about the Bible, group encourages Mary to sing \"Long White Robe,\" Nan Lee asks Mary Newsome about her father, Mary Newsome sings \"Steal Away\" joined by Nan Lee, Daniel Purdom asks about her past and Mary Newsome talks about the cotton picking days, says that her brother was named Willie, Mary was her mother's name, does not remember her father's name; additional conversation; Mary Newsome sings \"I'm Almost Home\" (repeats), Claudia Golden adds to the song, additional conversation, Purdom asks Mary about the \"Long White Robe,\" Mary Newsome sings a different song.",
+          "Fieldworker Beverly Robinson's notes report that Mrs. Mary Newsome was born on March 11, 1872, and, in 1977, she lived at the Colony [Nursing] Home. The name is spelled Mary Newsom in a 1979 Georgia death certificate. Robinson's notes indicate that Newsome had been described as having some recall of work songs, \"field songs which led me to her\"; Robinson also quotes a nursing home worker as stating, \"Mrs. Newsome is restricted to a wheelchair and has suffered partial hearing loss, her memory span has decreased within the last few years and she is disoriented at times.\" Project documentation indicates that Robinson visited Mrs. Newsome three times and made sound recordings identified by call numbers AFC 1982/010: AFS 21110 (11 July 1977), AFC 1982/010: AFS 21118 (4 August 1977), AFS 21119 and AFS 21120 (between 4 and 11 August 1977), and call number AFC 1982/010: AFS 21080 (August 11, 1977); Robinson also copied the pre-existing recording of Mrs. Newsome's singing presented at call number AFC 1982/010: AFS 21070."
+        ],
+        "related_items": [
+          {
+            "title": "Recording log for AFC 1982/010: AFS 21080, 2 pages (part of AFC 1982/010: Box 10, Folder 104)",
+            "url": "https://www.loc.gov/resource/afc1982010.afc1982010_10_104/?sp=26"
+          }
+        ],
+        "repository": "American Folklife Center",
+        "rights": "No known restrictions on use or reproduction.",
+        "source_collection": "South-Central Georgia Folklife Project collection (AFC 1982/010)",
+        "subjects": [
+          "Religious songs",
+          "Folklore--Georgia",
+          "Field recordings",
+          "Interviews",
+          "Sound recording",
+          "United States -- Georgia -- Ben Hill County -- Fitzgerald"
+        ],
+        "title": "Interview and singing with Mary Newsome (11 August 1977), Colony (Nursing) Home, Fitzgerald, Georgia"
+      },
+      "language": [
+        "english"
+      ],
+      "location": [
+        "fitzgerald",
+        "ben hill county",
+        "united states",
+        "georgia"
+      ],
+      "mime_type": [
+        "application/x-audio"
+      ],
+      "number": [
+        "afc1982010_afs21080"
+      ],
+      "number_dmtoolid": [
+        "afc1982010_afs21080"
+      ],
+      "online_format": [
+        "audio"
+      ],
+      "original_format": [
+        "sound recording"
+      ],
+      "partof": [
+        "south-central georgia folklife project collection",
+        "american folklife center"
+      ],
+      "resources": [
+        {
+          "audio": "https://tile.loc.gov/storage-services/media/afc/afc1982010/afc1982010_afs21080a.mp3",
+          "files": 1,
+          "media_object_id": "481CDDD6F36500B4E0538C93F11600B4",
+          "url": "https://www.loc.gov/resource/afc1982010.afc1982010_afs21080/"
+        }
+      ],
+      "shelf_id": "Call number: AFC 1982/010: AFS 21080 MBRS shelflist: RXA 1656 Field project identifier: GA7-BR-R18",
+      "subject": [
+        "sound recording",
+        "georgia",
+        "interviews",
+        "field recordings",
+        "folklore",
+        "religious songs"
+      ],
+      "timestamp": "2025-09-16T16:59:52.612Z",
+      "title": "Interview and singing with Mary Newsome (11 August 1977), Colony (Nursing) Home, Fitzgerald, Georgia",
+      "type": [
+        "sound recording"
+      ],
+      "url": "https://www.loc.gov/item/afc1982010_afs21080/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/afc1982010_afs21124/",
+        "https://hdl.loc.gov/loc.afc/afc1982010.afc1982010_afs21124",
+        "http://www.loc.gov/resource/afc1982010.afc1982010_afs21124/",
+        "http://www.loc.gov/item/afc1982010.afc1982010_afs21124/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "teals, mrs",
+        "dennard, rev",
+        "robinson, beverly j."
+      ],
+      "date": "1977-08-09",
+      "dates": [
+        "1977-08-09"
+      ],
+      "description": [
+        ""
+      ],
+      "digitized": true,
+      "extract_timestamp": "2025-09-16T16:56:18.620Z",
+      "group": [
+        "afc1982010",
+        "south-central-georgia-folklife-project"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/afc1982010_afs21124/",
+      "image_url": [],
+      "index": 10,
+      "item": {
+        "call_number": [
+          "Call number: AFC 1982/010: AFS 21124",
+          "MBRS shelflist: RYA 0962",
+          "Field project identifier: GA7-BR-C21"
+        ],
+        "contributors": [
+          "Robinson, Beverly J. (Collector)",
+          "Teals, Mrs.",
+          "Dennard, Rev."
+        ],
+        "created_published": [
+          "Tifton, Georgia, August 9, 1977"
+        ],
+        "date": "19770809",
+        "digital_id": [
+          "https://hdl.loc.gov/loc.afc/afc1982010.afc1982010_afs21124"
+        ],
+        "format": [
+          "sound recording"
+        ],
+        "genre": [
+          "Field recordings",
+          "Songs",
+          "Music",
+          "Sound recording"
+        ],
+        "language": [
+          "eng"
+        ],
+        "location": [
+          "United States -- Georgia -- Tift County -- Tifton",
+          "United States -- Georgia -- Tift County -- Tifton"
+        ],
+        "medium": [
+          "audiocassette"
+        ],
+        "notes": [
+          "Part 3 of a 3-part recording of hymn singing in the home of Mrs. Fannie Lee Teals, Tifton GA, fieldworker Beverly Robinson's notes list the following attendees: Evelyn White, Annie K. Kelly, Odessa Phillips, Ruby L. Seadrow, Ruby Moore, Fannie Lee Teals, J.C. Brown, Eddie Mae Braswell, A.D. Wright, Reverend Dennard, and Patricia L. Williams; selections include \"Steal Away,\" \"Couldn't hear Nobody Pray,\" \"Well I feel like Traveling On,\" \"Christ is Alive in my Soul Today,\" \"We are Climbing,\" \"Take my Hand,\" fieldworker Beverly Robinson makes closing comments, \"May God be with You,\" closing prayer by unidentified man, various comments between participants as they depart.",
+          "Two sets of recordings of this event are included in the South-Central Georgia Folklife Project collection: open-reel recordings at call numbers AFC 1982/010: AFS 21077, AFS 21078, and AFS 21079, and audiocassette recordings at call numbers AFC 1982/010: AFS 21123 and AFS 21124."
+        ],
+        "related_items": [
+          {
+            "title": "Recording log for AFC 1982/010: AFS 21124 (part of AFC 1982/010: Box 10, Folder 105)",
+            "url": "https://www.loc.gov/resource/afc1982010.afc1982010_10_105/?sp=27"
+          }
+        ],
+        "repository": "American Folklife Center",
+        "rights": "No known restrictions on use or reproduction.",
+        "source_collection": "South-Central Georgia Folklife Project collection (AFC 1982/010)",
+        "subjects": [
+          "Folklore--Georgia",
+          "Shape note singing",
+          "Field recordings",
+          "Songs",
+          "Music",
+          "Sound recording",
+          "United States -- Georgia -- Tift County -- Tifton",
+          "United States -- Georgia -- Tift County -- Tifton"
+        ],
+        "title": "A cappella hymn singing at the home of Fannie Lee Teals, Tifton, Georgia, part 3 (audiocassette version)"
+      },
+      "language": [
+        "english"
+      ],
+      "location": [
+        "tift county",
+        "tifton",
+        "united states",
+        "georgia"
+      ],
+      "mime_type": [
+        "application/x-audio"
+      ],
+      "number": [
+        "afc1982010_afs21124"
+      ],
+      "number_dmtoolid": [
+        "afc1982010_afs21124"
+      ],
+      "online_format": [
+        "audio"
+      ],
+      "original_format": [
+        "sound recording"
+      ],
+      "partof": [
+        "south-central georgia folklife project collection",
+        "american folklife center"
+      ],
+      "resources": [
+        {
+          "audio": "https://tile.loc.gov/storage-services/media/afc/afc1982010/afc1982010_afs21124a.mp3",
+          "files": 1,
+          "media_object_id": "481CDF6C2D3100CCE0538C93F11600CC",
+          "url": "https://www.loc.gov/resource/afc1982010.afc1982010_afs21124/"
+        }
+      ],
+      "shelf_id": "Call number: AFC 1982/010: AFS 21124 MBRS shelflist: RYA 0962 Field project identifier: GA7-BR-C21",
+      "subject": [
+        "music",
+        "shape note singing",
+        "sound recording",
+        "songs",
+        "georgia",
+        "field recordings",
+        "folklore"
+      ],
+      "timestamp": "2025-09-16T17:00:06.102Z",
+      "title": "A cappella hymn singing at the home of Fannie Lee Teals, Tifton, Georgia, part 3 (audiocassette version)",
+      "type": [
+        "sound recording"
+      ],
+      "url": "https://www.loc.gov/item/afc1982010_afs21124/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/afc1982010_afs21078/",
+        "https://hdl.loc.gov/loc.afc/afc1982010.afc1982010_afs21078",
+        "http://www.loc.gov/resource/afc1982010.afc1982010_afs21078/",
+        "http://www.loc.gov/item/afc1982010.afc1982010_afs21078/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "teals, mrs",
+        "robinson, beverly j."
+      ],
+      "date": "1977-08-09",
+      "dates": [
+        "1977-08-09"
+      ],
+      "description": [
+        ""
+      ],
+      "digitized": true,
+      "extract_timestamp": "2025-09-16T16:56:18.317Z",
+      "group": [
+        "afc1982010",
+        "south-central-georgia-folklife-project"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/afc1982010_afs21078/",
+      "image_url": [],
+      "index": 11,
+      "item": {
+        "call_number": [
+          "Call number: AFC 1982/010: AFS 21078",
+          "MBRS shelflist: RXA 1654",
+          "Field project identifier: GA7-BR-R16"
+        ],
+        "contributors": [
+          "Robinson, Beverly J. (Collector)",
+          "Teals, Mrs."
+        ],
+        "created_published": [
+          "Tifton, Georgia, August 9, 1977"
+        ],
+        "date": "19770809",
+        "digital_id": [
+          "https://hdl.loc.gov/loc.afc/afc1982010.afc1982010_afs21078"
+        ],
+        "format": [
+          "sound recording"
+        ],
+        "genre": [
+          "Field recordings",
+          "Interviews",
+          "Sound recording"
+        ],
+        "language": [
+          "eng"
+        ],
+        "location": [
+          "United States -- Georgia -- Tift County -- Tifton",
+          "United States -- Georgia -- Tift County -- Tifton"
+        ],
+        "medium": [
+          "audiotape reel, 7 in."
+        ],
+        "notes": [
+          "Two sets of recordings of this event are included in the South South-Central Georgia Folklife Project collection: open-reel recordings at call numbers AFC 1982/010: AFS 21077, AFS 21078, and AFS 21079, and audiocassette recordings at call numbers AFC 1982/010: AFS 21123 and AFS 21124.",
+          "Part 2 of a 3-part recording of hymn singing in the home of Mrs. Fannie Lee Teals, Tifton GA, fieldworker Beverly Robinson's notes list the following attendees: Evelyn White, Annie K. Kelly, Odessa Phillips, Ruby L. Seadrow, Ruby Moore, Fannie Lee Teals, J.C. Brown, Eddie Mae Braswell, A.D. Wright, Reverend Dennard, and Patricia L. Williams; selections include \"How I got Over\" (repeats), comment that the hymn originated in 1909, \"Where Could I Go but to the Lord\" preceded by singing the shapes (notes), \"Have a Little Talk with Jesus,\" discussion of earlier black music and mention of an old song, now led by Deacon Wright, \"What a time,\" \"You Weren't There,\" comment, \"I've got to stand up and move when I sing,\" hymn \"I'll Overcome Someday,\" \"I'll be Waiting Up There,\" \"Steal Away,\" continued in part 3."
+        ],
+        "related_items": [
+          {
+            "title": "Recording log for AFC 1982/010: AFS 21078 (part of AFC 1982/010: Box 10, Folder 104)",
+            "url": "https://www.loc.gov/resource/afc1982010.afc1982010_10_104/?sp=24"
+          }
+        ],
+        "repository": "American Folklife Center",
+        "rights": "No known restrictions on use or reproduction.",
+        "source_collection": "South-Central Georgia Folklife Project collection (AFC 1982/010)",
+        "subjects": [
+          "Religious songs",
+          "Folklore--Georgia",
+          "Field recordings",
+          "Interviews",
+          "Sound recording",
+          "United States -- Georgia -- Tift County -- Tifton",
+          "United States -- Georgia -- Tift County -- Tifton"
+        ],
+        "title": "A cappella hymn singing at the home of Fannie Lee Teals, Tifton, Georgia, part 2 (open reel version)"
+      },
+      "language": [
+        "english"
+      ],
+      "location": [
+        "tift county",
+        "tifton",
+        "united states",
+        "georgia"
+      ],
+      "mime_type": [
+        "application/x-audio"
+      ],
+      "number": [
+        "afc1982010_afs21078"
+      ],
+      "number_dmtoolid": [
+        "afc1982010_afs21078"
+      ],
+      "online_format": [
+        "audio"
+      ],
+      "original_format": [
+        "sound recording"
+      ],
+      "partof": [
+        "south-central georgia folklife project collection",
+        "american folklife center"
+      ],
+      "resources": [
+        {
+          "audio": "https://tile.loc.gov/storage-services/media/afc/afc1982010/afc1982010_afs21078a.mp3",
+          "files": 1,
+          "media_object_id": "481CDDCE185400E2E0538C93F11600E2",
+          "url": "https://www.loc.gov/resource/afc1982010.afc1982010_afs21078/"
+        }
+      ],
+      "shelf_id": "Call number: AFC 1982/010: AFS 21078 MBRS shelflist: RXA 1654 Field project identifier: GA7-BR-R16",
+      "subject": [
+        "sound recording",
+        "georgia",
+        "interviews",
+        "field recordings",
+        "folklore",
+        "religious songs"
+      ],
+      "timestamp": "2025-09-16T16:59:52.612Z",
+      "title": "A cappella hymn singing at the home of Fannie Lee Teals, Tifton, Georgia, part 2 (open reel version)",
+      "type": [
+        "sound recording"
+      ],
+      "url": "https://www.loc.gov/item/afc1982010_afs21078/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/afc1982010_afs21079/",
+        "https://hdl.loc.gov/loc.afc/afc1982010.afc1982010_afs21079",
+        "http://www.loc.gov/resource/afc1982010.afc1982010_afs21079/",
+        "http://www.loc.gov/item/afc1982010.afc1982010_afs21079/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "teals, mrs",
+        "robinson, beverly j."
+      ],
+      "date": "1977-08-09",
+      "dates": [
+        "1977-08-09"
+      ],
+      "description": [
+        ""
+      ],
+      "digitized": true,
+      "extract_timestamp": "2025-09-16T16:56:18.317Z",
+      "group": [
+        "afc1982010",
+        "south-central-georgia-folklife-project"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/afc1982010_afs21079/",
+      "image_url": [],
+      "index": 12,
+      "item": {
+        "call_number": [
+          "Call number: AFC 1982/010: AFS 21079",
+          "MBRS shelflist: RXA 1655",
+          "Field project identifier: GA7-BR-R17"
+        ],
+        "contributors": [
+          "Robinson, Beverly J. (Collector)",
+          "Teals, Mrs."
+        ],
+        "created_published": [
+          "Tifton, Georgia, August 9, 1977"
+        ],
+        "date": "19770809",
+        "digital_id": [
+          "https://hdl.loc.gov/loc.afc/afc1982010.afc1982010_afs21079"
+        ],
+        "format": [
+          "sound recording"
+        ],
+        "genre": [
+          "Field recordings",
+          "Interviews",
+          "Sound recording"
+        ],
+        "language": [
+          "eng"
+        ],
+        "location": [
+          "United States -- Georgia -- Tift County -- Tifton",
+          "United States -- Georgia -- Tift County -- Tifton"
+        ],
+        "medium": [
+          "audiotape reel, 7 in."
+        ],
+        "notes": [
+          "Two sets of recordings of this event are included in the South South-Central Georgia Folklife Project collection: open-reel recordings at call numbers AFC 1982/010: AFS 21077, AFS 21078, and AFS 21079, and audiocassette recordings at call numbers AFC 1982/010: AFS 21123 and AFS 21124.",
+          "Part 3 of a 3-part recording of hymn singing in the home of Mrs. Fannie Lee Teals, Tifton GA, fieldworker Beverly Robinson's notes list the following attendees: Evelyn White, Annie K. Kelly, Odessa Phillips, Ruby L. Seadrow, Ruby Moore, Fannie Lee Teals, J.C. Brown, Eddie Mae Braswell, A.D. Wright, Reverend Dennard, and Patricia L. Williams; selections include \"Steal Away,\" continued from part 2, \"I Couldn't Hear Nobody Pray,\" comment, \"now this is an old song my daddy used to sing in his lifetime, 'I Feel Like Travelling On,'\" \"Jesus Christ is Alive in my Soul Today,\" \"We are Climbing Jacob's Ladder,\" \"Take my Hand, Precious Lord,\" \"May God be with You 'til We Meet Again,\" benediction and Amen, conversation including comment, \"these good old songs, they do something to me.\""
+        ],
+        "related_items": [
+          {
+            "title": "Recording log for AFC 1982/010: AFS 21079 (part of AFC 1982/010: Box 10, Folder 104)",
+            "url": "https://www.loc.gov/resource/afc1982010.afc1982010_10_104/?sp=25"
+          }
+        ],
+        "repository": "American Folklife Center",
+        "rights": "No known restrictions on use or reproduction.",
+        "source_collection": "South-Central Georgia Folklife Project collection (AFC 1982/010)",
+        "subjects": [
+          "Religious songs",
+          "Folklore--Georgia",
+          "Field recordings",
+          "Interviews",
+          "Sound recording",
+          "United States -- Georgia -- Tift County -- Tifton",
+          "United States -- Georgia -- Tift County -- Tifton"
+        ],
+        "title": "A cappella hymn singing at the home of Fannie Lee Teals, Tifton, Georgia, part 3 (open reel version)"
+      },
+      "language": [
+        "english"
+      ],
+      "location": [
+        "tift county",
+        "tifton",
+        "united states",
+        "georgia"
+      ],
+      "mime_type": [
+        "application/x-audio"
+      ],
+      "number": [
+        "afc1982010_afs21079"
+      ],
+      "number_dmtoolid": [
+        "afc1982010_afs21079"
+      ],
+      "online_format": [
+        "audio"
+      ],
+      "original_format": [
+        "sound recording"
+      ],
+      "partof": [
+        "south-central georgia folklife project collection",
+        "american folklife center"
+      ],
+      "resources": [
+        {
+          "audio": "https://tile.loc.gov/storage-services/media/afc/afc1982010/afc1982010_afs21079a.mp3",
+          "files": 1,
+          "media_object_id": "481CDDD2B1DF0194E0538C93F1160194",
+          "url": "https://www.loc.gov/resource/afc1982010.afc1982010_afs21079/"
+        }
+      ],
+      "shelf_id": "Call number: AFC 1982/010: AFS 21079 MBRS shelflist: RXA 1655 Field project identifier: GA7-BR-R17",
+      "subject": [
+        "sound recording",
+        "georgia",
+        "interviews",
+        "field recordings",
+        "folklore",
+        "religious songs"
+      ],
+      "timestamp": "2025-09-16T16:59:52.612Z",
+      "title": "A cappella hymn singing at the home of Fannie Lee Teals, Tifton, Georgia, part 3 (open reel version)",
+      "type": [
+        "sound recording"
+      ],
+      "url": "https://www.loc.gov/item/afc1982010_afs21079/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/afc1982010_afs21249/",
+        "https://hdl.loc.gov/loc.afc/afc1982010.afc1982010_afs21249",
+        "http://www.loc.gov/resource/afc1982010.afc1982010_afs21249/",
+        "http://www.loc.gov/item/afc1982010.afc1982010_afs21249/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "american folklife center"
+      ],
+      "date": "1978-05",
+      "dates": [
+        "1978-05"
+      ],
+      "description": [
+        ""
+      ],
+      "digitized": true,
+      "extract_timestamp": "2025-09-16T16:56:19.039Z",
+      "group": [
+        "afc1982010",
+        "south-central-georgia-folklife-project"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/afc1982010_afs21249/",
+      "image_url": [],
+      "index": 13,
+      "item": {
+        "call_number": [
+          "Call number: AFC 1982/010: AFS 21249",
+          "MBRS shelflist: RXA 1710"
+        ],
+        "contributors": [
+          "American Folklife Center"
+        ],
+        "created_published": [
+          "Georgia, May 1978"
+        ],
+        "date": "19780500",
+        "digital_id": [
+          "https://hdl.loc.gov/loc.afc/afc1982010.afc1982010_afs21249"
+        ],
+        "format": [
+          "sound recording"
+        ],
+        "genre": [
+          "Field recordings",
+          "Sound recording"
+        ],
+        "language": [
+          "eng"
+        ],
+        "location": [
+          "United States -- Georgia"
+        ],
+        "medium": [
+          "audiotape reel, 7 in."
+        ],
+        "notes": [
+          "Recordings of examples of religious music collected during the South-Central Georgia Folklife Project selected by the folklorist Dennis Coelho: \"Home Bells Are Ringing\" recorded at the Ben Hill County Singing Convention, Fitzgerald GA, sung by all attendees, accompanied by piano; \"I am a stranger here below\" performed by the congregation of Mt. Paran Primitive Baptist Church, Berrien County GA, this selection is hymn number 380 in a recent version of Benjamin Lloyd's Primitive Hymns (full title: The Primitive Hymns, Spiritual Songs, and Sacred Poems, Regularly Selected, Classified and Set In Order, and Adapted To Social Singing and all Occasions of Divine Worship), first published 1841; \"Swing Low, Sweet Chariot\" and \"Steal Away\" recorded at an informal singing get-together at the home of Fannie Lee Teals, Tifton GA; \"New Britain,\" called \"Amazing Grace\" by the song leader, number 45 in the Original Sacred Harp hymnal, recorded at the South Georgia Sacred Harp Singing Convention held in the church at Georgia Agrirama (subsequently renamed Georgia Museum of Agriculture and Historic Village), Tifton GA; \"Hebron,\" Original Sacred Harp number 566, recorded at the same event as the preceding; \"Uncloudy Day,\" recorded at the Bethel Baptist Church Homecoming, Worth County GA; \"Inside the Pearly Gates,\" with the \"notes\" or \"fa-sol-la\" preceding the lyrics, and \"Send it on Down,\" sung without the preceding \"notes,\" at the shape note singing convention held at the Mt. Zion Missionary Baptist Church, Damascus GA.",
+          "Following project fieldwork in 1977, the sponsoring agency, the Arts Experiment Station at Abraham Baldwin Agricultural College in Tifton, Georgia, engaged Dennis Coelho as folklorist-in-residence to support community outreach and continue project research. His initial activity was to assess the field project collection and select a cross section of recordings for educators and community access. The result, completed in 1978, is a set of three recordings: secular music, spoken word and narrative, and religious music."
+        ],
+        "related_items": [
+          {
+            "title": "Recording log for AFC 1982/010: AFS 21249, 3 pages (part of AFC 1982/010: Box 11, Folder 111)",
+            "url": "https://www.loc.gov/resource/afc1982010.afc1982010_11_111/?sp=9"
+          }
+        ],
+        "repository": "American Folklife Center",
+        "rights": "No known restrictions on use or reproduction.",
+        "source_collection": "South-Central Georgia Folklife Project collection (AFC 1982/010)",
+        "subjects": [
+          "Religious songs",
+          "Folklore--Georgia",
+          "Song festivals",
+          "Shape note singing",
+          "Field recordings",
+          "Sound recording",
+          "United States -- Georgia"
+        ],
+        "title": "Selections from the South-Central Georgia Folklife Project sound recordings, part 3, religious music"
+      },
+      "language": [
+        "english"
+      ],
+      "location": [
+        "united states",
+        "georgia"
+      ],
+      "mime_type": [
+        "application/x-audio"
+      ],
+      "number": [
+        "afc1982010_afs21249"
+      ],
+      "number_dmtoolid": [
+        "afc1982010_afs21249"
+      ],
+      "online_format": [
+        "audio"
+      ],
+      "original_format": [
+        "sound recording"
+      ],
+      "partof": [
+        "south-central georgia folklife project collection",
+        "american folklife center"
+      ],
+      "resources": [
+        {
+          "audio": "https://tile.loc.gov/storage-services/media/afc/afc1982010/afc1982010_afs21249a.mp3",
+          "files": 1,
+          "media_object_id": "481CE37968C000E6E0538C93F11600E6",
+          "url": "https://www.loc.gov/resource/afc1982010.afc1982010_afs21249/"
+        }
+      ],
+      "shelf_id": "Call number: AFC 1982/010: AFS 21249 MBRS shelflist: RXA 1710",
+      "subject": [
+        "shape note singing",
+        "sound recording",
+        "song festivals",
+        "georgia",
+        "field recordings",
+        "folklore",
+        "religious songs"
+      ],
+      "timestamp": "2025-09-16T17:00:30.281Z",
+      "title": "Selections from the South-Central Georgia Folklife Project sound recordings, part 3, religious music",
+      "type": [
+        "sound recording"
+      ],
+      "url": "https://www.loc.gov/item/afc1982010_afs21249/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/afcnye000004/",
+        "https://hdl.loc.gov/loc.afc/afc1937002.sr02b",
+        "http://www.loc.gov/resource/afc1937002.sr02b/",
+        "http://www.loc.gov/item/afc1937002.sr02b/",
+        "https://hdl.loc.gov/loc.afc/afc1937002.t02b",
+        "http://www.loc.gov/resource/afc1937002.t02b/",
+        "http://www.loc.gov/item/afc1937002.t02b/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "lomax, john a. (john avery)",
+        "nye, pearl r."
+      ],
+      "date": "1937",
+      "dates": [
+        "1937"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2023-05-03T13:02:10.481Z",
+      "group": [
+        "afcnye",
+        "captain-pearl-r-nye"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/afcnye000004/",
+      "image_url": [],
+      "index": 14,
+      "item": {
+        "call_number": [
+          "AFC 1937/002: AFS 01002 B1",
+          "AFC 1937/002: AFS 01002 B2"
+        ],
+        "contributors": [
+          "Lomax, John A. (John Avery), 1867-1948 (Interviewer)",
+          "Nye, Pearl R., 1872-1950 (Performer)"
+        ],
+        "created_published": [
+          "1937"
+        ],
+        "date": "19370000",
+        "digital_id": [
+          "http://hdl.loc.gov/loc.afc/afc1937002.sr02b",
+          "http://hdl.loc.gov/loc.afc/afc1937002.t02b"
+        ],
+        "format": "sound recording",
+        "genre": [
+          "Music",
+          "Field recordings",
+          "Songs"
+        ],
+        "language": [
+          "eng"
+        ],
+        "location": [
+          "United States of America -- Ohio -- Akron"
+        ],
+        "medium": [
+          "1 sound disc: lacquer (aluminum base), analog, 12 in."
+        ],
+        "notes": [
+          "Recording ends abruptly.",
+          "Recorded between June 26 and June 28, 1937 in Akron, Ohio."
+        ],
+        "other_title": [
+          "Song title: The Girl with the Striped Stockings",
+          "Song title: Barbara Allen"
+        ],
+        "repository": "American Folklife Center",
+        "rights": "See copyright restriction statement.",
+        "source_collection": "Captain Pearl R. Nye collection (AFC 1937/002)",
+        "subjects": [
+          "Popular music",
+          "Folk songs, English",
+          "Ballads, English",
+          "Music",
+          "Field recordings",
+          "Songs",
+          "United States of America -- Ohio -- Akron"
+        ],
+        "title": "The Girl with the Striped Stockings; Barbara Allen"
+      },
+      "language": [
+        "english"
+      ],
+      "location": [
+        "united states",
+        "ohio",
+        "akron"
+      ],
+      "mime_type": [
+        "audio/mp3",
+        "text/xml",
+        "audio/wav",
+        "application/pdf",
+        "application/xml"
+      ],
+      "online_format": [
+        "audio",
+        "online text",
+        "pdf"
+      ],
+      "original_format": [
+        "sound recording"
+      ],
+      "other_title": [
+        "Song title: The Girl with the Striped Stockings",
+        "Song title: Barbara Allen"
+      ],
+      "partof": [
+        "performing arts encyclopedia",
+        "captain pearl r. nye: life on the ohio and erie canal",
+        "american memory",
+        "the library of congress celebrates the songs of america",
+        "american folklife center"
+      ],
+      "resources": [
+        {
+          "files": 1,
+          "fulltext_file": "https://tile.loc.gov/storage-services/service/afc/afc1937002/sr02b.xml",
+          "pdf": "https://tile.loc.gov/storage-services/service/afc/afc1937002/sr02b.pdf",
+          "url": "https://www.loc.gov/resource/afc1937002.sr02b/"
+        },
+        {
+          "files": 1,
+          "url": "https://www.loc.gov/resource/afc1937002.t02b/"
+        }
+      ],
+      "shelf_id": "AFC 1937/002: AFS 01002 B1",
+      "subject": [
+        "music",
+        "ballads, english",
+        "songs",
+        "folk songs, english",
+        "field recordings",
+        "popular music"
+      ],
+      "timestamp": "2023-05-03T13:02:58.059Z",
+      "title": "The Girl with the Striped Stockings; Barbara Allen",
+      "type": [
+        "sound recording"
+      ],
+      "url": "https://www.loc.gov/item/afcnye000004/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/afc1941018_afs05091b/",
+        "https://hdl.loc.gov/loc.afc/afc1941018_afs05091b",
+        "http://www.loc.gov/resource/afc1941018.afc1941018_afs05091b/",
+        "http://www.loc.gov/item/afc1941018.afc1941018_afs05091b/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "gaston, alice",
+        "sonkin, robert"
+      ],
+      "date": "1941-01-01",
+      "dates": [
+        "1941"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2021-11-10T16:21:02.577Z",
+      "group": [
+        "afcesn",
+        "ex-slave-narratives"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/afc1941018_afs05091b/",
+      "image_url": [],
+      "index": 15,
+      "item": {
+        "call_number": [
+          "AFC 1941/018: AFS 05091B"
+        ],
+        "contributors": [
+          "Sonkin, Robert, 1910-1980",
+          "Gaston, Alice"
+        ],
+        "created_published": [
+          "Gee's Bend, Alabama, 1941"
+        ],
+        "date": "19410000",
+        "digital_id": [
+          "https://hdl.loc.gov/loc.afc/afc1941018_afs05091b"
+        ],
+        "format": "sound recording",
+        "genre": [
+          "Interviews",
+          "Field recordings"
+        ],
+        "language": "eng",
+        "location": [
+          "United States -- Alabama -- Wilcox County -- Gee's Bend"
+        ],
+        "medium": [
+          "1 sound disc : analog, 78 rpm; 12 in."
+        ],
+        "notes": [
+          "Recorded by Robert Sonkin, Gee's Bend, Alabama, 1941."
+        ],
+        "repository": "American Folklife Center",
+        "rights": "No known restrictions on use or reproduction.",
+        "source_collection": "Robert Sonkin Alabama and New Jersey collection, 1937-1941 (AFC 1941/018)",
+        "subjects": [
+          "United States. Farm Security Administration",
+          "United States--History--Civil War, 1861-1865--African Americans--Personal narratives",
+          "Slave narratives--Alabama",
+          "Freedmen--Alabama",
+          "Women slaves--Alabama",
+          "Race relations--Alabama--Anecdotes",
+          "Slaves--Emancipation--Alabama",
+          "Interviews",
+          "Field recordings",
+          "United States -- Alabama -- Wilcox County -- Gee's Bend"
+        ],
+        "title": "Interview with Alice Gaston, Gee's Bend, Alabama, 1941"
+      },
+      "language": [
+        "english"
+      ],
+      "location": [
+        "wilcox county",
+        "united states",
+        "alabama",
+        "gee's bend"
+      ],
+      "mime_type": [
+        "audio/mp3",
+        "text/xml",
+        "audio/wav",
+        "application/pdf",
+        "application/xml",
+        "application/x-audio"
+      ],
+      "online_format": [
+        "audio",
+        "online text",
+        "pdf"
+      ],
+      "original_format": [
+        "sound recording"
+      ],
+      "partof": [
+        "robert sonkin alabama and new jersey collection, 1937-1941",
+        "voices remembering slavery: freed people tell their stories",
+        "american folklife center"
+      ],
+      "resources": [
+        {
+          "audio": "https://tile.loc.gov/storage-services/service/afc/afc1941018/afc1941018_afs05091/afc1941018_afs05091b.mp3",
+          "files": 1,
+          "fulltext_file": "https://tile.loc.gov/storage-services/service/afc/afc1941018/afc1941018_afs05091/afc1941018_afs05091b.xml",
+          "media_object_id": "73905F8A3DF601E8E0538C93F11601E8",
+          "pdf": "https://tile.loc.gov/storage-services/service/afc/afc1941018/afc1941018_afs05091/afc1941018_afs05091b.pdf",
+          "url": "https://www.loc.gov/resource/afc1941018.afc1941018_afs05091b/"
+        }
+      ],
+      "shelf_id": "AFC 1941/018: AFS 05091B",
+      "subject": [
+        "freedmen",
+        "emancipation",
+        "alabama",
+        "race relations",
+        "history",
+        "civil war",
+        "united states",
+        "personal narratives",
+        "slave narratives",
+        "african americans",
+        "women slaves",
+        "interviews",
+        "field recordings",
+        "slaves",
+        "united states. farm security administration",
+        "anecdotes"
+      ],
+      "timestamp": "2022-04-27T02:43:31.011Z",
+      "title": "Interview with Alice Gaston, Gee's Bend, Alabama, 1941",
+      "type": "legacyzoom",
+      "url": "https://www.loc.gov/item/afc1941018_afs05091b/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/afc1941016_afs05497b/",
+        "https://hdl.loc.gov/loc.afc/afc1941016_afs05497b",
+        "http://www.loc.gov/resource/afc1941016.afc1941016_afs05497b/",
+        "http://www.loc.gov/item/afc1941016.afc1941016_afs05497b/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "faulk, john henry",
+        "unidentified female interviewer",
+        "smalley, laura"
+      ],
+      "date": "1941-01-01",
+      "dates": [
+        "1941"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2021-11-10T16:21:02.577Z",
+      "group": [
+        "afcesn",
+        "ex-slave-narratives"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/afc1941016_afs05497b/",
+      "image_url": [],
+      "index": 16,
+      "item": {
+        "call_number": [
+          "AFC 1941/016: AFS 05497B"
+        ],
+        "contributors": [
+          "Faulk, John Henry",
+          "Unidentified female interviewer",
+          "Smalley, Laura"
+        ],
+        "created_published": [
+          "Hempstead, Texas, 1941"
+        ],
+        "date": "19410000",
+        "digital_id": [
+          "https://hdl.loc.gov/loc.afc/afc1941016_afs05497b"
+        ],
+        "format": "sound recording",
+        "genre": [
+          "Interviews",
+          "Field recordings"
+        ],
+        "language": "eng",
+        "location": [
+          "United States -- Texas -- Waller County -- Hempstead"
+        ],
+        "medium": [
+          "1 sound disc : analog, 33 1/3 rpm; 12 in."
+        ],
+        "notes": [
+          "Recorded by John Henry Faulk, Hempstead, Texas, 1941."
+        ],
+        "repository": "American Folklife Center",
+        "rights": "No known restrictions on use or reproduction.",
+        "source_collection": "John Henry Faulk recordings of Negro religious services (AFC 1941/016)",
+        "subjects": [
+          "Slave narratives--Texas",
+          "Freedmen--Texas",
+          "Slaveholders--Texas",
+          "Fugitive slaves--Texas--Anecdotes",
+          "Women slaves--Texas--Social conditions",
+          "Whipping",
+          "Food habits",
+          "Juneteenth--Texas",
+          "Women slaves--Abuse of",
+          "Meteor showers--Southern States",
+          "Indians of North America--Anecdotes",
+          "Interviews",
+          "Field recordings",
+          "United States -- Texas -- Waller County -- Hempstead"
+        ],
+        "title": "Interview with Laura Smalley, Hempstead, Texas, 1941 (part 4 of 5)"
+      },
+      "language": [
+        "english"
+      ],
+      "location": [
+        "waller county",
+        "hempstead",
+        "united states",
+        "texas"
+      ],
+      "mime_type": [
+        "audio/mp3",
+        "text/xml",
+        "audio/wav",
+        "application/pdf",
+        "application/xml",
+        "application/x-audio"
+      ],
+      "online_format": [
+        "audio",
+        "online text",
+        "pdf"
+      ],
+      "original_format": [
+        "sound recording"
+      ],
+      "partof": [
+        "voices remembering slavery: freed people tell their stories",
+        "john henry faulk recordings of negro religious services",
+        "american folklife center"
+      ],
+      "resources": [
+        {
+          "audio": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05497/afc1941016_afs05497b.mp3",
+          "files": 1,
+          "fulltext_file": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05497/afc1941016_afs05497b.xml",
+          "media_object_id": "73905F6CBE5A0020E0538C93F1160020",
+          "pdf": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05497/afc1941016_afs05497b.pdf",
+          "url": "https://www.loc.gov/resource/afc1941016.afc1941016_afs05497b/"
+        }
+      ],
+      "shelf_id": "AFC 1941/016: AFS 05497B",
+      "subject": [
+        "freedmen",
+        "food habits",
+        "slaveholders",
+        "juneteenth",
+        "southern states",
+        "fugitive slaves",
+        "slave narratives",
+        "women slaves",
+        "social conditions",
+        "meteor showers",
+        "interviews",
+        "abuse of",
+        "indians of north america",
+        "field recordings",
+        "whipping",
+        "anecdotes",
+        "texas"
+      ],
+      "timestamp": "2022-04-27T02:43:31.011Z",
+      "title": "Interview with Laura Smalley, Hempstead, Texas, 1941 (part 4 of 5)",
+      "type": "legacyzoom",
+      "url": "https://www.loc.gov/item/afc1941016_afs05497b/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/afc1941016_afs05500a/",
+        "https://hdl.loc.gov/loc.afc/afc1941016_afs05500a",
+        "http://www.loc.gov/resource/afc1941016.afc1941016_afs05500a/",
+        "http://www.loc.gov/item/afc1941016.afc1941016_afs05500a/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "smith, harriet",
+        "faulk, john henry"
+      ],
+      "date": "1941-01-01",
+      "dates": [
+        "1941"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2021-11-10T16:21:02.577Z",
+      "group": [
+        "afcesn",
+        "ex-slave-narratives"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/afc1941016_afs05500a/",
+      "image_url": [],
+      "index": 17,
+      "item": {
+        "call_number": [
+          "AFC 1941/016: AFS 05500A"
+        ],
+        "contributors": [
+          "Faulk, John Henry",
+          "Smith, Harriet"
+        ],
+        "created_published": [
+          "Hempstead, Texas, 1941"
+        ],
+        "date": "19410000",
+        "digital_id": [
+          "https://hdl.loc.gov/loc.afc/afc1941016_afs05500a"
+        ],
+        "format": "sound recording",
+        "genre": [
+          "Interviews",
+          "Field recordings"
+        ],
+        "language": "eng",
+        "location": [
+          "United States -- Texas -- Waller County -- Hempstead"
+        ],
+        "medium": [
+          "1 sound disc : analog, 33 1/3 rpm; 12 in."
+        ],
+        "notes": [
+          "Recorded by John Henry Faulk, Hempstead, Texas, 1941."
+        ],
+        "repository": "American Folklife Center",
+        "rights": "No known restrictions on use or reproduction.",
+        "source_collection": "John Henry Faulk recordings of Negro religious services (AFC 1941/016)",
+        "subjects": [
+          "Slave narratives--Texas",
+          "Freedmen--Texas",
+          "African Americans--Texas--Social conditions",
+          "Violent deaths--Texas--Hempstead",
+          "Slaves--Texas--Religious life",
+          "Race relations--Texas--Anecdotes",
+          "African Americans--Crimes against--Texas",
+          "Interviews",
+          "Field recordings",
+          "United States -- Texas -- Waller County -- Hempstead"
+        ],
+        "title": "Interview with Aunt Harriet Smith, Hempstead, Texas, 1941 (part 3 of 4)"
+      },
+      "language": [
+        "english"
+      ],
+      "location": [
+        "waller county",
+        "hempstead",
+        "united states",
+        "texas"
+      ],
+      "mime_type": [
+        "audio/mp3",
+        "text/xml",
+        "audio/wav",
+        "application/pdf",
+        "application/xml",
+        "application/x-audio"
+      ],
+      "online_format": [
+        "audio",
+        "online text",
+        "pdf"
+      ],
+      "original_format": [
+        "sound recording"
+      ],
+      "partof": [
+        "voices remembering slavery: freed people tell their stories",
+        "john henry faulk recordings of negro religious services",
+        "american folklife center"
+      ],
+      "resources": [
+        {
+          "audio": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05500/afc1941016_afs05500a.mp3",
+          "files": 1,
+          "fulltext_file": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05500/afc1941016_afs05500a.xml",
+          "media_object_id": "73905F7DC4D501E2E0538C93F11601E2",
+          "pdf": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05500/afc1941016_afs05500a.pdf",
+          "url": "https://www.loc.gov/resource/afc1941016.afc1941016_afs05500a/"
+        }
+      ],
+      "shelf_id": "AFC 1941/016: AFS 05500A",
+      "subject": [
+        "freedmen",
+        "violent deaths",
+        "hempstead",
+        "slave narratives",
+        "african americans",
+        "religious life",
+        "social conditions",
+        "interviews",
+        "field recordings",
+        "slaves",
+        "race relations",
+        "crimes against",
+        "anecdotes",
+        "texas"
+      ],
+      "timestamp": "2022-04-27T02:43:31.011Z",
+      "title": "Interview with Aunt Harriet Smith, Hempstead, Texas, 1941 (part 3 of 4)",
+      "type": "legacyzoom",
+      "url": "https://www.loc.gov/item/afc1941016_afs05500a/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "https://blogs.loc.gov/folklife/2025/06/bunday-old-story-jack-tales-from-the-bahamas/",
+        "https://blogs.loc.gov/folklife/2025/06/bunday-old-story-jack-tales-from-the-bahamas"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "winick, stephen"
+      ],
+      "date": "2025-06-02",
+      "dates": [
+        "2025-06-02"
+      ],
+      "description": [
+        "This post presents several folktales from the Bahamas focusing on the adventures of the tricky, resourceful folktale hero Jack. We’ll see Jack escaping from the giants by charming them with his musical instrument and witness his courtship with the Devil’s daughter, Greenleaf. Like most Bahamian folktales, these stories contain complex wordplay and have songs embedded in the tales. The two tales here are very distinctively part of the Jack tale tradition, which must have been brought to the Bahamas with English settlers, but they also have African and other elements springing from their complex Caribbean roots. They were recorded by Alan Lomax and Mary Elizabeth Barnicle in 1935."
+      ],
+      "digitized": true,
+      "extract_timestamp": "2026-09-19T14:23:17.154Z",
+      "group": [
+        "blogs"
+      ],
+      "hassegments": false,
+      "id": "https://blogs.loc.gov/folklife/2025/06/bunday-old-story-jack-tales-from-the-bahamas/",
+      "image_url": [
+        "https://blogs.loc.gov/folklife/files/2025/05/Bunday-Featured-2.jpg"
+      ],
+      "index": 18,
+      "language": [
+        "english"
+      ],
+      "mime_type": [
+        "application/json+oembed",
+        "text/xml+oembed",
+        "text/html"
+      ],
+      "online_format": [
+        "online text",
+        "web page"
+      ],
+      "original_format": [
+        "web page",
+        "sound recording"
+      ],
+      "partof": [
+        "american folklife center",
+        "folklife today blog",
+        "library of congress blogs"
+      ],
+      "shelf_id": "https://blogs.loc.gov/folklife/2025/06/bunday-old-story-jack-tales-from-the-bahamas/",
+      "site": [
+        "lcweb"
+      ],
+      "subject": [
+        "folklife",
+        "blogs"
+      ],
+      "timestamp": "2026-09-19T17:53:16.859Z",
+      "title": "Bunday! Old-Story Jack Tales from the Bahamas",
+      "type": [
+        "webpage"
+      ],
+      "url": "https://blogs.loc.gov/folklife/2025/06/bunday-old-story-jack-tales-from-the-bahamas/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "https://blogs.loc.gov/folklife/2020/10/haunting-songs-for-halloween-2020/",
+        "https://blogs.loc.gov/folklife/2020/10/haunting-songs-for-halloween-2020"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "winick, stephen"
+      ],
+      "date": "2020-10-21",
+      "dates": [
+        "2020-10-21"
+      ],
+      "description": [
+        "It&#8217;s late October, and here at Folklife Today that means we&#8217;re getting ready for Halloween! This post is a haunted hayride of traditional songs featuring ghosts, goblins, faeries, and elves."
+      ],
+      "digitized": true,
+      "extract_timestamp": "2026-09-19T14:29:28.444Z",
+      "group": [
+        "blogs"
+      ],
+      "hassegments": false,
+      "id": "https://blogs.loc.gov/folklife/2020/10/haunting-songs-for-halloween-2020/",
+      "image_url": [
+        "https://blogs.loc.gov/folklife/files/2020/10/Halloween-Postcard-front-12.jpg"
+      ],
+      "index": 19,
+      "language": [
+        "english"
+      ],
+      "mime_type": [
+        "application/json+oembed",
+        "text/xml+oembed",
+        "text/html"
+      ],
+      "online_format": [
+        "online text",
+        "web page"
+      ],
+      "original_format": [
+        "web page",
+        "sound recording"
+      ],
+      "partof": [
+        "american folklife center",
+        "folklife today blog",
+        "library of congress blogs"
+      ],
+      "shelf_id": "https://blogs.loc.gov/folklife/2020/10/haunting-songs-for-halloween-2020/",
+      "site": [
+        "lcweb"
+      ],
+      "subject": [
+        "folklife",
+        "blogs"
+      ],
+      "timestamp": "2026-09-19T17:52:21.022Z",
+      "title": "Haunting Songs for Halloween 2020",
+      "type": [
+        "webpage"
+      ],
+      "url": "https://blogs.loc.gov/folklife/2020/10/haunting-songs-for-halloween-2020/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://lccn.loc.gov/2023655274",
+        "http://www.loc.gov/item/2023655274/",
+        "https://hdl.loc.gov/loc.afc/afc2014022.afc2014022_02460_sr01",
+        "http://www.loc.gov/resource/afc2014022.afc2014022_02460_sr01/",
+        "http://www.loc.gov/resource/afc2014022.afc2014022_02460_ms03/",
+        "http://www.loc.gov/resource/afc2014022.afc2014022_02460_ms04/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "lazor, anne",
+        "lazor, jack",
+        "kolovos, andy",
+        "occupational folklife project"
+      ],
+      "date": "2015",
+      "dates": [
+        "2015"
+      ],
+      "description": [
+        "Seminal Vermont organic farmers Jack Lazor and Anne Lazor of Butterworks Farm in Westfield, Vermont, talk about going back to the land after college; their early efforts at raising grains and beans; their shift to dairy and the development of a market for yogurt; and the importance of organic agriculture. They also discuss the generational transfer of their farm to their daughter and son-in-law."
+      ],
+      "digitized": true,
+      "extract_timestamp": "2023-10-16T18:31:05.794Z",
+      "group": [
+        "afc/ofp/2014022",
+        "grass-roots-agriculture-in-vermont"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/2023655274/",
+      "image_url": [
+        "https://tile.loc.gov/storage-services/service/afc/afc2014022/afc2014022_02460/afc2014022_02460_ms03.gif",
+        "https://tile.loc.gov/storage-services/service/afc/afc2014022/afc2014022_02460/afc2014022_02460_ms03.gif#h=150&w=194"
+      ],
+      "index": 20,
+      "item": {
+        "access_advisory": [
+          "Collection is open for research. To request materials, please contact the Folklife Reading Room at https://hdl.loc.gov/loc.afc/folklife.contact"
+        ],
+        "contributors": [
+          "Lazor, Anne, interviewee",
+          "Lazor, Jack, 1951- interviewee",
+          "Kolovos, Andy, interviewer",
+          "Occupational Folklife Project, sponsor"
+        ],
+        "created_published": [
+          "2015-03-19"
+        ],
+        "date": "2015",
+        "digital_id": [
+          "https://hdl.loc.gov/loc.afc/afc2014022.afc2014022_02460_sr01",
+          "afc2014022.afc2014022_02460_ms03",
+          "afc2014022.afc2014022_02460_ms04"
+        ],
+        "format": [
+          "sound recording-nonmusical"
+        ],
+        "genre": [
+          "Sound recordings",
+          "Interviews",
+          "Oral histories",
+          "Personal narratives"
+        ],
+        "language": [
+          "eng"
+        ],
+        "location": [
+          "Vermont",
+          "United States",
+          "Westfield (Vt.)"
+        ],
+        "medium": [
+          "1 sound recording (02:12:30) : digital, wav",
+          "2 manuscripts : pdf, text files"
+        ],
+        "notes": [
+          "Vermont Folklife Center Archive Identifier: vfc2014-0005_2015-1008",
+          "Recorded at Butterworks Farm, Westfield, Vermont, March 19, 2015.",
+          "Grass-Roots Agriculture in Vermont: Archie Green Fellows Project, 2014-2015 (AFC 2014/022: 02460) American Folklife Center, Library of Congress, Washington, D.C.",
+          "To honor the memory of Archie Green (1917-2009), a fellowship program was established at the American Folklife Center in 2010. Archie Green Fellowships support new research in the contemporary culture and traditions of American workers.",
+          "In English."
+        ],
+        "repository": [
+          "Library of Congress American Folklife Center, 101 Independence Ave. S.E., Washington, DC USA 20540-4610 https://hdl.loc.gov/loc.afc/folklife.home"
+        ],
+        "rights_advisory": [
+          "Duplication of collection materials may be governed by copyright and other restrictions."
+        ],
+        "source_collection": [
+          "Grass-Roots Agriculture in Vermont: Archie Green Fellows Project, 2014-2015 AFC 2014/022: 02460"
+        ],
+        "subjects": [
+          "Lazor, Anne--Interviews",
+          "Lazor, Jack,--1951---Interviews",
+          "Farmers--Vermont--Interviews",
+          "Agricultural laborers--Vermont--Interviews",
+          "Dairy farms--Vermont",
+          "Dairy processing--Vermont",
+          "Dairy products--Vermont",
+          "Family farms--Vermont",
+          "Family-owned business enterprises",
+          "Farm produce--United States--Marketing",
+          "Local foods--Vermont",
+          "Organic farming",
+          "Vermont--Social life and customs"
+        ],
+        "summary": [
+          "Seminal Vermont organic farmers Jack Lazor and Anne Lazor of Butterworks Farm in Westfield, Vermont, talk about going back to the land after college; their early efforts at raising grains and beans; their shift to dairy and the development of a market for yogurt; and the importance of organic agriculture. They also discuss the generational transfer of their farm to their daughter and son-in-law."
+        ],
+        "title": "Anne Lazor and Jack Lazor interview conducted by Andy Kolovos, 2015-03-19"
+      },
+      "language": [
+        "english"
+      ],
+      "location": [
+        "united states",
+        "vermont",
+        "westfield"
+      ],
+      "mime_type": [
+        "audio/mp3",
+        "image/gif",
+        "audio/wav",
+        "application/pdf"
+      ],
+      "number": [
+        "2023655274",
+        "2023-10-06t09:23:00",
+        "online resource"
+      ],
+      "number_carrier_type": [
+        "online resource"
+      ],
+      "number_lccn": [
+        "2023655274"
+      ],
+      "number_source_modified": [
+        "2023-10-06t09:23:00"
+      ],
+      "online_format": [
+        "audio",
+        "image",
+        "pdf"
+      ],
+      "original_format": [
+        "sound recording"
+      ],
+      "partof": [
+        "occupational folklife project",
+        "catalog",
+        "grass-roots agriculture in vermont, 2014-2015",
+        "american folklife center"
+      ],
+      "resources": [
+        {
+          "caption": "Audio recording of interview with Jack Lazor and Anne Lazor.",
+          "files": 1,
+          "url": "https://www.loc.gov/resource/afc2014022.afc2014022_02460_sr01/"
+        },
+        {
+          "caption": "Time-coded text log of content of interview with Jack and Anne Lazor.",
+          "files": 1,
+          "image": "https://tile.loc.gov/storage-services/service/afc/afc2014022/afc2014022_02460/afc2014022_02460_ms03.gif",
+          "pdf": "https://tile.loc.gov/storage-services/service/afc/afc2014022/afc2014022_02460/afc2014022_02460_ms03.pdf",
+          "url": "https://www.loc.gov/resource/afc2014022.afc2014022_02460_ms03/"
+        },
+        {
+          "caption": "Fieldnotes from interview with Jack Lazor and Anne Lazor.",
+          "files": 1,
+          "image": "https://tile.loc.gov/storage-services/service/afc/afc2014022/afc2014022_02460/afc2014022_02460_ms04.gif",
+          "pdf": "https://tile.loc.gov/storage-services/service/afc/afc2014022/afc2014022_02460/afc2014022_02460_ms04.pdf",
+          "url": "https://www.loc.gov/resource/afc2014022.afc2014022_02460_ms04/"
+        }
+      ],
+      "shelf_id": "http://lccn.loc.gov/2023655274",
+      "site": [
+        "catalog"
+      ],
+      "subject": [
+        "oral histories",
+        "marketing",
+        "farmers",
+        "lazor, jack",
+        "dairy processing",
+        "lazor, anne",
+        "family-owned business enterprises",
+        "family farms",
+        "united states",
+        "interviews",
+        "farm produce",
+        "agricultural laborers",
+        "dairy farms",
+        "sound recordings",
+        "local foods",
+        "personal narratives",
+        "vermont",
+        "organic farming",
+        "social life and customs",
+        "dairy products"
+      ],
+      "timestamp": "2023-10-16T18:33:25.372Z",
+      "title": "Anne Lazor and Jack Lazor interview conducted by Andy Kolovos, 2015-03-19",
+      "type": [
+        "sound recording-nonmusical"
+      ],
+      "url": "https://www.loc.gov/item/2023655274/"
+    }
+  ]
+}

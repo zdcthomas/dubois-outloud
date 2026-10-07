@@ -1,0 +1,44 @@
+# One self-hosted, one streamed, one rejected, and a song with nothing
+# approved. Every branch the chapter page can take.
+- song: steal-away
+  loc_id: jukebox-4649
+  status: approved
+  delivery: selfhost
+  note: A note that must reach the page.
+  loc:
+    title: Steal away
+    date: "1902-10-29"
+    collection: national jukebox
+    collections: [national jukebox]
+    performers: [Fisk University Jubilee Quartet]
+    place: null
+    duration_seconds: 150
+    audio_url: https://tile.loc.gov/storage-services/fake.mp3
+    can_download: true
+    rights: No known restrictions on use.
+    item_url: https://www.loc.gov/item/jukebox-4649/
+    checked: "2026-10-07"
+- song: steal-away
+  loc_id: jukebox-5000
+  status: approved
+  delivery: stream
+  note: null
+  loc:
+    title: Steal away to Jesus
+    date: "1931-03-04"
+    collection: national jukebox
+    collections: [national jukebox]
+    performers: [Unnamed quartet]
+    place: null
+    duration_seconds: 160
+    audio_url: https://tile.loc.gov/streaming-services/streamed.mp3
+    can_download: false
+    rights: Hosted by permission from the rightsholders.
+    item_url: https://www.loc.gov/item/jukebox-5000/
+    checked: "2026-10-07"
+- song: steal-away
+  loc_id: jukebox-6000
+  status: rejected
+  delivery: null
+  note: Instrumental only; no voices.
+  loc: null

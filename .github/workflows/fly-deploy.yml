@@ -1,0 +1,40 @@
+# See https://fly.io/docs/app-guides/continuous-deployment-with-github-actions/
+name: Fly Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Deploy app
+    runs-on: ubuntu-latest
+    concurrency: deploy-group
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      # The Docker build needs the audio and the notation in its context and
+      # neither is in git. Same cache key as CI, so a push that changes no
+      # manifest reuses what CI already fetched.
+      - name: Restore fetched assets
+        uses: actions/cache@v4
+        with:
+          path: |
+            public/audio
+            src/assets/notation
+          key: assets-${{ hashFiles('src/data/recordings.yaml', 'src/data/songs.yaml') }}
+
+      - run: pnpm fetch:audio
+      - run: pnpm fetch:scans
+
+      - uses: superfly/flyctl-actions/setup-flyctl@master
+      - run: flyctl deploy --remote-only
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}

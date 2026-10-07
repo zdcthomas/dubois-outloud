@@ -1,0 +1,56 @@
+# Typecheck, unit tests, and a full build. The build is itself a check: the
+# manifest gate runs as an Astro integration, so a bad recordings.yaml fails
+# here by design.
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: typecheck + unit tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm check
+      - run: pnpm test
+
+  build:
+    name: build + link check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      # Audio and notation are build artifacts, not source. Cached on the
+      # manifests that produce them, so loc.gov and archive.org see a request
+      # only when a manifest actually changes.
+      - name: Restore fetched assets
+        uses: actions/cache@v4
+        with:
+          path: |
+            public/audio
+            src/assets/notation
+          key: assets-${{ hashFiles('src/data/recordings.yaml', 'src/data/songs.yaml') }}
+
+      - run: pnpm fetch:audio
+      - run: pnpm fetch:scans
+      - run: pnpm build
+      - run: pnpm check:links

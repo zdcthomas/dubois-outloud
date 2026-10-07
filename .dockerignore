@@ -1,0 +1,14 @@
+node_modules
+dist
+.astro
+.direnv
+.git
+.github
+.superpowers
+.probe
+docs
+tests
+.tmp
+
+# public/audio and src/assets/notation are deliberately NOT here: they are
+# gitignored build artifacts that the Docker build context must carry.

@@ -1,0 +1,94 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+const approved = await getCollection('recordings', (r) => r.data.status === 'approved');
+const selfhosted = approved.filter((r) => r.data.delivery === 'selfhost');
+const streamed = approved.filter((r) => r.data.delivery === 'stream');
+
+// One block per distinct rights statement, so the page does not repeat a
+// 1,500-word notice once per recording.
+const byRights = new Map<string, typeof approved>();
+for (const r of approved) {
+  const key = r.data.loc!.rights;
+  byRights.set(key, [...(byRights.get(key) ?? []), r]);
+}
+---
+<Base
+  title="Sources and rights — The Souls of Black Folk"
+  description="Where the text, the notation and every recording on this site come from, and the rights statement each one carries."
+>
+  <h1>Sources and rights</h1>
+
+  <h2>The text</h2>
+  <p>
+    W. E. B. Du Bois, <cite>The Souls of Black Folk: Essays and Sketches</cite>,
+    Chicago, A. C. McClurg &amp; Co., 1903. The text here comes from
+    <a href="https://www.gutenberg.org/ebooks/408">Project Gutenberg eBook 408</a>
+    and is in the public domain.
+  </p>
+
+  <h2>The notation</h2>
+  <p>
+    Each chapter head shows the bar of music Du Bois printed there, cropped from
+    a scan of the 1903 first edition held by the Internet Archive as item
+    <a href="https://archive.org/details/cu31924024920492">cu31924024920492</a>.
+    The 1903 engravings are in the public domain.
+  </p>
+
+  <h2>The recordings</h2>
+  <p>
+    All {approved.length} recordings come from the Library of Congress.
+    {selfhosted.length} are served from this site and {streamed.length} stream
+    from loc.gov. A recording streams when its rights status does not clearly
+    permit redistribution. If a school network blocks loc.gov those players will
+    fail while the rest of the site keeps working, and the item link beside each
+    one still reaches the Library.
+  </p>
+
+  {[...byRights.entries()].map(([rights, items]) => (
+    <section class="rights">
+      <p class="applies">Applies to:</p>
+      <ul>
+        {items.map((r) => (
+          <li>
+            <a href={r.data.loc!.item_url}>{r.data.loc!.title}</a>
+            {r.data.loc!.date && <>, {r.data.loc!.date.slice(0, 4)}</>}
+            {' '}— served {r.data.delivery === 'selfhost' ? 'from this site' : 'from loc.gov'}
+          </li>
+        ))}
+      </ul>
+      <blockquote>{rights}</blockquote>
+    </section>
+  ))}
+
+  <h2>A note on rights</h2>
+  <p>
+    Recordings dated before 1923 are treated here as public domain under the
+    Music Modernization Act. That is an editorial judgment, not legal advice.
+    Every statement above is quoted as the Library of Congress published it, so
+    you can check that reading against the source.
+  </p>
+
+  <h2>How this site was built</h2>
+  <p>
+    A static site generated from two YAML manifests. The source, including every
+    recording considered and rejected, is at
+    <a href="https://github.com/OWNER/dubois-outloud">github.com/OWNER/dubois-outloud</a>.
+  </p>
+  <p>
+    The pairing of chapter to spiritual follows the 1903 edition. The musical
+    hypertext edition at <a href="https://way.net/SoulsOfBlackFolk/">way.net</a>
+    first set the book out this way online.
+  </p>
+
+  <style>
+    .rights { margin: 1.5rem 0; }
+    .rights blockquote {
+      margin: .5rem 0 0; padding: .75rem 1rem; border-left: 3px solid;
+      font-size: .85rem;
+    }
+    .applies { margin: .5rem 0 .25rem; font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; }
+    .rights ul { margin: 0; font-size: .9rem; }
+  </style>
+</Base>

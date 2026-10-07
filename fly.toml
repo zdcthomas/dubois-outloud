@@ -1,0 +1,18 @@
+app = 'dubois-outloud'
+primary_region = 'ewr'
+
+[build]
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = 'stop'
+  auto_start_machines = true
+  # A class should not pay a cold start in the middle of a lesson. One warm
+  # machine costs about two dollars a month.
+  min_machines_running = 1
+
+[[vm]]
+  memory = '256mb'
+  cpu_kind = 'shared'
+  cpus = 1

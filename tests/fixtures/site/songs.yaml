@@ -1,0 +1,10 @@
+# Two songs on one chapter, so the build exercises the multi-song path that
+# chapter 14 needs in the real manifest.
+- slug: steal-away
+  chapter: 1
+  title: "Steal Away"
+  scan: null
+- slug: poor-rosy
+  chapter: 1
+  title: "Poor Rosy"
+  scan: null
