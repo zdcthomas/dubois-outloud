@@ -1,0 +1,86 @@
+---
+import { audioFilename } from '../../scripts/fetch-audio.mjs';
+
+interface Recording {
+  loc_id: string;
+  song: string;
+  delivery: 'selfhost' | 'stream';
+  note: string | null;
+  loc: {
+    title: string;
+    date: string | null;
+    performers: string[];
+    place: string | null;
+    duration_seconds: number | null;
+    audio_url: string;
+    rights: string;
+    item_url: string;
+  };
+}
+
+interface Props {
+  recordings: Recording[];
+  songTitle: string;
+}
+
+const { recordings, songTitle } = Astro.props;
+
+const year = (date: string | null) => (date ? date.slice(0, 4) : 'date unknown');
+
+// Several named singers plus their ensemble is more than a citation line
+// needs, so the first credit leads and the rest are counted.
+const who = (r: Recording) => {
+  const names = r.loc.performers;
+  if (names.length === 0) return 'performer unnamed';
+  if (names.length === 1) return names[0];
+  return `${names[0]} and ${names.length - 1} others`;
+};
+
+const src = (r: Recording) =>
+  r.delivery === 'selfhost' ? `/audio/${audioFilename(r)}` : r.loc.audio_url;
+
+const minutes = (s: number | null) =>
+  s === null ? null : `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, '0')}`;
+---
+{recordings.length === 0 ? (
+  <p class="none">
+    No vetted recording of <cite>{songTitle}</cite> yet. The Library of Congress
+    may not hold one.
+  </p>
+) : (
+  <section class="recordings" aria-label={`Recordings of ${songTitle}`}>
+    <h2>Recordings of <cite>{songTitle}</cite></h2>
+    <ol>
+      {recordings.map((r) => (
+        <li>
+          <p class="cite">
+            <strong>{who(r)}</strong>, {year(r.loc.date)}
+            {r.loc.place && <> · {r.loc.place}</>}
+            {minutes(r.loc.duration_seconds) && <> · {minutes(r.loc.duration_seconds)}</>}
+          </p>
+          {r.note && <p class="note">{r.note}</p>}
+          <audio
+            controls
+            preload="none"
+            src={src(r)}
+            aria-label={`${songTitle}, performed by ${who(r)}, ${year(r.loc.date)}`}
+          ></audio>
+          <p class="source">
+            <a href={r.loc.item_url}>Library of Congress item {r.loc_id}</a>
+            {r.delivery === 'stream' && <> · streamed from loc.gov</>}
+          </p>
+        </li>
+      ))}
+    </ol>
+    <style>
+      .recordings { margin: 2rem 0; padding: 1rem 0; border-top: 1px solid; border-bottom: 1px solid; }
+      .recordings ol { list-style: none; padding: 0; }
+      .recordings li + li { margin-top: 1.5rem; }
+      .cite { margin: 0; }
+      .note { font-size: .95rem; font-style: italic; margin: .25rem 0; }
+      .source { font-size: .85rem; margin: .25rem 0 0; }
+      audio { width: 100%; margin-top: .5rem; }
+      .none { font-style: italic; }
+    </style>
+  </section>
+)}

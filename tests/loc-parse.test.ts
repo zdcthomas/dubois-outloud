@@ -78,6 +78,46 @@ describe('parseItem', () => {
     expect(r.collection).not.toMatch(/\[object/);
   });
 
+  it('names the performers, properly cased, for citation', () => {
+    // contributor_names is the only key carrying real capitalisation. The
+    // contributor_* arrays are lowercased ("seagle, oscar"), which is no good
+    // on a page a student is meant to cite.
+    const r = parseItem(load('jukebox-879940'), 'jukebox-879940')!;
+    expect(r.performers).toContain('Seagle, Oscar');
+  });
+
+  it('credits the ensemble, not only the individual singers', () => {
+    const r = parseItem(load('jukebox-128141'), 'jukebox-128141')!;
+    expect(r.performers).toContain('Fisk University Jubilee Singers');
+  });
+
+  it('leaves out arrangers and collectors, who did not perform', () => {
+    // The 1917 side credits H. T. Burleigh as arranger; the Lomax item credits
+    // John and Ruby Lomax as collectors. Naming a collector as the performer
+    // would misattribute the singing to the folklorist who recorded it.
+    const jukebox = parseItem(load('jukebox-879940'), 'jukebox-879940')!;
+    expect(jukebox.performers.join(' ')).not.toMatch(/Burleigh/i);
+
+    const lomax = parseItem(load('lomaxbib000533'), 'lomaxbib000533')!;
+    expect(lomax.performers.join(' ')).not.toMatch(/Lomax/i);
+  });
+
+  it('finds performers on a Folklife item, which uses a different key shape', () => {
+    const r = parseItem(load('lomaxbib000533'), 'lomaxbib000533')!;
+    expect(r.performers.length).toBeGreaterThan(0);
+    expect(r.performers).toContain('Unidentified singers');
+  });
+
+  it('strips the role suffix from every performer name', () => {
+    for (const id of ['jukebox-879940', 'jukebox-128141', 'lomaxbib000533']) {
+      const r = parseItem(load(id), id)!;
+      for (const name of r.performers) {
+        expect(name).not.toMatch(/ -- /);
+        expect(name).not.toMatch(/\((?:Performer|Collector|Arranger)\)/i);
+      }
+    }
+  });
+
   it('returns every field locSchema requires', () => {
     const r = parseItem(load('jukebox-879940'), 'jukebox-879940')!;
     for (const key of ['title', 'date', 'collection', 'performers', 'place',

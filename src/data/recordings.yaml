@@ -11,9 +11,9 @@
 # rewrite this whole file, so a comment on a line would not survive.
 - song: nobody-knows-the-trouble-ive-seen
   loc_id: jukebox-879940
-  status: unreviewed
+  status: approved
   delivery: selfhost
-  note: null
+  note: Oscar Seagle, baritone, with an arrangement by Harry T. Burleigh, recorded in New York in 1917. A trained concert singer and a written arrangement. Listen for how controlled it is, then compare it with the congregation in chapter 2.
   loc:
     title: Nobody knows de trouble I've seen
     date: 1917-11-21
@@ -23,7 +23,7 @@
       - national jukebox
       - recorded sound research center
     performers:
-      - seagle, oscar
+      - Seagle, Oscar
     place: new york
     duration_seconds: 186
     audio_url: https://tile.loc.gov/streaming-services/iiif/service:mbrsrs:mbrsjukebox:ucsb_col_a2469_01_77522_00:ucsb_col_a2469_01_77522_00/full/full/0/full/default.mp3
@@ -33,9 +33,9 @@
     checked: 2026-10-07
 - song: my-lord-what-a-mourning
   loc_id: lomaxbib000533
-  status: unreviewed
+  status: approved
   delivery: selfhost
-  note: null
+  note: Recorded by John and Ruby Lomax in Pickens County, South Carolina, in June 1939, in a church rather than a studio. The singers are unnamed in the record. Listen for the overlapping voices and the room itself.
   loc:
     title: My Lord, What a Mornin'
     date: 1939-06-11
@@ -46,7 +46,9 @@
       - the library of congress celebrates the songs of america
       - american folklife center
       - american memory
-    performers: []
+    performers:
+      - Unidentified singers
+      - Coson, Anna F.
     place: pickens county
     duration_seconds: null
     audio_url: https://tile.loc.gov/storage-services/media/afc/lomax/afc1939001_02726a2.mp3
@@ -56,9 +58,9 @@
     checked: 2026-10-07
 - song: swing-low-sweet-chariot
   loc_id: jukebox-128141
-  status: unreviewed
+  status: approved
   delivery: selfhost
-  note: null
+  note: The Fisk University Jubilee Singers, recorded in Camden, New Jersey, in 1909 — the earliest of the three. Fisk had been touring this repertoire for forty years by then, and Du Bois heard them sing while he was a student there.
   loc:
     title: Swing low, sweet chariot
     date: 1909-12-01
@@ -68,11 +70,11 @@
       - national jukebox
       - recorded sound research center
     performers:
-      - myers, j. a.
-      - work, john wesley
-      - ryder, noah walker
-      - king, alfred garfield
-      - fisk university jubilee singers
+      - Myers, J. A.
+      - Fisk University Jubilee Singers
+      - Work, John Wesley
+      - Ryder, Noah Walker
+      - King, Alfred Garfield
     place: camden
     duration_seconds: 180
     audio_url: https://tile.loc.gov/streaming-services/iiif/service:mbrsrs:mbrsjukebox:dlc_victor_16453_01_b8420_03:dlc_victor_16453_01_b8420_03/full/full/0/full/default.mp3

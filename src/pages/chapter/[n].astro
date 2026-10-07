@@ -1,28 +1,59 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import RecordingList from '../../components/RecordingList.astro';
 
 export async function getStaticPaths() {
   const chapters = await getCollection('chapters', (c) => c.data.chapter !== null);
+  const songs = await getCollection('songs');
+  const approved = await getCollection('recordings', (r) => r.data.status === 'approved');
+
   return chapters.map((entry) => ({
     params: { n: String(entry.data.chapter) },
-    props: { entry },
+    props: {
+      entry,
+      songs: songs
+        .filter((s) => s.data.chapter === entry.data.chapter)
+        .map((s) => ({
+          title: s.data.title,
+          // The manifest gate guarantees an approved entry has a non-null
+          // audio_url and a delivery, so narrowing here is safe and keeps the
+          // component's props honest about never receiving a null source.
+          recordings: approved
+            .filter((r) => r.data.song === s.data.slug)
+            .map((r) => r.data as typeof r.data & {
+              delivery: 'selfhost' | 'stream';
+              loc: NonNullable<typeof r.data.loc> & { audio_url: string };
+            }),
+        })),
+    },
   }));
 }
 
-const { entry } = Astro.props;
+const { entry, songs } = Astro.props;
 const { Content } = await render(entry);
 const n = entry.data.chapter!;
 ---
 <Base title={`${n}. ${entry.data.heading} — The Souls of Black Folk`}>
   <p class="eyebrow">Chapter {n}</p>
   <h1>{entry.data.heading}</h1>
+
+  {songs.map((song) => (
+    <RecordingList recordings={song.recordings} songTitle={song.title} />
+  ))}
+
   <article><Content /></article>
+
   <nav class="chapter-nav">
     {n > 1 && <a href={`/chapter/${n - 1}/`} rel="prev">Previous chapter</a>}
     {n < 14 && <a href={`/chapter/${n + 1}/`} rel="next">Next chapter</a>}
     {n === 14 && <a href="/afterthought/" rel="next">The Afterthought</a>}
   </nav>
+
+  <script>
+    import '../../components/audio-exclusive.ts';
+  </script>
+
   <style>
     .eyebrow { text-transform: uppercase; letter-spacing: .08em; font-size: .8rem; }
     .chapter-nav { display: flex; justify-content: space-between; margin-top: 3rem; }

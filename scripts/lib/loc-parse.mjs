@@ -42,20 +42,66 @@ function canDownload(resource) {
 }
 
 /**
- * loc.gov spreads performer credits over several keys, and the shape differs
- * between collections: sometimes an array of names, sometimes an object keyed
- * by name. Normalise to a deduplicated array of plain strings.
+ * Credits for people who did not perform. A citation that named the folklorist
+ * who carried the recorder, or the arranger who wrote the setting, would
+ * attribute the singing to the wrong person.
+ */
+const NOT_A_PERFORMER =
+  /\b(arranger|collector|composer|lyricist|author|editor|writer|publisher|compiler|recordist|engineer|interviewer)\b/i;
+
+/**
+ * Pull "Name" and "Role" out of the two shapes loc.gov uses in
+ * contributor_names:
+ *
+ *   "Seagle, Oscar -- Vocalist -- Baritone Vocal"
+ *   "Lomax, John A. (John Avery), 1867-1948 (Collector)"
+ *
+ * The second shape is why the role is taken from the LAST parenthesised group
+ * rather than the first: names themselves contain parentheses.
+ */
+function splitCredit(raw) {
+  const credit = stripHtml(raw);
+  if (credit.includes(' -- ')) {
+    const [name, ...rest] = credit.split(' -- ');
+    return { name: name.trim(), role: rest.join(' ') };
+  }
+  const trailing = credit.match(/^(.*)\(([^)]*)\)\s*$/);
+  if (trailing) return { name: trailing[1].trim().replace(/,$/, ''), role: trailing[2] };
+  return { name: credit, role: '' };
+}
+
+/**
+ * Performer names, properly cased, for citation.
+ *
+ * contributor_names is the only key that carries real capitalisation — the
+ * contributor_* arrays are lowercased ("seagle, oscar"), which is no good on a
+ * page a student is meant to cite. It is also the only key present on
+ * Folklife Center items, which carry no contributor_vocalist at all.
+ *
+ * Roles are filtered rather than whitelisted: LoC's vocabulary is wide, and
+ * excluding the handful of non-performing credits keeps ensembles like
+ * "Vocal Group" without having to enumerate every performing role.
  */
 function performersOf(item) {
   const out = new Set();
-  for (const key of ['contributor_vocalist', 'contributor_primary', 'contributor']) {
-    const v = item[key];
-    if (Array.isArray(v)) for (const name of v) out.add(stripHtml(name));
-    else if (typeof v === 'string') out.add(stripHtml(v));
-    else if (v && typeof v === 'object') {
-      for (const name of Object.keys(v)) out.add(stripHtml(name));
+
+  for (const raw of item.contributor_names ?? []) {
+    const { name, role } = splitCredit(raw);
+    if (name && !NOT_A_PERFORMER.test(role)) out.add(name);
+  }
+
+  // Fall back to the lowercased keys only when contributor_names is absent.
+  if (out.size === 0) {
+    for (const key of ['contributor_vocalist', 'contributor_primary', 'contributor']) {
+      const v = item[key];
+      if (Array.isArray(v)) for (const name of v) out.add(stripHtml(name));
+      else if (typeof v === 'string') out.add(stripHtml(v));
+      else if (v && typeof v === 'object') {
+        for (const name of Object.keys(v)) out.add(stripHtml(name));
+      }
     }
   }
+
   return [...out].filter(Boolean);
 }
 
