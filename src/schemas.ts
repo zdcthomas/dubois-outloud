@@ -26,6 +26,17 @@ export const songsSchema = z.object({
 
 export type Song = z.infer<typeof songsSchema>;
 
+/**
+ * Frontmatter on the chapter files scripts/fetch-text.mjs writes.
+ * `chapter` is null for the Forethought and the Afterthought, which carry no
+ * number and no song.
+ */
+export const chaptersSchema = z.object({
+  heading: z.string().min(1),
+  chapter: z.number().int().min(1).max(14).nullable(),
+  source: z.string(),
+});
+
 /** The block scripts/fetch-loc.mjs owns. A human never hand-edits this. */
 export const locSchema = z.object({
   title: z.string().min(1),

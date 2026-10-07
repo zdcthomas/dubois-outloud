@@ -1,7 +1,42 @@
 ---
+import { getCollection, getEntry, render } from 'astro:content';
 import Base from '../layouts/Base.astro';
+
+const chapters = (await getCollection('chapters', (c) => c.data.chapter !== null))
+  .sort((a, b) => a.data.chapter! - b.data.chapter!);
+
+const songs = await getCollection('songs');
+const songsFor = (n: number) =>
+  songs.filter((s) => s.data.chapter === n).map((s) => s.data.title);
+
+const forethought = await getEntry('chapters', '00');
+if (!forethought) throw new Error('src/content/chapters/00.md is missing; run pnpm fetch:text');
+const { Content: Forethought } = await render(forethought);
 ---
-<Base title="The Souls of Black Folk">
+<Base
+  title="The Souls of Black Folk"
+  description="W. E. B. Du Bois, 1903, with recordings of the sorrow songs from the Library of Congress."
+>
   <h1>The Souls of Black Folk</h1>
-  <p>W. E. B. Du Bois, 1903. With recordings from the Library of Congress.</p>
+  <p class="byline">W. E. B. Du Bois, 1903</p>
+  <article><Forethought /></article>
+
+  <h2>Chapters</h2>
+  <ol class="chapters">
+    {chapters.map((c) => (
+      <li>
+        <a href={`/chapter/${c.data.chapter}/`}>{c.data.heading}</a>
+        <span class="songs">{songsFor(c.data.chapter!).join(' · ')}</span>
+      </li>
+    ))}
+    <li><a href="/afterthought/">The Afterthought</a></li>
+  </ol>
+
+  <p><a href="/songs/">Table of the songs</a> · <a href="/about/">Sources and rights</a></p>
+
+  <style>
+    .byline { font-style: italic; }
+    .chapters li { margin-bottom: .75rem; }
+    .songs { display: block; font-size: .9rem; font-style: italic; opacity: .8; }
+  </style>
 </Base>

@@ -5,9 +5,6 @@ import { splitBook } from '../scripts/fetch-text.mjs';
 const raw = readFileSync('tests/fixtures/gutenberg/pg408-sample.txt', 'utf8');
 const sections = splitBook(raw);
 
-const NUMERALS = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII',
-                  'IX', 'X', 'XI', 'XII', 'XIII', 'XIV'];
-
 describe('splitBook', () => {
   it('returns 16 sections', () => {
     expect(sections).toHaveLength(16);

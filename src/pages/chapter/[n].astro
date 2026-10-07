@@ -1,0 +1,30 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+export async function getStaticPaths() {
+  const chapters = await getCollection('chapters', (c) => c.data.chapter !== null);
+  return chapters.map((entry) => ({
+    params: { n: String(entry.data.chapter) },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const n = entry.data.chapter!;
+---
+<Base title={`${n}. ${entry.data.heading} — The Souls of Black Folk`}>
+  <p class="eyebrow">Chapter {n}</p>
+  <h1>{entry.data.heading}</h1>
+  <article><Content /></article>
+  <nav class="chapter-nav">
+    {n > 1 && <a href={`/chapter/${n - 1}/`} rel="prev">Previous chapter</a>}
+    {n < 14 && <a href={`/chapter/${n + 1}/`} rel="next">Next chapter</a>}
+    {n === 14 && <a href="/afterthought/" rel="next">The Afterthought</a>}
+  </nav>
+  <style>
+    .eyebrow { text-transform: uppercase; letter-spacing: .08em; font-size: .8rem; }
+    .chapter-nav { display: flex; justify-content: space-between; margin-top: 3rem; }
+  </style>
+</Base>

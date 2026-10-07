@@ -1,7 +1,7 @@
 import { defineCollection } from 'astro:content';
-import { file } from 'astro/loaders';
+import { file, glob } from 'astro/loaders';
 import { parse } from 'yaml';
-import { recordingSchema, songsSchema } from './schemas.ts';
+import { chaptersSchema, recordingSchema, songsSchema } from './schemas.ts';
 
 // Tests point this at a fixture directory; a normal build reads src/data.
 const DATA_DIR = process.env.DUBOIS_DATA_DIR ?? 'src/data';
@@ -32,4 +32,11 @@ const recordings = defineCollection({
   schema: recordingSchema,
 });
 
-export const collections = { songs, recordings };
+// The glob loader derives each entry's id from its filename, so the chapter
+// files land as ids "00" through "15".
+const chapters = defineCollection({
+  loader: glob({ pattern: '*.md', base: 'src/content/chapters' }),
+  schema: chaptersSchema,
+});
+
+export const collections = { songs, recordings, chapters };

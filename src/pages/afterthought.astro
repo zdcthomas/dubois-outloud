@@ -1,0 +1,19 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+const entry = await getEntry('chapters', '15');
+if (!entry) throw new Error('src/content/chapters/15.md is missing; run pnpm fetch:text');
+const { Content } = await render(entry);
+---
+<Base title="The Afterthought — The Souls of Black Folk">
+  <h1>{entry.data.heading}</h1>
+  <article><Content /></article>
+  <nav class="chapter-nav">
+    <a href="/chapter/14/" rel="prev">Previous chapter</a>
+    <a href="/">Back to the beginning</a>
+  </nav>
+  <style>
+    .chapter-nav { display: flex; justify-content: space-between; margin-top: 3rem; }
+  </style>
+</Base>
