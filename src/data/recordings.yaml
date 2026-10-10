@@ -30,7 +30,7 @@
     can_download: true
     rights: "The Library makes the sound recordings in the National Jukebox available pursuant to permission from the rightsholders. Under the Music Modernization Act, many of these recordings will begin entering into the public domain on January 1, 2022, when all recordings published prior to 1923 will enter the public domain and will be free to use and reuse. Recordings published between 1923 and 1946 are then protected for 100 years, and recordings published between 1947 and 1956 are protected for 110 years. In addition, some of the items in the Jukebox, such as the Victrola Book of the Opera, are currently in the public domain and free to use and reuse. Disc labels that are more than 95 years old are now in the public domain and are free to use and reuse. The Library presents more recent disc labels with permission or under fair use. You are responsible for deciding whether your use of the items in this collection is legal. You will need written permission from the rightsholders to copy, distribute, or otherwise use copyrighted materials except as allowed by fair use or other statutory exemptions. Some materials may be protected under international law. You may also need permission from holders of other rights, such as publicity and/or privacy rights. Credit Line: Library of Congress, National Jukebox. More about Copyright and other Restrictions . For guidance about compiling full citations consult Citing Primary Sources ."
     item_url: https://www.loc.gov/item/jukebox-879940/
-    checked: 2026-10-07
+    checked: 2026-10-10
 - song: my-lord-what-a-mourning
   loc_id: lomaxbib000533
   status: approved
@@ -49,13 +49,13 @@
     performers:
       - Unidentified singers
       - Coson, Anna F.
-    place: pickens county
+    place: clemson
     duration_seconds: null
     audio_url: https://tile.loc.gov/storage-services/media/afc/lomax/afc1939001_02726a2.mp3
     can_download: true
     rights: "The Library of Congress is not aware of any U.S. copyright protection (see Title 17, U.S.C.) or any other restrictions in the material in this collection, except as noted below. Users should keep in mind that the Library of Congress is providing access to these materials strictly for educational and research purposes. The written permission of the copyright owners and/or other holders of rights (such as publicity and/or privacy rights) is required for distribution, reproduction, or other use of protected items beyond that allowed by fair use or other statutory exemptions. Responsibility for making an independent legal assessment of an item and securing any necessary permissions ultimately rests with persons desiring to use the item. See our Legal Notices and Privacy and Publicity Rights for additional information and restrictions. The Center asks that researchers approach the materials in this collection with respect for the culture and sensibilities of the people whose lives, ideas, and creativity are documented here. Researchers are also reminded that privacy and publicity rights may pertain to certain uses of this material. A small subset the sound recordings in this collection are not included in this online presentation because there is a strong possibility that there may be underlying rights in musical lyrics or compositions. Researchers with an interest or need to review the entire body of material are encouraged to contact the American Folklife Center : Those song titles not included are: Bull-Cow Blues Don't You Leave Me Here Everybody's Down on Me Little Log Cabin Louise Maria Springtime in the Rockies Credit line John and Ruby Lomax 1939 southern states recording trip (AFC 1939/001), American Folklife Center, Library of Congress"
     item_url: https://www.loc.gov/item/lomaxbib000533/
-    checked: 2026-10-07
+    checked: 2026-10-10
 - song: swing-low-sweet-chariot
   loc_id: jukebox-128141
   status: approved
@@ -81,7 +81,7 @@
     can_download: true
     rights: "The Library makes the sound recordings in the National Jukebox available pursuant to permission from the rightsholders. Under the Music Modernization Act, many of these recordings will begin entering into the public domain on January 1, 2022, when all recordings published prior to 1923 will enter the public domain and will be free to use and reuse. Recordings published between 1923 and 1946 are then protected for 100 years, and recordings published between 1947 and 1956 are protected for 110 years. In addition, some of the items in the Jukebox, such as the Victrola Book of the Opera, are currently in the public domain and free to use and reuse. Disc labels that are more than 95 years old are now in the public domain and are free to use and reuse. The Library presents more recent disc labels with permission or under fair use. You are responsible for deciding whether your use of the items in this collection is legal. You will need written permission from the rightsholders to copy, distribute, or otherwise use copyrighted materials except as allowed by fair use or other statutory exemptions. Some materials may be protected under international law. You may also need permission from holders of other rights, such as publicity and/or privacy rights. Credit Line: Library of Congress, National Jukebox. More about Copyright and other Restrictions . For guidance about compiling full citations consult Citing Primary Sources ."
     item_url: https://www.loc.gov/item/jukebox-128141/
-    checked: 2026-10-07
+    checked: 2026-10-10
 - song: nobody-knows-the-trouble-ive-seen
   loc_id: jukebox-71990
   status: unreviewed
@@ -106,7 +106,7 @@
     can_download: true
     rights: "The Library makes the sound recordings in the National Jukebox available pursuant to permission from the rightsholders. Under the Music Modernization Act, many of these recordings will begin entering into the public domain on January 1, 2022, when all recordings published prior to 1923 will enter the public domain and will be free to use and reuse. Recordings published between 1923 and 1946 are then protected for 100 years, and recordings published between 1947 and 1956 are protected for 110 years. In addition, some of the items in the Jukebox, such as the Victrola Book of the Opera, are currently in the public domain and free to use and reuse. Disc labels that are more than 95 years old are now in the public domain and are free to use and reuse. The Library presents more recent disc labels with permission or under fair use. You are responsible for deciding whether your use of the items in this collection is legal. You will need written permission from the rightsholders to copy, distribute, or otherwise use copyrighted materials except as allowed by fair use or other statutory exemptions. Some materials may be protected under international law. You may also need permission from holders of other rights, such as publicity and/or privacy rights. Credit Line: Library of Congress, National Jukebox. More about Copyright and other Restrictions . For guidance about compiling full citations consult Citing Primary Sources ."
     item_url: https://www.loc.gov/item/jukebox-71990/
-    checked: 2026-10-07
+    checked: 2026-10-10
 - song: nobody-knows-the-trouble-ive-seen
   loc_id: "2020655301"
   status: rejected
@@ -1403,9 +1403,9 @@
     checked: 2026-10-07
 - song: march-on
   loc_id: "99470277"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: march-on
   loc_id: "99470284"
@@ -2049,159 +2049,159 @@
     checked: 2026-10-07
 - song: im-a-rolling
   loc_id: "2020655638"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: im-a-rolling
   loc_id: "2020655640"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: im-a-rolling
   loc_id: afc2024022_253
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: im-a-rolling
   loc_id: afc2024022_137
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: im-a-rolling
   loc_id: afc2024022_188
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: im-a-rolling
   loc_id: afc2024022_056
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: im-a-rolling
   loc_id: "2020655532"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: im-a-rolling
   loc_id: afc2024022_187
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: im-a-rolling
   loc_id: afc2024022_109
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: i-hope-my-mother-will-be-there
   loc_id: "2023655216"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: i-hope-my-mother-will-be-there
   loc_id: afc2024022_030
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: i-hope-my-mother-will-be-there
   loc_id: mbrsrsdig2282042
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: i-hope-my-mother-will-be-there
   loc_id: "2023655221"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: i-hope-my-mother-will-be-there
   loc_id: "2023655208"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: i-hope-my-mother-will-be-there
   loc_id: "2020655251"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: i-hope-my-mother-will-be-there
   loc_id: afc2024022_135
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: i-hope-my-mother-will-be-there
   loc_id: "2020655690"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: i-hope-my-mother-will-be-there
   loc_id: "2020785361"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: i-hope-my-mother-will-be-there
   loc_id: afc2024022_059
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: i-hope-my-mother-will-be-there
   loc_id: afc2024022_016
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: i-hope-my-mother-will-be-there
   loc_id: afc2024022_210
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: i-hope-my-mother-will-be-there
   loc_id: afc2024022_126
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: i-hope-my-mother-will-be-there
   loc_id: "2023655215"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: i-hope-my-mother-will-be-there
   loc_id: "2020655541"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: i-hope-my-mother-will-be-there
   loc_id: "2023655214"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: i-hope-my-mother-will-be-there
   loc_id: "2023655217"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: swing-low-sweet-chariot
   loc_id: jukebox-646729
@@ -2212,234 +2212,285 @@
 - song: swing-low-sweet-chariot
   loc_id: jukebox-14854
   status: unreviewed
-  delivery: null
+  delivery: selfhost
   note: null
-  loc: null
+  loc:
+    title: Swing low, sweet chariot
+    date: 1916-02-14
+    collection: recorded sound section, library of congress
+    collections:
+      - recorded sound section, library of congress
+      - national jukebox
+      - recorded sound research center
+    performers:
+      - Tuskegee Institute Singers
+    place: united states
+    duration_seconds: 192
+    audio_url: https://tile.loc.gov/streaming-services/iiif/service:mbrsrs:mbrsjukebox:dlc_victor_17890_01_b16512_03:dlc_victor_17890_01_b16512_03/full/full/0/full/default.mp3
+    can_download: true
+    rights: "The Library makes the sound recordings in the National Jukebox available pursuant to permission from the rightsholders. Under the Music Modernization Act, many of these recordings will begin entering into the public domain on January 1, 2022, when all recordings published prior to 1923 will enter the public domain and will be free to use and reuse. Recordings published between 1923 and 1946 are then protected for 100 years, and recordings published between 1947 and 1956 are protected for 110 years. In addition, some of the items in the Jukebox, such as the Victrola Book of the Opera, are currently in the public domain and free to use and reuse. Disc labels that are more than 95 years old are now in the public domain and are free to use and reuse. The Library presents more recent disc labels with permission or under fair use. You are responsible for deciding whether your use of the items in this collection is legal. You will need written permission from the rightsholders to copy, distribute, or otherwise use copyrighted materials except as allowed by fair use or other statutory exemptions. Some materials may be protected under international law. You may also need permission from holders of other rights, such as publicity and/or privacy rights. Credit Line: Library of Congress, National Jukebox. More about Copyright and other Restrictions . For guidance about compiling full citations consult Citing Primary Sources ."
+    item_url: https://www.loc.gov/item/jukebox-14854/
+    checked: 2026-10-10
 - song: swing-low-sweet-chariot
   loc_id: jukebox-16069
   status: unreviewed
-  delivery: null
+  delivery: selfhost
   note: null
-  loc: null
+  loc:
+    title: Swing low, sweet chariot
+    date: 1916-03-09
+    collection: department of special collections, davidson library, university of california, santa barbara
+    collections:
+      - department of special collections, davidson library, university of california, santa barbara
+      - national jukebox
+      - recorded sound research center
+    performers:
+      - Cheatham, Kitty
+      - Johnson, Harriet
+    place: united states
+    duration_seconds: 184
+    audio_url: https://tile.loc.gov/streaming-services/iiif/service:mbrsrs:mbrsjukebox:ucsb_victor_45086_01_b16998_07:ucsb_victor_45086_01_b16998_07/full/full/0/full/default.mp3
+    can_download: true
+    rights: "The Library makes the sound recordings in the National Jukebox available pursuant to permission from the rightsholders. Under the Music Modernization Act, many of these recordings will begin entering into the public domain on January 1, 2022, when all recordings published prior to 1923 will enter the public domain and will be free to use and reuse. Recordings published between 1923 and 1946 are then protected for 100 years, and recordings published between 1947 and 1956 are protected for 110 years. In addition, some of the items in the Jukebox, such as the Victrola Book of the Opera, are currently in the public domain and free to use and reuse. Disc labels that are more than 95 years old are now in the public domain and are free to use and reuse. The Library presents more recent disc labels with permission or under fair use. You are responsible for deciding whether your use of the items in this collection is legal. You will need written permission from the rightsholders to copy, distribute, or otherwise use copyrighted materials except as allowed by fair use or other statutory exemptions. Some materials may be protected under international law. You may also need permission from holders of other rights, such as publicity and/or privacy rights. Credit Line: Library of Congress, National Jukebox. More about Copyright and other Restrictions . For guidance about compiling full citations consult Citing Primary Sources ."
+    item_url: https://www.loc.gov/item/jukebox-16069/
+    checked: 2026-10-10
 - song: swing-low-sweet-chariot
   loc_id: afc1982010_afs21072
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: swing-low-sweet-chariot
   loc_id: afc1982010_afs21077
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: swing-low-sweet-chariot
   loc_id: afc1982010_afs21249
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: swing-low-sweet-chariot
   loc_id: afc1982010_afs21123
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: swing-low-sweet-chariot
   loc_id: muskostelanetz.1005191
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: swing-low-sweet-chariot
   loc_id: afc1941016_afs05497a
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: swing-low-sweet-chariot
   loc_id: afc1941002_afs04778a
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: ill-hear-the-trumpet-sound
   loc_id: "2022655283"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: ill-hear-the-trumpet-sound
   loc_id: "2022655274"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: ill-hear-the-trumpet-sound
   loc_id: "2022655277"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: ill-hear-the-trumpet-sound
   loc_id: "2017655373"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: ill-hear-the-trumpet-sound
   loc_id: "2022655282"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: ill-hear-the-trumpet-sound
   loc_id: "2017655382"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: ill-hear-the-trumpet-sound
   loc_id: "2017655385"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: ill-hear-the-trumpet-sound
   loc_id: "2017655368"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: ill-hear-the-trumpet-sound
   loc_id: "2017655387"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: ill-hear-the-trumpet-sound
   loc_id: afc2001001.102163
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: my-soul-wants-something-thats-new
   loc_id: lomaxbib000453
   status: unreviewed
-  delivery: null
+  delivery: selfhost
   note: null
-  loc: null
+  loc:
+    title: My Soul Wants Something New
+    date: 1939-05-30
+    collection: "southern mosaic: the john and ruby lomax 1939 southern states recording trip"
+    collections:
+      - "southern mosaic: the john and ruby lomax 1939 southern states recording trip"
+      - performing arts encyclopedia
+      - the library of congress celebrates the songs of america
+      - american folklife center
+      - american memory
+    performers:
+      - Jones, Ed
+    place: united states
+    duration_seconds: null
+    audio_url: https://tile.loc.gov/storage-services/media/afc/lomax/afc1939001_02701a1.mp3
+    can_download: true
+    rights: "The Library of Congress is not aware of any U.S. copyright protection (see Title 17, U.S.C.) or any other restrictions in the material in this collection, except as noted below. Users should keep in mind that the Library of Congress is providing access to these materials strictly for educational and research purposes. The written permission of the copyright owners and/or other holders of rights (such as publicity and/or privacy rights) is required for distribution, reproduction, or other use of protected items beyond that allowed by fair use or other statutory exemptions. Responsibility for making an independent legal assessment of an item and securing any necessary permissions ultimately rests with persons desiring to use the item. See our Legal Notices and Privacy and Publicity Rights for additional information and restrictions. The Center asks that researchers approach the materials in this collection with respect for the culture and sensibilities of the people whose lives, ideas, and creativity are documented here. Researchers are also reminded that privacy and publicity rights may pertain to certain uses of this material. A small subset the sound recordings in this collection are not included in this online presentation because there is a strong possibility that there may be underlying rights in musical lyrics or compositions. Researchers with an interest or need to review the entire body of material are encouraged to contact the American Folklife Center : Those song titles not included are: Bull-Cow Blues Don't You Leave Me Here Everybody's Down on Me Little Log Cabin Louise Maria Springtime in the Rockies Credit line John and Ruby Lomax 1939 southern states recording trip (AFC 1939/001), American Folklife Center, Library of Congress"
+    item_url: https://www.loc.gov/item/lomaxbib000453/
+    checked: 2026-10-10
 - song: my-soul-wants-something-thats-new
   loc_id: "2020655270"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: my-soul-wants-something-thats-new
   loc_id: "2020655269"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: my-soul-wants-something-thats-new
   loc_id: afc2015048_442
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: my-soul-wants-something-thats-new
   loc_id: "2023655369"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: my-soul-wants-something-thats-new
   loc_id: "2020655526"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: my-soul-wants-something-thats-new
   loc_id: "2020655278"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: my-soul-wants-something-thats-new
   loc_id: "2020655268"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: my-soul-wants-something-thats-new
   loc_id: afc2024022_003
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: my-soul-wants-something-thats-new
   loc_id: "2020785355"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: my-soul-wants-something-thats-new
   loc_id: "2017655354"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: my-soul-wants-something-thats-new
   loc_id: "2024655250"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: my-soul-wants-something-thats-new
   loc_id: "2020785338"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: my-soul-wants-something-thats-new
   loc_id: afc2024022_241
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: my-soul-wants-something-thats-new
   loc_id: "2023655333"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: my-soul-wants-something-thats-new
   loc_id: "2017655350"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: my-soul-wants-something-thats-new
   loc_id: "2024655245"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: my-soul-wants-something-thats-new
   loc_id: "2020785257"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: my-soul-wants-something-thats-new
   loc_id: "2020655535"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null
 - song: my-soul-wants-something-thats-new
   loc_id: "2020655538"
-  status: unreviewed
+  status: rejected
   delivery: null
-  note: null
+  note: search artifact; title does not name the spiritual
   loc: null

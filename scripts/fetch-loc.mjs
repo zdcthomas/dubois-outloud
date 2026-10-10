@@ -18,7 +18,16 @@ async function main() {
   const out = [];
   const unchecked = [];
 
+  // Rejected entries are kept only so find-recordings.mjs cannot re-propose
+  // them; nothing reads their metadata. Refreshing them means 142 needless
+  // requests against a rate-limited API. Pass --all to include them.
+  const refreshAll = process.argv.includes('--all');
+
   for (const entry of entries) {
+    if (entry.status === 'rejected' && !refreshAll) {
+      out.push({ ...entry });
+      continue;
+    }
     try {
       const json = await fetchJson(`https://www.loc.gov/item/${entry.loc_id}/?fo=json`);
       const parsed = parseItem(json, entry.loc_id);
