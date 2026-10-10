@@ -30,13 +30,17 @@ describe('proposeDelivery', () => {
     })).toBe('selfhost');
   });
 
-  it('streams a 1923-or-later Jukebox side', () => {
+  it('streams a Jukebox side still inside its 100-year term', () => {
+    // 1935 + 100 runs to 2036, so this stays stream for another decade.
+    // Boundary years are tested in public-domain.test.ts, where `now` is
+    // injected; asserting them through proposeDelivery would make the test
+    // change meaning every January.
     expect(proposeDelivery({
-      collection: 'national jukebox', date: '1923-01-02',
+      collection: 'national jukebox', date: '1935-04-01',
       can_download: true, rights: JUKEBOX,
     })).toBe('stream');
     expect(proposeDelivery({
-      collection: 'national jukebox', date: '1935-04-01',
+      collection: 'national jukebox', date: '1946-01-01',
       can_download: true, rights: JUKEBOX,
     })).toBe('stream');
   });
@@ -68,12 +72,12 @@ describe('proposeDelivery', () => {
     })).toBe('selfhost');
   });
 
-  it('treats 1922 as inside the public domain and 1923 as outside', () => {
+  it('self-hosts an acoustic-era Jukebox side, which is permanently public domain', () => {
     const at = (date: string) => proposeDelivery({
       collection: 'national jukebox', date, can_download: true, rights: JUKEBOX,
     });
     expect(at('1922-12-31')).toBe('selfhost');
-    expect(at('1923-01-01')).toBe('stream');
+    expect(at('1909-12-01')).toBe('selfhost');
   });
 
   it('defaults an unrecognised collection with no clear rights to stream', () => {

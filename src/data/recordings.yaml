@@ -85,7 +85,7 @@
 - song: nobody-knows-the-trouble-ive-seen
   loc_id: jukebox-71990
   status: unreviewed
-  delivery: stream
+  delivery: selfhost
   note: null
   loc:
     title: Nobody knows de trouble I've seen
@@ -2206,12 +2206,28 @@
 - song: swing-low-sweet-chariot
   loc_id: jukebox-646729
   status: unreviewed
-  delivery: null
+  delivery: selfhost
   note: null
-  loc: null
+  loc:
+    title: Swing low, sweet chariot
+    date: 1912-02-26
+    collection: department of special collections, davidson library, university of california, santa barbara
+    collections:
+      - department of special collections, davidson library, university of california, santa barbara
+      - national jukebox
+      - recorded sound research center
+    performers:
+      - Apollo Quartette
+    place: new york
+    duration_seconds: 167
+    audio_url: https://tile.loc.gov/streaming-services/iiif/service:mbrsrs:mbrsjukebox:ucsb_col_a1169_01_19773_02:ucsb_col_a1169_01_19773_02/full/full/0/full/default.mp3
+    can_download: true
+    rights: "The Library makes the sound recordings in the National Jukebox available pursuant to permission from the rightsholders. Under the Music Modernization Act, many of these recordings will begin entering into the public domain on January 1, 2022, when all recordings published prior to 1923 will enter the public domain and will be free to use and reuse. Recordings published between 1923 and 1946 are then protected for 100 years, and recordings published between 1947 and 1956 are protected for 110 years. In addition, some of the items in the Jukebox, such as the Victrola Book of the Opera, are currently in the public domain and free to use and reuse. Disc labels that are more than 95 years old are now in the public domain and are free to use and reuse. The Library presents more recent disc labels with permission or under fair use. You are responsible for deciding whether your use of the items in this collection is legal. You will need written permission from the rightsholders to copy, distribute, or otherwise use copyrighted materials except as allowed by fair use or other statutory exemptions. Some materials may be protected under international law. You may also need permission from holders of other rights, such as publicity and/or privacy rights. Credit Line: Library of Congress, National Jukebox. More about Copyright and other Restrictions . For guidance about compiling full citations consult Citing Primary Sources ."
+    item_url: https://www.loc.gov/item/jukebox-646729/
+    checked: 2026-10-10
 - song: swing-low-sweet-chariot
   loc_id: jukebox-14854
-  status: unreviewed
+  status: approved
   delivery: selfhost
   note: null
   loc:
@@ -2358,7 +2374,7 @@
   loc: null
 - song: my-soul-wants-something-thats-new
   loc_id: lomaxbib000453
-  status: unreviewed
+  status: approved
   delivery: selfhost
   note: null
   loc:

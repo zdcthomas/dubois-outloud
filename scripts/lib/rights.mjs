@@ -12,7 +12,30 @@
  * collection by permission from Sony and EMI.
  */
 
-const PUBLIC_DOMAIN_BEFORE = 1923;
+/**
+ * Is a sound recording published in `year` in the US public domain?
+ *
+ * The Music Modernization Act's schedule, as the Library of Congress states
+ * it: everything published before 1923 entered the public domain on
+ * 1 January 2022; 1923-1946 is protected for 100 years; 1947-1956 for 110;
+ * and anything later stays protected until 15 February 2067.
+ *
+ * The 1923-1946 band is a ROLLING term, not a fixed line, and that is the
+ * point of this function. A hardcoded `year < 1923` test was correct when
+ * written and silently gets more conservative every January — it was already
+ * holding back a 1924 recording that entered the public domain on
+ * 1 January 2025.
+ *
+ * `now` is injected so the tests can pin a year instead of drifting.
+ */
+export function isPublicDomain(year, now = new Date().getUTCFullYear()) {
+  if (!Number.isFinite(year)) return false;
+  if (year < 1923) return true;
+  if (year <= 1946) return now > year + 100;
+  if (year <= 1956) return now > year + 110;
+  // 15 February 2067 for everything from 1957 to the federal cutover.
+  return now > 2067;
+}
 
 const NO_KNOWN_RESTRICTIONS =
   /not aware of any (?:U\.S\.\s*)?copyright|no known restrictions/i;
@@ -50,10 +73,8 @@ export function proposeDelivery(loc) {
   if (NO_KNOWN_RESTRICTIONS.test(rights)) return 'selfhost';
 
   if (names.some((n) => JUKEBOX.test(n)) || JUKEBOX.test(rights)) {
-    const year = yearOf(loc.date);
-    // No date means the boundary test cannot run, so take the cautious side.
-    if (year !== null && year < PUBLIC_DOMAIN_BEFORE) return 'selfhost';
-    return 'stream';
+    // No date means the term cannot be computed, so take the cautious side.
+    return isPublicDomain(yearOf(loc.date)) ? 'selfhost' : 'stream';
   }
 
   return 'stream';
