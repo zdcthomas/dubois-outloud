@@ -85,14 +85,33 @@
 - song: nobody-knows-the-trouble-ive-seen
   loc_id: jukebox-71990
   status: unreviewed
-  delivery: null
-  note: null
-  loc: null
-- song: nobody-knows-the-trouble-ive-seen
-  loc_id: "2020655301"
-  status: unreviewed
   delivery: stream
   note: null
+  loc:
+    title: Nobody knows de trouble I've seen
+    date: 1924-12-30
+    collection: department of special collections, davidson library, university of california, santa barbara
+    collections:
+      - department of special collections, davidson library, university of california, santa barbara
+      - national jukebox
+      - recorded sound research center
+    performers:
+      - Anderson, Marian
+      - Prince, Charles Adams
+      - Pasternack, Josef
+      - Reibold, Bruno
+    place: camden
+    duration_seconds: 163
+    audio_url: https://tile.loc.gov/streaming-services/iiif/service:mbrsrs:mbrsjukebox:ucsb_victor_19560_01_b31346_12:ucsb_victor_19560_01_b31346_12/full/full/0/full/default.mp3
+    can_download: true
+    rights: "The Library makes the sound recordings in the National Jukebox available pursuant to permission from the rightsholders. Under the Music Modernization Act, many of these recordings will begin entering into the public domain on January 1, 2022, when all recordings published prior to 1923 will enter the public domain and will be free to use and reuse. Recordings published between 1923 and 1946 are then protected for 100 years, and recordings published between 1947 and 1956 are protected for 110 years. In addition, some of the items in the Jukebox, such as the Victrola Book of the Opera, are currently in the public domain and free to use and reuse. Disc labels that are more than 95 years old are now in the public domain and are free to use and reuse. The Library presents more recent disc labels with permission or under fair use. You are responsible for deciding whether your use of the items in this collection is legal. You will need written permission from the rightsholders to copy, distribute, or otherwise use copyrighted materials except as allowed by fair use or other statutory exemptions. Some materials may be protected under international law. You may also need permission from holders of other rights, such as publicity and/or privacy rights. Credit Line: Library of Congress, National Jukebox. More about Copyright and other Restrictions . For guidance about compiling full citations consult Citing Primary Sources ."
+    item_url: https://www.loc.gov/item/jukebox-71990/
+    checked: 2026-10-07
+- song: nobody-knows-the-trouble-ive-seen
+  loc_id: "2020655301"
+  status: rejected
+  delivery: stream
+  note: occupational folklife interview, not performance
   loc:
     title: Tony A. Vieira interview conducted by Fred Calabretta, 2017-06-09
     date: "2017"
@@ -115,9 +134,9 @@
     checked: 2026-10-07
 - song: nobody-knows-the-trouble-ive-seen
   loc_id: "2023655404"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: occupational folklife interview, not performance
   loc:
     title: Kay Foltz interview conducted by Emily Hilliard, 2022-05-08
     date: "2022"
@@ -140,9 +159,9 @@
     checked: 2026-10-07
 - song: nobody-knows-the-trouble-ive-seen
   loc_id: "95770556"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: words-and-music literary program, not performance
   loc:
     title: Windows on America a portrait of America in words and music.
     date: "1970"
@@ -164,9 +183,9 @@
     checked: 2026-10-07
 - song: nobody-knows-the-trouble-ive-seen
   loc_id: "2023655385"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: occupational folklife interview, not performance
   loc:
     title: Karen Button interview conducted by Emily Hilliard, 2022-01-22
     date: "2022"
@@ -189,9 +208,9 @@
     checked: 2026-10-07
 - song: nobody-knows-the-trouble-ive-seen
   loc_id: "2020655543"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: occupational folklife interview, not performance
   loc:
     title: Richard Dusenbury interview conducted by Clare Luz and Khalid Ibrahim, 2018-05-22
     date: "2018"
@@ -215,9 +234,9 @@
     checked: 2026-10-07
 - song: nobody-knows-the-trouble-ive-seen
   loc_id: "2020655548"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: occupational folklife interview, not performance
   loc:
     title: Maria Cosper interview conducted by Clare Luz and Khalid Ibrahim, 2018-06-27
     date: "2018"
@@ -241,9 +260,9 @@
     checked: 2026-10-07
 - song: nobody-knows-the-trouble-ive-seen
   loc_id: "2021655349"
-  status: unreviewed
+  status: rejected
   delivery: selfhost
-  note: null
+  note: occupational folklife interview, not performance
   loc:
     title: Matt McCullough interview conducted by Vyta Pivo, 2021-05-26
     date: "2021"
@@ -266,9 +285,9 @@
     checked: 2026-10-07
 - song: nobody-knows-the-trouble-ive-seen
   loc_id: "2022655288"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: occupational folklife interview, not performance
   loc:
     title: Dennis Kaye and Julia Galgon interview conducted by Katy Clune and Julia Gartrell, 2021-05-06
     date: "2021"
@@ -293,9 +312,9 @@
     checked: 2026-10-07
 - song: nobody-knows-the-trouble-ive-seen
   loc_id: "2022655293"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: occupational folklife interview, not performance
   loc:
     title: Jimmy Amspacher interview conducted by Katy Clune and Julia Gartrell, 2021-06-04
     date: "2021"
@@ -319,9 +338,9 @@
     checked: 2026-10-07
 - song: nobody-knows-the-trouble-ive-seen
   loc_id: "2020655262"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: occupational folklife interview, not performance
   loc:
     title: Bob Bowers interview conducted by Madeleine Hall-Arber, 2017-03-08
     date: "2017"
@@ -344,9 +363,9 @@
     checked: 2026-10-07
 - song: nobody-knows-the-trouble-ive-seen
   loc_id: "2023655212"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: occupational folklife interview, not performance
   loc:
     title: Walter Mullins interview conducted by Ethan Sharp, 2020-10-09
     date: "2020"
@@ -369,9 +388,9 @@
     checked: 2026-10-07
 - song: nobody-knows-the-trouble-ive-seen
   loc_id: "2023655213"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: occupational folklife interview, not performance
   loc:
     title: Charles Taylor interview conducted by Ethan Sharp, 2020-09-10
     date: "2020"
@@ -394,9 +413,9 @@
     checked: 2026-10-07
 - song: nobody-knows-the-trouble-ive-seen
   loc_id: "2022655240"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: occupational folklife interview, not performance
   loc:
     title: Dave Edwards interview conducted by Ellen Kendrick and Samuel Kendrick and Jackson Kendrick, 2021-04-29
     date: "2021"
@@ -421,9 +440,9 @@
     checked: 2026-10-07
 - song: nobody-knows-the-trouble-ive-seen
   loc_id: "2022655306"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: occupational folklife interview, not performance
   loc:
     title: Belinda Tabor interview conducted by Christopher Sims, 2017-09-30
     date: "2017"
@@ -446,9 +465,9 @@
     checked: 2026-10-07
 - song: nobody-knows-the-trouble-ive-seen
   loc_id: "2022655291"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: occupational folklife interview, not performance
   loc:
     title: Toby O'Neal and Helene McCabe interview conducted by Katy Clune and Julia Gartrell, 2021-06-03
     date: "2021"
@@ -464,7 +483,7 @@
       - Gartrell, Julia C., interviewer
       - Clune, Katy A. (Kathryn Anne), interviewer
       - Occupational Folklife Project, sponsor
-    place: north carolina
+    place: beaufort
     duration_seconds: null
     audio_url: https://tile.loc.gov/storage-services/service/afc/afc2020009/afc2020009_019/afc2020009_019_sr01.mp3
     can_download: false
@@ -473,9 +492,9 @@
     checked: 2026-10-07
 - song: nobody-knows-the-trouble-ive-seen
   loc_id: afc1942003_sr34
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: man-on-the-street interviews, not performance
   loc:
     title: '"Dear Mr. President," Granbury, Austin, and Hood County, Texas, January or February 1942'
     date: 1942-01-01
@@ -496,9 +515,9 @@
     checked: 2026-10-07
 - song: nobody-knows-the-trouble-ive-seen
   loc_id: "2023655388"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: occupational folklife interview, not performance
   loc:
     title: Jason Woodcock interview conducted by Emily Hilliard, 2022-02-05
     date: "2022"
@@ -521,9 +540,9 @@
     checked: 2026-10-07
 - song: nobody-knows-the-trouble-ive-seen
   loc_id: afc2024022_023
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: covid-19 oral history interview
   loc:
     title: Jennifer Bransford-Koons and Deanna Zotalis-Ferreira Interview
     date: 2025-01-16
@@ -545,9 +564,9 @@
     checked: 2026-10-07
 - song: my-lord-what-a-mourning
   loc_id: "2020655611"
-  status: unreviewed
+  status: rejected
   delivery: selfhost
-  note: null
+  note: occupational folklife interview, not performance
   loc:
     title: Angella St. Romain interview conducted by Laura Marcus Green, 2015-03-30
     date: "2015"
@@ -570,15 +589,33 @@
     checked: 2026-10-07
 - song: a-great-camp-meeting-in-the-promised-land
   loc_id: afc2001001.10685
-  status: unreviewed
-  delivery: null
-  note: null
-  loc: null
+  status: rejected
+  delivery: stream
+  note: veterans history project interview, not song
+  loc:
+    title: Grant Hayao Ichikawa Collection
+    date: "1942"
+    collection: veterans history project collection
+    collections:
+      - veterans history project collection
+      - american folklife center
+    performers:
+      - Japanese-American Veterans Association
+      - Tani, Paul Y.
+      - Ichikawa, Grant Hayao
+      - Shima, Terry T.
+    place: tokyo, japan
+    duration_seconds: 3584
+    audio_url: https://tile.loc.gov/storage-services/service/vhp/0106/010685/afc2001001_010685_sr0001001.mp3
+    can_download: false
+    rights: "Using VHP Material in Publication or Exhibition The Veterans History Project (VHP) at the Library of Congress collects, preserves and makes accessible the firsthand recollections of U.S. military veterans who served from World War I through more recent conflicts and peacekeeping missions, so that future generations may hear directly from veterans and better understand what they saw, did and felt during their service. The Veterans History Project Collection includes oral histories along with documentary materials such as original letters, diaries, photographs, and memoirs. Veterans and interviewers contribute these materials to the Library for scholarly and educational purposes, retaining any copyright they may hold. Therefore, permission must be obtained before using the interview or other materials in exhibition or publication. Researchers or others who would like to make further use of these materials should contact the Veterans History Project for assistance. As a publicly supported institution, the Library generally does not own rights to material in its collections. Therefore, it does not charge permission fees for use of such material and cannot give or deny permission to publish or otherwise distribute material in its collections. Responsibility for making an independent legal assessment of an item from the Library's collections and for securing any necessary permissions rests with persons desiring to use the item. Please contact us with questions. Obtaining Copies of VHP Materials In order for VHP materials to be duplicated, we must receive written permission from the interviewee for you to obtain a copy of the recording unless the proposed use is limited to personal use, research, or other uses permissible by copyright law. If the interviewee is deceased, their next-of-kin may grant written permission. Please contact VHP for assistance if you need to contact a veteran for permission to use their materials in exhibition or publication, or if you have received permission from the veteran and need access to high-resolution copies of VHP collection materials. Citing VHP Materials Please use the following formats when citing Veterans History Project materials (substituting the appropriate name and collection ID number). Materials as a whole: John P. Snodgrass (AFC 2001/001/[VHP collection]), Veterans History Project Collection, American Folklife Center, Library of Congress. Manuscript material: John P. Snodgrass (AFC 2001/001/[VHP collection]), Memoirs (MS02), Veterans History Project Collection, American Folklife Center, Library of Congress. John P. Snodgrass (AFC 2001/001/[VHP collection]), Transcript (MS04), Veterans History Project Collection, American Folklife Center, Library of Congress. John P. Snodgrass (AFC 2001/001/[VHP collection]), Correspondence (MS01), Veterans History Project Collection, American Folklife Center, Library of Congress. Recording: John P. Snodgrass (AFC 2001/001/[VHP collection]), Audio recording (SR01), Veterans History Project Collection, American Folklife Center, Library of Congress. John P. Snodgrass (AFC 2001/001/[VHP collection]), Video recording (MV01), Veterans History Project Collection, American Folklife Center, Library of Congress. Photograph: John P. Snodgrass (AFC 2001/001/[VHP collection]), Photographs (PH01), photographer unknown, Veterans History Project Collection, American Folklife Center, Library of Congress. John P. Snodgrass (AFC 2001/001/[VHP collection]), Photographs (PH03-PH14), Ralph Williams photographer, Veterans History Project Collection, American Folklife Center, Library of Congress. Computer file: John P. Snodgrass (AFC 2001/001/[VHP collection]), Computer file (CF01), Veterans History Project Collection, American Folklife Center, Library of Congress. Artifact: John P. Snodgrass (AFC 2001/001/[VHP collection]), Artifact (AR01), Veterans History Project Collection, American Folklife Center, Library of Congress."
+    item_url: https://www.loc.gov/item/afc2001001.10685/
+    checked: 2026-10-07
 - song: a-great-camp-meeting-in-the-promised-land
   loc_id: "2022655307"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: occupational folklife interview, not performance
   loc:
     title: James L. Prevatt interview conducted by Christopher Sims, 2017-09-30
     date: "2017"
@@ -601,9 +638,9 @@
     checked: 2026-10-07
 - song: a-great-camp-meeting-in-the-promised-land
   loc_id: "78741636"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: press club political speech, unrelated
   loc:
     title: Speech at the National Press Club luncheon, Washington, Mar. 23, 1978
     date: "1978"
@@ -624,9 +661,9 @@
     checked: 2026-10-07
 - song: a-great-camp-meeting-in-the-promised-land
   loc_id: "2020655679"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: occupational folklife interview, not performance
   loc:
     title: Walter Ram, Sr. interview conducted by Nic Hartmann, 2015-10-26
     date: "2015"
@@ -649,9 +686,9 @@
     checked: 2026-10-07
 - song: a-great-camp-meeting-in-the-promised-land
   loc_id: "2017655370"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: oral history interview, not performance
   loc:
     title: Mary Rawls interview conducted by Tanya Ducker Finchum and Juliana M. Nykolaiszyn, 2011-06-30
     date: "2011"
@@ -675,9 +712,9 @@
     checked: 2026-10-07
 - song: my-ways-cloudy
   loc_id: afc2024022_004
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: covid-19 oral history interview
   loc:
     title: Lemuel Burgos and Micaela Camacho-Tenreiro Interview
     date: 2024-11-02
@@ -698,9 +735,9 @@
     checked: 2026-10-07
 - song: my-ways-cloudy
   loc_id: afc2024022_044
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: covid-19 oral history interview
   loc:
     title: Kelly Reynolds and Jonathan Sexton Interview
     date: 2025-03-18
@@ -722,9 +759,9 @@
     checked: 2026-10-07
 - song: my-ways-cloudy
   loc_id: afc2024022_219
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: covid-19 oral history interview
   loc:
     title: Jen Haller and Micaela Camacho-Tenreiro Interview
     date: 2026-03-03
@@ -745,9 +782,9 @@
     checked: 2026-10-07
 - song: my-ways-cloudy
   loc_id: afc2024022_239
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: covid-19 oral history interview
   loc:
     title: Kelly Kanary and Latojia Dawkins Interview
     date: 2026-03-28
@@ -769,9 +806,9 @@
     checked: 2026-10-07
 - song: my-ways-cloudy
   loc_id: "2020655536"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: occupational folklife interview, not performance
   loc:
     title: Kelli L. Holmgren interview conducted by Clare Luz and Khalid Ibrahim, 2018-06-10
     date: "2018"
@@ -795,9 +832,9 @@
     checked: 2026-10-07
 - song: my-ways-cloudy
   loc_id: "2020785258"
-  status: unreviewed
+  status: rejected
   delivery: selfhost
-  note: null
+  note: occupational folklife interview, not performance
   loc:
     title: James McConway Law interview conducted by Kim D. Stryker, 2018-01-10
     date: "2018"
@@ -820,9 +857,9 @@
     checked: 2026-10-07
 - song: the-rocks-and-the-mountains
   loc_id: cmns002042
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: folklife interview about place names
   loc:
     title: Names for Camp Rocks.
     date: 1998-04-17
@@ -843,9 +880,9 @@
     checked: 2026-10-07
 - song: the-rocks-and-the-mountains
   loc_id: afcreed000077
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: fiddle tune, wrong song
   loc:
     title: Shelving Rock
     date: 1966-06-18
@@ -868,9 +905,9 @@
     checked: 2026-10-07
 - song: the-rocks-and-the-mountains
   loc_id: "95770005"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: poetry reading, not a performance
   loc:
     title: Ned O'Gorman reading his poems in the Recording Laboratory, Dec. 1, 1959
     date: "1959"
@@ -890,9 +927,9 @@
     checked: 2026-10-07
 - song: the-rocks-and-the-mountains
   loc_id: afc2001001.92393
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: veterans history project interview
   loc:
     title: Fitzroy Newsum Collection
     date: "1937"
@@ -914,15 +951,34 @@
     checked: 2026-10-07
 - song: the-rocks-and-the-mountains
   loc_id: afc2001001.13129
-  status: unreviewed
-  delivery: null
-  note: null
-  loc: null
+  status: rejected
+  delivery: stream
+  note: veterans history project interview
+  loc:
+    title: Lawnie Bealer Coffman Collection
+    date: "1943"
+    collection: world war ii reunion
+    collections:
+      - world war ii reunion
+      - veterans history project collection
+      - american folklife center
+    performers:
+      - Hardy, Donald
+      - Veterans History Project
+      - Coffman, Lawnie Bealer
+      - Library of Congress
+    place: european theater
+    duration_seconds: 483
+    audio_url: https://tile.loc.gov/storage-services/service/vhp/0131/013129/afc2001001_013129_sr0001001.mp3
+    can_download: false
+    rights: "Using VHP Material in Publication or Exhibition The Veterans History Project (VHP) at the Library of Congress collects, preserves and makes accessible the firsthand recollections of U.S. military veterans who served from World War I through more recent conflicts and peacekeeping missions, so that future generations may hear directly from veterans and better understand what they saw, did and felt during their service. The Veterans History Project Collection includes oral histories along with documentary materials such as original letters, diaries, photographs, and memoirs. Veterans and interviewers contribute these materials to the Library for scholarly and educational purposes, retaining any copyright they may hold. Therefore, permission must be obtained before using the interview or other materials in exhibition or publication. Researchers or others who would like to make further use of these materials should contact the Veterans History Project for assistance. As a publicly supported institution, the Library generally does not own rights to material in its collections. Therefore, it does not charge permission fees for use of such material and cannot give or deny permission to publish or otherwise distribute material in its collections. Responsibility for making an independent legal assessment of an item from the Library's collections and for securing any necessary permissions rests with persons desiring to use the item. Please contact us with questions. Obtaining Copies of VHP Materials In order for VHP materials to be duplicated, we must receive written permission from the interviewee for you to obtain a copy of the recording unless the proposed use is limited to personal use, research, or other uses permissible by copyright law. If the interviewee is deceased, their next-of-kin may grant written permission. Please contact VHP for assistance if you need to contact a veteran for permission to use their materials in exhibition or publication, or if you have received permission from the veteran and need access to high-resolution copies of VHP collection materials. Citing VHP Materials Please use the following formats when citing Veterans History Project materials (substituting the appropriate name and collection ID number). Materials as a whole: John P. Snodgrass (AFC 2001/001/[VHP collection]), Veterans History Project Collection, American Folklife Center, Library of Congress. Manuscript material: John P. Snodgrass (AFC 2001/001/[VHP collection]), Memoirs (MS02), Veterans History Project Collection, American Folklife Center, Library of Congress. John P. Snodgrass (AFC 2001/001/[VHP collection]), Transcript (MS04), Veterans History Project Collection, American Folklife Center, Library of Congress. John P. Snodgrass (AFC 2001/001/[VHP collection]), Correspondence (MS01), Veterans History Project Collection, American Folklife Center, Library of Congress. Recording: John P. Snodgrass (AFC 2001/001/[VHP collection]), Audio recording (SR01), Veterans History Project Collection, American Folklife Center, Library of Congress. John P. Snodgrass (AFC 2001/001/[VHP collection]), Video recording (MV01), Veterans History Project Collection, American Folklife Center, Library of Congress. Photograph: John P. Snodgrass (AFC 2001/001/[VHP collection]), Photographs (PH01), photographer unknown, Veterans History Project Collection, American Folklife Center, Library of Congress. John P. Snodgrass (AFC 2001/001/[VHP collection]), Photographs (PH03-PH14), Ralph Williams photographer, Veterans History Project Collection, American Folklife Center, Library of Congress. Computer file: John P. Snodgrass (AFC 2001/001/[VHP collection]), Computer file (CF01), Veterans History Project Collection, American Folklife Center, Library of Congress. Artifact: John P. Snodgrass (AFC 2001/001/[VHP collection]), Artifact (AR01), Veterans History Project Collection, American Folklife Center, Library of Congress."
+    item_url: https://www.loc.gov/item/afc2001001.13129/
+    checked: 2026-10-07
 - song: the-rocks-and-the-mountains
   loc_id: "2017655394"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: occupational folklife interview, not performance
   loc:
     title: Gayle D. McCoy interview conducted by Charlie Seemann, 2011-12-02
     date: "2011"
@@ -945,9 +1001,9 @@
     checked: 2026-10-07
 - song: the-rocks-and-the-mountains
   loc_id: afc2024022_121
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: covid-19 oral history interview
   loc:
     title: Emily Ricci and Heidi Hedberg Interview
     date: 2025-06-13
@@ -969,9 +1025,9 @@
     checked: 2026-10-07
 - song: the-rocks-and-the-mountains
   loc_id: "2020785259"
-  status: unreviewed
+  status: rejected
   delivery: selfhost
-  note: null
+  note: occupational folklife interview, not performance
   loc:
     title: Justin Bogaty interview conducted by Kaitlyn Kinney, 2018-02-16
     date: "2018"
@@ -994,9 +1050,9 @@
     checked: 2026-10-07
 - song: the-rocks-and-the-mountains
   loc_id: "2017655359"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: occupational folklife interview, not performance
   loc:
     title: Terri Shuck interview conducted by Candacy Taylor, 2012-05-28
     date: "2012"
@@ -1019,15 +1075,34 @@
     checked: 2026-10-07
 - song: the-rocks-and-the-mountains
   loc_id: "2020655512"
-  status: unreviewed
-  delivery: null
-  note: null
-  loc: null
+  status: rejected
+  delivery: stream
+  note: occupational folklife interview, not performance
+  loc:
+    title: Richard D. Johnson interview conducted by Deborah Fant, 2013-07-02 and 2013-07-05
+    date: "2013"
+    collection: "washington state workers: archie green fellows project, 2012-2013"
+    collections:
+      - "washington state workers: archie green fellows project, 2012-2013"
+      - occupational folklife project
+      - american folklife center
+      - catalog
+    performers:
+      - Johnson, Richard D., 1953- interviewee
+      - Fant, Deborah S., interviewer
+      - Occupational Folklife Project, sponsor
+    place: washington
+    duration_seconds: null
+    audio_url: https://tile.loc.gov/storage-services/service/afc/afc2012032/afc2012032_00490/afc2012032_00490_sr01.mp3
+    can_download: false
+    rights: "The Library of Congress is not aware of any U.S. copyright protection (see Title 17, U.S.C.) or any other restrictions in the material in this collection, except as noted below. Users should keep in mind that the Library of Congress is providing access to these materials strictly for educational and research purposes. The written permission of the copyright owners and/or other holders of rights (such as publicity and/or privacy rights) is required for distribution, reproduction, or other use of protected items beyond that allowed by fair use or other statutory exemptions. Responsibility for making an independent legal assessment of an item and securing any necessary permissions ultimately rests with persons desiring to use the item. See our Legal Notices and Privacy and Publicity Rights for additional information and restrictions. The individuals documented by the Occupational Folklife Project retain copyright and related rights to the use of their recorded and written testimonies and memories. They have granted the Library of Congress permission to provide access to their interviews and related materials for purposes that are consistent with the agency's educational mission, such as publication and transmission, in whole or in part, on the Web. Project participants' written permission is required for any commercial, profit-making distribution, reproduction, or other use beyond that allowed by fair use or other statutory exemptions. Responsibility for making an independent legal assessment of an item and securing any necessary permissions ultimately rests with persons desiring to use the item. The American Folklife Center and the Occupational Folklife Project fieldworkers who carry out these projects feel a strong ethical responsibility to the people they have visited and who have consented to have their lives documented for the historical record. The Center asks that researchers approach the materials in this collection with respect for the culture and sensibilities of the people whose lives, ideas, and creativity are documented here. Researchers are also reminded that privacy and publicity rights may pertain to certain uses of this material. Researchers or others who would like to make further use of these collection materials should contact the Folklife Reading Room for assistance. Credit line African American Nurses: The Chi Eta Phi Sorority: Archie Green Fellows Project, 2021-2022 (AFC 2021/009), American Folklife Center, Library of Congress, Washington, D.C. Agricultural Aviation: Crop Dusters in Rural America: Archie Green Fellows Project, 2020-2021 (AFC 2020/007), American Folklife Center, Library of Congress, Washington, D.C. Baton Rouge Small Businesses and Trades: Archie Green Fellows Project, 2014-2015 (AFC 2014/023), American Folklife Center, Library of Congress, Washington, D.C. Beyond the Breakwater: Gulf of Alaska Small-Boat Fishermen: Archie Green Fellows Project, 2021-2022 (AFC 2021/007), American Folklife Center, Library of Congress, Washington, D.C. The \"Big Top\" Show Goes On: Archie Green Fellows Project, 2011-2012 (AFC 2012/003), American Folklife Center, Library of Congress, Washington, D.C. Boeing Aircraft Factory Workers: Archie Green Fellows Project, 2012-2013 (AFC 2012/036), American Folklife Center, Library of Congress, Washington, D.C. Cement Workers in Pennsylvania's Lehigh Valley: Archie Green Fellows Project, 2020-2021 (AFC 2020/008), American Folklife Center, Library of Congress, Washington, D.C. Commercial Bookbinders: Occupational Folklife Project, 2017-2018 (AFC 2017/021), American Folklife Center, Library of Congress, Washington, D.C. Community Health Workers in Downstate New York: Archie Green Fellows Project, 2021-2022 (AFC 2021/008), American Folklife Center, Library of Congress, Washington, D.C. Cultural Traditions of Ironworkers in America's Upper Midwest: Archie Green Fellows Project, 2011-2012 (AFC 2011/062), American Folklife Center, Library of Congress, Washington, D.C. Custodians and Janitors in Colorado: Archie Green Fellows Project, 2021-2022 (AFC 2021/012), American Folklife Center, Library of Congress, Washington, D.C. Dairy Farm Workers in New York's North Country: Archie Green Fellows project, 2012-2013 (AFC 2012/033), American Folklife Center, Library of Congress, Washington, D.C. Doctoring: The Occupational Folklore of Physicians: Archie Green Fellows Project, 2019-2020 (AFC 2019/030), American Folklife Center, Library of Congress, Washington, D.C. Domestic Workers United: Archie Green Fellows Project, 2015-2016 (AFC 2015/027), American Folklife Center, Library of Congress, Washington, D.C. Ethnic Grocers in the Urban Midwest: Archie Green Fellows Project, 2014-2015 (AFC 2013/016), American Folklife Center, Library of Congress, Washington, D.C. Finding Roots: Asian American Farmers in Contemporary America: Occupational Folklife Project, 2020-2021 (AFC 2020/014), American Folklife Center, Library of Congress, Washington, D.C. Fixing, Mending, Making New: North Carolina's Repair Professionals: Archie Green Fellows Project, 2020-2021 (AFC 2020/009), American Folklife Center, Library of Congress, Washington, D.C. Food Processing and Food Legacy Trades: Occupational Folklife Project, 2016-2017 (AFC 2015/042), American Folklife Center, Library of Congress, Washington, D.C. Fresh Produce Workers in Arizona: Archie Green Fellows Project, 2015-2016 (AFC 2015/028), American Folklife Center, Library of Congress, Washington, D.C. Funeral Services Workers in the Carolinas: Archie Green Fellows Project, 2016-2017 (AFC 2016/037), American Folklife Center, Library of Congress, Washington, D.C. Grass-Roots Agriculture in Vermont: Archie Green Fellows Project, 2014-2015 (AFC 2014/022), American Folklife Center, Library of Congress, Washington, D.C. The Green Book--Documenting African American entrepreneurs: Archie Green Fellows project, 2018-2019 (AFC 2018/029), Archie Green Fellows Project American Folklife Center, Library of Congress, Washington, D.C. Hairdresser and Beauty Shop Culture in America: Archie Green Fellows Project, 2011-2012 (AFC 2012/035), American Folklife Center, Library of Congress, Washington, D.C. Homeless Shelter Workers in the Upper Midwest: Archie Green Fellows Project, 2016-2017 (AFC 2016/034), American Folklife Center, Library of Congress, Washington, D.C. Hope for Recovery: Peer Support Workers in Kentucky: Archie Green Fellows Project, 2020-2021 (AFC 2020/010), American Folklife Center, Library of Congress, Washington, D.C. Illuminating History: Union Electricians in New York City: Archie Green Fellows Project, 2016-2017 (AFC 2016/035), American Folklife Center, Library of Congress, Washington, D.C. Immigrant Women Artists in Oklahoma: Archie Green Fellows Project, 2020-2021 (AFC 2020/011), American Folklife Center, Library of Congress, Washington, D.C. Independent Professional Wrestlers in Central Appalachia: Archie Green Fellows Project, 2019-2020 (AFC 2019/029), American Folklife Center, Library of Congress, Washington, D.C. Kitchen Workers in Central Ohio: Archie Green Fellows Project, 2017-2018 (AFC 2017/020), American Folklife Center, Library of Congress, Washington, D.C. Midwives, doulas, and birth workers in North Carolina: Archie Green Fellows Project, 2019-2020 (AFC 2019/027), American Folklife Center, Library of Congress, Washington, D.C. Multigenerational African-Descended Farmers of the Midwest: Surviving Erasure: Archie Green Fellows Project, 2019-2021 (AFC 2019/028), American Folklife Center, Library of Congress, Washington, D.C. National Press Club collection: Occupational Folklife Project (AFC 2012/004), American Folklife Center, Library of Congress, Washington, D.C. Nursing America's Veterans: Archie Green Fellows Project, 2020-2021 (AFC 2020/012), American Folklife Center, Library of Congress, Washington, D.C. Occupational Lives of Religious Workers in Kentuckiana: Archie Green Fellows Project, 2022-2023 (AFC 2022/022), American Folklife Center, Library of Congress, Washington, D.C. Personal Home Health Care Aides in Michigan: Archie Green Fellows Project, 2017-2018 (AFC 2017/018), American Folklife Center, Library of Congress, Washington, D.C. Poultry Workers of North Carolina : Archie Green Fellows Project, 2022-2023 (AFC 2022/021), American Folklife Center, Library of Congress, Washington, D.C. Production Potters of the Midwest: Archie Green Fellows Project, 2018-2019 (AFC 2018/030), American Folklife Center, Library of Congress, Washington, D.C. Psychiatric nurses in Wisconsin: Archie Green Fellows Project, 2018-2019 (AFC 2018/032), American Folklife Center, Library of Congress, Washington, D.C. Ranger Lore: The Occupational Folklore of Park Rangers: Archie Green Fellows Project, 2013-2015 (AFC 2013/014), American Folklife Center, Library of Congress, Washington, D.C. The Ransomville Speedway: Dirt Track Racing in Western New York: Archie Green Fellows Project, 2020-2021 (AFC 2020/013), American Folklife Center, Library of Congress, Washington, D.C. Recent Immigrant Workers in Iowa's Meatpacking Industry: Archie Green Fellows Project, 2015-2016 (AFC 2015/026), American Folklife Center, Library of Congress, Washington, D.C. Rural Free Delivery: Mail Carriers in Central Appalachia: Archie Green Fellows Project, 2021-2022 (AFC 2021/010), American Folklife Center, Library of Congress, Washington, D.C. Stable Views: Voices and Stories from the Thoroughbred Racetrack: Archie Green Fellows Project, 2011-2012 (AFC 2012/034), American Folklife Center, Library of Congress, Washington, D.C. Taking Care--Documenting the Occupational Culture of Home Care Workers: Archie Green Fellows Project, 2014-2015 (AFC 2014/021), American Folklife Center, Library of Congress, Washington, D.C. Teaching in Wisconsin Classrooms: Archie Green Fellows Project, 2013-2015 (AFC 2013/017), American Folklife Center, Library of Congress, Washington, D.C. Tillamook: Cheesemakers in Coastal Oregon: Archie Green Fellows Project, 2021-2022 (AFC 2021/011), American Folklife Center, Library of Congress, Washington, D.C. Tobacco Workers of the Connecticut River Valley: Archie Green Fellows Project, 2014-2015 (AFC 2014/020), American Folklife Center, Library of Congress, Washington, D.C. Training the Troops: Military Role-Players of Fort Polk, Louisiana: Archie Green Fellows Project, 2017-2018 (AFC 2017/019), American Folklife Center, Library of Congress, Washington, D.C. Trash Talk: Workers in Vermont's Waste Management Industry: Archie Green Fellows Project, 2018-2019 (AFC 2018/031), American Folklife Center, Library of Congress, Washington, D.C. Washington State Workers: Archie Green Fellows Project, 2012-2013 (AFC 2012/032), American Folklife Center, Library of Congress, Washington, D.C. Western Folklife Center Occupational Folklore Project: Archie Green Fellows Project, 2011-2012 (AFC 2011/064), American Folklife Center, Library of Congress, Washington, D.C. Winery Workers in Virginia: Archie Green Fellows Project, 2017-2018 (AFC 2017/017), American Folklife Center, Library of Congress, Washington, D.C. Women Architects: Archie Green Fellows Project, 2019-2020 (AFC 2019/031), American Folklife Center, Library of Congress, Washington, D.C. Working the Port of Houston: Archie Green Fellows Project, 2011-2012 (AFC 2012/006), American Folklife Center, Library of Congress, Washington, D.C. Working the Waterfront, New Bedford, Massachusetts: Archie Green Fellows Project, 2016-2017 (AFC 2016/036), American Folklife Center, Library of Congress, Washington, D.C."
+    item_url: https://www.loc.gov/item/2020655512/
+    checked: 2026-10-07
 - song: the-rocks-and-the-mountains
   loc_id: "2020785255"
-  status: unreviewed
+  status: rejected
   delivery: selfhost
-  note: null
+  note: occupational folklife interview, not performance
   loc:
     title: Jason Daniel Murray interview conducted by Kim D. Stryker, 2017-09-06
     date: "2017"
@@ -1050,15 +1125,34 @@
     checked: 2026-10-07
 - song: the-rocks-and-the-mountains
   loc_id: "2020785252"
-  status: unreviewed
-  delivery: null
-  note: null
-  loc: null
+  status: rejected
+  delivery: selfhost
+  note: occupational folklife interview, not performance
+  loc:
+    title: Robert Grouge interview conducted by Kim D. Stryker, 2017-09-02
+    date: "2017"
+    collection: "winery workers in virginia vineyards: archie green fellows project, 2017-2018"
+    collections:
+      - "winery workers in virginia vineyards: archie green fellows project, 2017-2018"
+      - occupational folklife project
+      - american folklife center
+      - catalog
+    performers:
+      - Grouge, Robert, interviewee
+      - Stryker, Kim D., interviewer
+      - Occupational Folklife Project, sponsor
+    place: virginia
+    duration_seconds: null
+    audio_url: https://tile.loc.gov/storage-services/service/afc/afc2017017/afc2017017_04481/afc2017017_04481_sr01.mp3
+    can_download: true
+    rights: "The Library of Congress is not aware of any U.S. copyright protection (see Title 17, U.S.C.) or any other restrictions in the material in this collection, except as noted below. Users should keep in mind that the Library of Congress is providing access to these materials strictly for educational and research purposes. The written permission of the copyright owners and/or other holders of rights (such as publicity and/or privacy rights) is required for distribution, reproduction, or other use of protected items beyond that allowed by fair use or other statutory exemptions. Responsibility for making an independent legal assessment of an item and securing any necessary permissions ultimately rests with persons desiring to use the item. See our Legal Notices and Privacy and Publicity Rights for additional information and restrictions. The individuals documented by the Occupational Folklife Project retain copyright and related rights to the use of their recorded and written testimonies and memories. They have granted the Library of Congress permission to provide access to their interviews and related materials for purposes that are consistent with the agency's educational mission, such as publication and transmission, in whole or in part, on the Web. Project participants' written permission is required for any commercial, profit-making distribution, reproduction, or other use beyond that allowed by fair use or other statutory exemptions. Responsibility for making an independent legal assessment of an item and securing any necessary permissions ultimately rests with persons desiring to use the item. The American Folklife Center and the Occupational Folklife Project fieldworkers who carry out these projects feel a strong ethical responsibility to the people they have visited and who have consented to have their lives documented for the historical record. The Center asks that researchers approach the materials in this collection with respect for the culture and sensibilities of the people whose lives, ideas, and creativity are documented here. Researchers are also reminded that privacy and publicity rights may pertain to certain uses of this material. Researchers or others who would like to make further use of these collection materials should contact the Folklife Reading Room for assistance. Credit line African American Nurses: The Chi Eta Phi Sorority: Archie Green Fellows Project, 2021-2022 (AFC 2021/009), American Folklife Center, Library of Congress, Washington, D.C. Agricultural Aviation: Crop Dusters in Rural America: Archie Green Fellows Project, 2020-2021 (AFC 2020/007), American Folklife Center, Library of Congress, Washington, D.C. Baton Rouge Small Businesses and Trades: Archie Green Fellows Project, 2014-2015 (AFC 2014/023), American Folklife Center, Library of Congress, Washington, D.C. Beyond the Breakwater: Gulf of Alaska Small-Boat Fishermen: Archie Green Fellows Project, 2021-2022 (AFC 2021/007), American Folklife Center, Library of Congress, Washington, D.C. The \"Big Top\" Show Goes On: Archie Green Fellows Project, 2011-2012 (AFC 2012/003), American Folklife Center, Library of Congress, Washington, D.C. Boeing Aircraft Factory Workers: Archie Green Fellows Project, 2012-2013 (AFC 2012/036), American Folklife Center, Library of Congress, Washington, D.C. Cement Workers in Pennsylvania's Lehigh Valley: Archie Green Fellows Project, 2020-2021 (AFC 2020/008), American Folklife Center, Library of Congress, Washington, D.C. Commercial Bookbinders: Occupational Folklife Project, 2017-2018 (AFC 2017/021), American Folklife Center, Library of Congress, Washington, D.C. Community Health Workers in Downstate New York: Archie Green Fellows Project, 2021-2022 (AFC 2021/008), American Folklife Center, Library of Congress, Washington, D.C. Cultural Traditions of Ironworkers in America's Upper Midwest: Archie Green Fellows Project, 2011-2012 (AFC 2011/062), American Folklife Center, Library of Congress, Washington, D.C. Custodians and Janitors in Colorado: Archie Green Fellows Project, 2021-2022 (AFC 2021/012), American Folklife Center, Library of Congress, Washington, D.C. Dairy Farm Workers in New York's North Country: Archie Green Fellows project, 2012-2013 (AFC 2012/033), American Folklife Center, Library of Congress, Washington, D.C. Doctoring: The Occupational Folklore of Physicians: Archie Green Fellows Project, 2019-2020 (AFC 2019/030), American Folklife Center, Library of Congress, Washington, D.C. Domestic Workers United: Archie Green Fellows Project, 2015-2016 (AFC 2015/027), American Folklife Center, Library of Congress, Washington, D.C. Ethnic Grocers in the Urban Midwest: Archie Green Fellows Project, 2014-2015 (AFC 2013/016), American Folklife Center, Library of Congress, Washington, D.C. Finding Roots: Asian American Farmers in Contemporary America: Occupational Folklife Project, 2020-2021 (AFC 2020/014), American Folklife Center, Library of Congress, Washington, D.C. Fixing, Mending, Making New: North Carolina's Repair Professionals: Archie Green Fellows Project, 2020-2021 (AFC 2020/009), American Folklife Center, Library of Congress, Washington, D.C. Food Processing and Food Legacy Trades: Occupational Folklife Project, 2016-2017 (AFC 2015/042), American Folklife Center, Library of Congress, Washington, D.C. Fresh Produce Workers in Arizona: Archie Green Fellows Project, 2015-2016 (AFC 2015/028), American Folklife Center, Library of Congress, Washington, D.C. Funeral Services Workers in the Carolinas: Archie Green Fellows Project, 2016-2017 (AFC 2016/037), American Folklife Center, Library of Congress, Washington, D.C. Grass-Roots Agriculture in Vermont: Archie Green Fellows Project, 2014-2015 (AFC 2014/022), American Folklife Center, Library of Congress, Washington, D.C. The Green Book--Documenting African American entrepreneurs: Archie Green Fellows project, 2018-2019 (AFC 2018/029), Archie Green Fellows Project American Folklife Center, Library of Congress, Washington, D.C. Hairdresser and Beauty Shop Culture in America: Archie Green Fellows Project, 2011-2012 (AFC 2012/035), American Folklife Center, Library of Congress, Washington, D.C. Homeless Shelter Workers in the Upper Midwest: Archie Green Fellows Project, 2016-2017 (AFC 2016/034), American Folklife Center, Library of Congress, Washington, D.C. Hope for Recovery: Peer Support Workers in Kentucky: Archie Green Fellows Project, 2020-2021 (AFC 2020/010), American Folklife Center, Library of Congress, Washington, D.C. Illuminating History: Union Electricians in New York City: Archie Green Fellows Project, 2016-2017 (AFC 2016/035), American Folklife Center, Library of Congress, Washington, D.C. Immigrant Women Artists in Oklahoma: Archie Green Fellows Project, 2020-2021 (AFC 2020/011), American Folklife Center, Library of Congress, Washington, D.C. Independent Professional Wrestlers in Central Appalachia: Archie Green Fellows Project, 2019-2020 (AFC 2019/029), American Folklife Center, Library of Congress, Washington, D.C. Kitchen Workers in Central Ohio: Archie Green Fellows Project, 2017-2018 (AFC 2017/020), American Folklife Center, Library of Congress, Washington, D.C. Midwives, doulas, and birth workers in North Carolina: Archie Green Fellows Project, 2019-2020 (AFC 2019/027), American Folklife Center, Library of Congress, Washington, D.C. Multigenerational African-Descended Farmers of the Midwest: Surviving Erasure: Archie Green Fellows Project, 2019-2021 (AFC 2019/028), American Folklife Center, Library of Congress, Washington, D.C. National Press Club collection: Occupational Folklife Project (AFC 2012/004), American Folklife Center, Library of Congress, Washington, D.C. Nursing America's Veterans: Archie Green Fellows Project, 2020-2021 (AFC 2020/012), American Folklife Center, Library of Congress, Washington, D.C. Occupational Lives of Religious Workers in Kentuckiana: Archie Green Fellows Project, 2022-2023 (AFC 2022/022), American Folklife Center, Library of Congress, Washington, D.C. Personal Home Health Care Aides in Michigan: Archie Green Fellows Project, 2017-2018 (AFC 2017/018), American Folklife Center, Library of Congress, Washington, D.C. Poultry Workers of North Carolina : Archie Green Fellows Project, 2022-2023 (AFC 2022/021), American Folklife Center, Library of Congress, Washington, D.C. Production Potters of the Midwest: Archie Green Fellows Project, 2018-2019 (AFC 2018/030), American Folklife Center, Library of Congress, Washington, D.C. Psychiatric nurses in Wisconsin: Archie Green Fellows Project, 2018-2019 (AFC 2018/032), American Folklife Center, Library of Congress, Washington, D.C. Ranger Lore: The Occupational Folklore of Park Rangers: Archie Green Fellows Project, 2013-2015 (AFC 2013/014), American Folklife Center, Library of Congress, Washington, D.C. The Ransomville Speedway: Dirt Track Racing in Western New York: Archie Green Fellows Project, 2020-2021 (AFC 2020/013), American Folklife Center, Library of Congress, Washington, D.C. Recent Immigrant Workers in Iowa's Meatpacking Industry: Archie Green Fellows Project, 2015-2016 (AFC 2015/026), American Folklife Center, Library of Congress, Washington, D.C. Rural Free Delivery: Mail Carriers in Central Appalachia: Archie Green Fellows Project, 2021-2022 (AFC 2021/010), American Folklife Center, Library of Congress, Washington, D.C. Stable Views: Voices and Stories from the Thoroughbred Racetrack: Archie Green Fellows Project, 2011-2012 (AFC 2012/034), American Folklife Center, Library of Congress, Washington, D.C. Taking Care--Documenting the Occupational Culture of Home Care Workers: Archie Green Fellows Project, 2014-2015 (AFC 2014/021), American Folklife Center, Library of Congress, Washington, D.C. Teaching in Wisconsin Classrooms: Archie Green Fellows Project, 2013-2015 (AFC 2013/017), American Folklife Center, Library of Congress, Washington, D.C. Tillamook: Cheesemakers in Coastal Oregon: Archie Green Fellows Project, 2021-2022 (AFC 2021/011), American Folklife Center, Library of Congress, Washington, D.C. Tobacco Workers of the Connecticut River Valley: Archie Green Fellows Project, 2014-2015 (AFC 2014/020), American Folklife Center, Library of Congress, Washington, D.C. Training the Troops: Military Role-Players of Fort Polk, Louisiana: Archie Green Fellows Project, 2017-2018 (AFC 2017/019), American Folklife Center, Library of Congress, Washington, D.C. Trash Talk: Workers in Vermont's Waste Management Industry: Archie Green Fellows Project, 2018-2019 (AFC 2018/031), American Folklife Center, Library of Congress, Washington, D.C. Washington State Workers: Archie Green Fellows Project, 2012-2013 (AFC 2012/032), American Folklife Center, Library of Congress, Washington, D.C. Western Folklife Center Occupational Folklore Project: Archie Green Fellows Project, 2011-2012 (AFC 2011/064), American Folklife Center, Library of Congress, Washington, D.C. Winery Workers in Virginia: Archie Green Fellows Project, 2017-2018 (AFC 2017/017), American Folklife Center, Library of Congress, Washington, D.C. Women Architects: Archie Green Fellows Project, 2019-2020 (AFC 2019/031), American Folklife Center, Library of Congress, Washington, D.C. Working the Port of Houston: Archie Green Fellows Project, 2011-2012 (AFC 2012/006), American Folklife Center, Library of Congress, Washington, D.C. Working the Waterfront, New Bedford, Massachusetts: Archie Green Fellows Project, 2016-2017 (AFC 2016/036), American Folklife Center, Library of Congress, Washington, D.C."
+    item_url: https://www.loc.gov/item/2020785252/
+    checked: 2026-10-07
 - song: the-rocks-and-the-mountains
   loc_id: "2017655379"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: oral history interview, not performance
   loc:
     title: B.K. Silverlake interview conducted by Tanya Ducker Finchum and Juliana M. Nykolaiszyn, 2012-01-18
     date: "2012"
@@ -1082,9 +1176,9 @@
     checked: 2026-10-07
 - song: march-on
   loc_id: "99391346"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: Sousa military march, wrong song
   loc:
     title: Manhattan Beach march
     date: "1897"
@@ -1104,9 +1198,9 @@
     checked: 2026-10-07
 - song: march-on
   loc_id: "00582639"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: instrumental military march, wrong song
   loc:
     title: Unidentified march
     date: 189?
@@ -1125,15 +1219,30 @@
     checked: 2026-10-07
 - song: march-on
   loc_id: "99390912"
-  status: unreviewed
-  delivery: null
-  note: null
-  loc: null
+  status: rejected
+  delivery: stream
+  note: instrumental popular march, wrong song
+  loc:
+    title: Hooneymoon [sic] march
+    date: 189?
+    collection: emile berliner and the birth of the recording industry
+    collections:
+      - emile berliner and the birth of the recording industry
+      - catalog
+    performers:
+      - Rosey, Geo.
+    place: null
+    duration_seconds: null
+    audio_url: https://tile.loc.gov/storage-services/media/ingested/api/loc.mbrsrs.berl.13257.mp3
+    can_download: true
+    rights: "The Library of Congress is providing access to these materials for educational and research purposes and makes no warranty with regard to their use for other purposes. The written permission of the copyright owners and/or other rights holders (such as holders of publicity and/or privacy rights) is required for distribution, reproduction, or other use of protected items beyond that allowed by fair use or other statutory exemptions. There may be content that is protected as \"works for hire\" (copyright may be held by the party that commissioned the original work) and/or under the copyright or neighboring-rights laws of other nations. Responsibility for making an independent legal assessment of an item and securing any necessary permissions ultimately rests with persons desiring to use the item. Users should consult the catalog information that accompanies each item for specific information. This catalog data provides the details known to the Library of Congress regarding the corresponding item and may assist users in making independent assessments of the legal status of these items as related to their desired uses. Items included here with the permission of rights holders are listed below, and permission is noted in the catalog record for each item. In some cases, the Library was unable to identify a possible rights holder and has elected to place some of those items online as an exercise of fair use for strictly non-commercial educational uses. The Library of Congress would like to learn more about these materials and would like to hear from individuals or institutions that have any additional information or know of their history. Please contact: the Recorded Sound Research Center, ​rsrc@loc.gov . Suggested credit line: Library of Congress, Motion Picture, Broadcasting and Recorded Sound Division. The following items are included in this collection with permission as indicated: Reprinted with permission from Washingtonpost.Newsweek Interactive Company, The Washington Post and washingtonpost.com. Copyright 2002, Washingtonpost.Newsweek Interactive, The Washington Post and washingtonpost.com External . All rights reserved : Washington Post, \"Berliner Acoustic Wall Cell Wins in Philadelphia Test,\" 1928 Aug. 9. Washington Post , \"Berliner Funeral to be Held Today,\" 1929 August 5. Washington Post, \"Berliner is to Fight for City's Birth List,\" 1928 Feb. 23. Washington Post, \"Berliner, Not Edison is Inventor of the Microphone, Book Declares.\" 1926 December 19 Washington Post , \"Berliner Will Provides For Health Education,\" 1929 August 8. Washington Post , \"Contest Develops Over Berliner Will,\" 1929 September 11. Washington Post, \"Emile Berliner,\" 1929 August 4. Washington Post, \"Emile Berliner, Inventor, is Dead,\" 1929 August 4. Washington Post, \"Emile Berliner's Funeral Attended by Many Friends,\" 1929 August 6. Washington Post, \"Health Bureau Ban on Child Pamphlet Rouses Mrs. Rafter,\" 1928 Feb. 22. Washington Post , \"Emile Berliner, Man of Simplicity,\" 1929 September 15. Copyright The Washington Post ; reprinted by permission of the D.C. Public Library (washingtonianamlk_2000@yahoo.com): Washington Daily News, \"Emile Berliner and the Babies of Washington,\" 1929 Aug. 6. Washington Daily News, \"P.T.A. Will Attack Medical Society in Child Fight,\" 1928(?) Feb. 21. Washington Daily News, \"Scientific Group Lauds Washington Inventor,\" 1928 Oct. 18. Washington Evening Star, \"Berliner Leaves Trust Fund for Aid of Children,\" 1929 Aug. 7. Washington Star, \"Death of Berliner Recalls Triumphs,\" 1929 Aug. 4. Washington Evening Star, \"Emile Berliner,\" 1929 Aug. 5. Washington Evening Star, \"Emile Berliner, Famous Inventor, Dies After Stroke,\" 1929 Aug. 3. Washington Star, \"Emile Berliner Reaches 75 Today,\" 1926 May 20. Washington Sunday Star, \"A New Idea in Acoustics,\" 1928 Nov. 11. Washington (Evening?) Star, \"Saving Lives of Babies,\" 1929 July 22. Washington Star, \"Silence on the Air Honor to Berliner, Radio Benefactor,\" 1929 Aug. 4. Washington Star, \"Simple Rites Held for Emile Berliner,\" 1929 Aug. 6. Courtesy NYP Holdings, Inc., publisher of the New York Post, 1211 Avenue of the Americas, New York, NY 10036: New York Herald Tribune, \"Emile Berliner, Talking Machine Inventor, Dead,\" 1929 Aug. 4. Courtesy AT&T, AT&T Archives, 5 Reinman Road, Warren, NJ 07059: [Letter from Thomas Vail to Emile Berliner, 1918 March 4]. [Letter from John J. Carty of American Telephone and Telegraph Company to Emile Berliner, 1923 June 21]. [Letter from John J. Carty of American Telephone and Telegraph Company to Emile Berliner, 1923 June 29]. [Letter from H. B. Thayer, President of American Telephone and Telegraph Company to Emile Berliner, 1923 August 13]. Bell-Berliner system since 1879"
+    item_url: https://www.loc.gov/item/99390912/
+    checked: 2026-10-07
 - song: march-on
   loc_id: "99390401"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: Sousa military march, wrong song
   loc:
     title: The Bride elect march
     date: "1898"
@@ -1154,9 +1263,9 @@
     checked: 2026-10-07
 - song: march-on
   loc_id: "99391883"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: Marine Band march, wrong song
   loc:
     title: Admiral Dewey march
     date: "1899"
@@ -1178,9 +1287,9 @@
     checked: 2026-10-07
 - song: march-on
   loc_id: "99470317"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: Sousa military march, wrong song
   loc:
     title: Hands across the sea march
     date: "1899"
@@ -1202,9 +1311,9 @@
     checked: 2026-10-07
 - song: march-on
   loc_id: lomaxbib000102
-  status: unreviewed
+  status: rejected
   delivery: selfhost
-  note: null
+  note: Marine march, wrong song
   loc:
     title: U.S. Marine March
     date: 1939-04-10
@@ -1226,9 +1335,9 @@
     checked: 2026-10-07
 - song: march-on
   loc_id: ihas.100010804
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: Marine Band march, wrong song
   loc:
     title: Library of Congress march
     date: "2003"
@@ -1249,15 +1358,31 @@
     checked: 2026-10-07
 - song: march-on
   loc_id: "00582491"
-  status: unreviewed
-  delivery: null
-  note: null
-  loc: null
+  status: rejected
+  delivery: stream
+  note: brass quartet march, wrong song
+  loc:
+    title: World's Fair march
+    date: "1899"
+    collection: emile berliner and the birth of the recording industry
+    collections:
+      - emile berliner and the birth of the recording industry
+      - national audiovisual conservation center
+      - catalog
+    performers:
+      - Schubert Brass Quartet. prf
+    place: null
+    duration_seconds: null
+    audio_url: https://tile.loc.gov/storage-services/public/navcc/berl-130453/berl-130453.mp3
+    can_download: false
+    rights: "The Library of Congress is providing access to these materials for educational and research purposes and makes no warranty with regard to their use for other purposes. The written permission of the copyright owners and/or other rights holders (such as holders of publicity and/or privacy rights) is required for distribution, reproduction, or other use of protected items beyond that allowed by fair use or other statutory exemptions. There may be content that is protected as \"works for hire\" (copyright may be held by the party that commissioned the original work) and/or under the copyright or neighboring-rights laws of other nations. Responsibility for making an independent legal assessment of an item and securing any necessary permissions ultimately rests with persons desiring to use the item. Users should consult the catalog information that accompanies each item for specific information. This catalog data provides the details known to the Library of Congress regarding the corresponding item and may assist users in making independent assessments of the legal status of these items as related to their desired uses. Items included here with the permission of rights holders are listed below, and permission is noted in the catalog record for each item. In some cases, the Library was unable to identify a possible rights holder and has elected to place some of those items online as an exercise of fair use for strictly non-commercial educational uses. The Library of Congress would like to learn more about these materials and would like to hear from individuals or institutions that have any additional information or know of their history. Please contact: the Recorded Sound Research Center, ​rsrc@loc.gov . Suggested credit line: Library of Congress, Motion Picture, Broadcasting and Recorded Sound Division. The following items are included in this collection with permission as indicated: Reprinted with permission from Washingtonpost.Newsweek Interactive Company, The Washington Post and washingtonpost.com. Copyright 2002, Washingtonpost.Newsweek Interactive, The Washington Post and washingtonpost.com External . All rights reserved : Washington Post, \"Berliner Acoustic Wall Cell Wins in Philadelphia Test,\" 1928 Aug. 9. Washington Post , \"Berliner Funeral to be Held Today,\" 1929 August 5. Washington Post, \"Berliner is to Fight for City's Birth List,\" 1928 Feb. 23. Washington Post, \"Berliner, Not Edison is Inventor of the Microphone, Book Declares.\" 1926 December 19 Washington Post , \"Berliner Will Provides For Health Education,\" 1929 August 8. Washington Post , \"Contest Develops Over Berliner Will,\" 1929 September 11. Washington Post, \"Emile Berliner,\" 1929 August 4. Washington Post, \"Emile Berliner, Inventor, is Dead,\" 1929 August 4. Washington Post, \"Emile Berliner's Funeral Attended by Many Friends,\" 1929 August 6. Washington Post, \"Health Bureau Ban on Child Pamphlet Rouses Mrs. Rafter,\" 1928 Feb. 22. Washington Post , \"Emile Berliner, Man of Simplicity,\" 1929 September 15. Copyright The Washington Post ; reprinted by permission of the D.C. Public Library (washingtonianamlk_2000@yahoo.com): Washington Daily News, \"Emile Berliner and the Babies of Washington,\" 1929 Aug. 6. Washington Daily News, \"P.T.A. Will Attack Medical Society in Child Fight,\" 1928(?) Feb. 21. Washington Daily News, \"Scientific Group Lauds Washington Inventor,\" 1928 Oct. 18. Washington Evening Star, \"Berliner Leaves Trust Fund for Aid of Children,\" 1929 Aug. 7. Washington Star, \"Death of Berliner Recalls Triumphs,\" 1929 Aug. 4. Washington Evening Star, \"Emile Berliner,\" 1929 Aug. 5. Washington Evening Star, \"Emile Berliner, Famous Inventor, Dies After Stroke,\" 1929 Aug. 3. Washington Star, \"Emile Berliner Reaches 75 Today,\" 1926 May 20. Washington Sunday Star, \"A New Idea in Acoustics,\" 1928 Nov. 11. Washington (Evening?) Star, \"Saving Lives of Babies,\" 1929 July 22. Washington Star, \"Silence on the Air Honor to Berliner, Radio Benefactor,\" 1929 Aug. 4. Washington Star, \"Simple Rites Held for Emile Berliner,\" 1929 Aug. 6. Courtesy NYP Holdings, Inc., publisher of the New York Post, 1211 Avenue of the Americas, New York, NY 10036: New York Herald Tribune, \"Emile Berliner, Talking Machine Inventor, Dead,\" 1929 Aug. 4. Courtesy AT&T, AT&T Archives, 5 Reinman Road, Warren, NJ 07059: [Letter from Thomas Vail to Emile Berliner, 1918 March 4]. [Letter from John J. Carty of American Telephone and Telegraph Company to Emile Berliner, 1923 June 21]. [Letter from John J. Carty of American Telephone and Telegraph Company to Emile Berliner, 1923 June 29]. [Letter from H. B. Thayer, President of American Telephone and Telegraph Company to Emile Berliner, 1923 August 13]. Bell-Berliner system since 1879"
+    item_url: https://www.loc.gov/item/00582491/
+    checked: 2026-10-07
 - song: march-on
   loc_id: "00580067"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: Victor Herbert band march, wrong song
   loc:
     title: The Ameer march
     date: 189?
@@ -1284,9 +1409,9 @@
   loc: null
 - song: march-on
   loc_id: "99470284"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: Civil War marching song, wrong song
   loc:
     title: Marching through Georgia
     date: "1896"
@@ -1307,9 +1432,9 @@
     checked: 2026-10-07
 - song: march-on
   loc_id: "99471435"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: Sousa military march, wrong song
   loc:
     title: El Capitan march
     date: "1898"
@@ -1331,9 +1456,9 @@
     checked: 2026-10-07
 - song: march-on
   loc_id: ihas.100010553
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: Marine Band march, wrong song
   loc:
     title: Guadalcanal march
     date: "1992"
@@ -1355,9 +1480,9 @@
     checked: 2026-10-07
 - song: march-on
   loc_id: ihas.200002625
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: military band march, wrong song
   loc:
     title: Transit of Venus march
     date: "2003"
@@ -1376,9 +1501,9 @@
     checked: 2026-10-07
 - song: march-on
   loc_id: raelbib000089
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: Hispano instrumental marcha, wrong song
   loc:
     title: Marcha (March) [Audio]
     date: 1940-08-04
@@ -1401,9 +1526,9 @@
     checked: 2026-10-07
 - song: march-on
   loc_id: raelbib000044
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: Hispano instrumental marcha, wrong song
   loc:
     title: Marcha (March) [Audio]
     date: 1940-07-30
@@ -1427,9 +1552,9 @@
     checked: 2026-10-07
 - song: march-on
   loc_id: raelbib000045
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: Hispano instrumental marcha, wrong song
   loc:
     title: Marcha (March) [Audio]
     date: 1940-07-30
@@ -1453,9 +1578,9 @@
     checked: 2026-10-07
 - song: children-youll-be-called-on
   loc_id: "2020785260"
-  status: unreviewed
+  status: rejected
   delivery: selfhost
-  note: null
+  note: occupational folklife interview, not performance
   loc:
     title: Kevin Scott Switz interview conducted by Kim D. Stryker, 2018-04-12
     date: "2018"
@@ -1478,9 +1603,9 @@
     checked: 2026-10-07
 - song: children-youll-be-called-on
   loc_id: "2017655366"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: oral history interview, not performance
   loc:
     title: Mary Rawls interview conducted by Tanya Ducker Finchum and Juliana M. Nykolaiszyn, 2011-06-13
     date: "2011"
@@ -1504,9 +1629,9 @@
     checked: 2026-10-07
 - song: children-youll-be-called-on
   loc_id: "2017655367"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: oral history interview, not performance
   loc:
     title: Joel Mashburn interview conducted by Tanya Ducker Finchum and Juliana M. Nykolaiszyn, 2011-06-14
     date: "2011"
@@ -1530,9 +1655,9 @@
     checked: 2026-10-07
 - song: children-youll-be-called-on
   loc_id: afc2024022_168
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: covid-19 oral history interview
   loc:
     title: Tori Brasher-Weathers and Jonathan Zelinger Interview
     date: 2025-07-25
@@ -1553,9 +1678,9 @@
     checked: 2026-10-07
 - song: children-youll-be-called-on
   loc_id: "2017655389"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: oral history interview, not performance
   loc:
     title: Mark Cannon interview conducted by Tanya Ducker Finchum and Juliana M. Nykolaiszyn, 2012-06-15
     date: "2012"
@@ -1579,9 +1704,9 @@
     checked: 2026-10-07
 - song: children-youll-be-called-on
   loc_id: afc2024022_144
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: covid-19 oral history interview
   loc:
     title: Jamie Cody and Lisa Ottmar Interview
     date: 2025-07-11
@@ -1603,9 +1728,9 @@
     checked: 2026-10-07
 - song: children-youll-be-called-on
   loc_id: afc2024022_055
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: covid-19 oral history interview
   loc:
     title: April Bradham and Terri Shoemaker Interview
     date: 2025-03-21
@@ -1627,9 +1752,9 @@
     checked: 2026-10-07
 - song: children-youll-be-called-on
   loc_id: afc2024022_112
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: covid-19 oral history interview
   loc:
     title: Derek McGarrigan and Kristy McGarrigan Interview
     date: 2025-06-10
@@ -1651,9 +1776,9 @@
     checked: 2026-10-07
 - song: children-youll-be-called-on
   loc_id: afc2024022_182
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: covid-19 oral history interview
   loc:
     title: Natalie Stalmach and Jorden Michael Interview
     date: 2025-12-17
@@ -1674,9 +1799,9 @@
     checked: 2026-10-07
 - song: children-youll-be-called-on
   loc_id: afc2024022_204
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: covid-19 oral history interview
   loc:
     title: Bryan Butcher and Io Eltagonde Interview
     date: 2026-03-09
@@ -1698,9 +1823,9 @@
     checked: 2026-10-07
 - song: children-youll-be-called-on
   loc_id: "2017655378"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: oral history interview, not performance
   loc:
     title: B.K. Silverlake interview conducted by Tanya Ducker Finchum and Juliana M. Nykolaiszyn, 2011-07-01
     date: "2011"
@@ -1724,9 +1849,9 @@
     checked: 2026-10-07
 - song: children-youll-be-called-on
   loc_id: "2017655383"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: oral history interview, not performance
   loc:
     title: Irene Kellogg and Carol Rawls Mendez interview conducted by Tanya Ducker Finchum and Juliana M. Nykolaiszyn, 2011-08-12
     date: "2011"
@@ -1751,9 +1876,9 @@
     checked: 2026-10-07
 - song: children-youll-be-called-on
   loc_id: "2017655381"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: oral history interview, not performance
   loc:
     title: Traci Cavallini interview conducted by Tanya Ducker Finchum and Juliana M. Nykolaiszyn, 2011-11-19
     date: "2011"
@@ -1777,9 +1902,9 @@
     checked: 2026-10-07
 - song: children-youll-be-called-on
   loc_id: "2017655375"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: oral history interview, not performance
   loc:
     title: Robert Rawls interview conducted by Tanya Ducker Finchum and Juliana M. Nykolaiszyn, 2011-07-02
     date: "2011"
@@ -1803,9 +1928,9 @@
     checked: 2026-10-07
 - song: im-a-rolling
   loc_id: "2020785334"
-  status: unreviewed
+  status: rejected
   delivery: selfhost
-  note: null
+  note: occupational folklife interview, not performance
   loc:
     title: Irvin Brad McDougal interview conducted by Brent A. Bjorkman, 2014-06-23
     date: "2014"
@@ -1828,9 +1953,9 @@
     checked: 2026-10-07
 - song: im-a-rolling
   loc_id: "2001658640"
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: poetry reading, not a performance
   loc:
     title: Jean Valentine and Cornelius Eady reading their poems with comment in the Montpelier Room, Library of Congress, March 22, 2001
     date: "2001"
@@ -1853,9 +1978,9 @@
     checked: 2026-10-07
 - song: im-a-rolling
   loc_id: afc2023002_033
-  status: unreviewed
+  status: rejected
   delivery: selfhost
-  note: null
+  note: oral history interview, not performance
   loc:
     title: Food Vendors - Lema Ahmed Interview Conducted by Naomi Sturm-Wijesinghe
     date: 2023-07-30
@@ -1876,9 +2001,9 @@
     checked: 2026-10-07
 - song: im-a-rolling
   loc_id: afc2024022_205
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: covid-19 oral history interview
   loc:
     title: Angela Heald and Maria Yang Interview
     date: 2026-03-02
@@ -1900,9 +2025,9 @@
     checked: 2026-10-07
 - song: im-a-rolling
   loc_id: afc2024022_202
-  status: unreviewed
+  status: rejected
   delivery: stream
-  note: null
+  note: covid-19 oral history interview
   loc:
     title: Jane Lubchenco and Benjamin Dalziel Interview
     date: 2026-02-20
