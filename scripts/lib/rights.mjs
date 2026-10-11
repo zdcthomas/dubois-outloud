@@ -5,11 +5,15 @@
  * advice, and it only ever proposes: scripts/fetch-loc.mjs writes the value
  * when the field is absent and never overwrites a human's choice.
  *
- * The 1923 boundary comes from the Music Modernization Act, which moved
- * pre-1923 sound recordings into the public domain. The Library's own National
- * Jukebox rights statement raises the Act, so a pre-1923 Jukebox side has a
- * defensible public-domain argument even though the Library hosts the
+ * Whether a recording is out of copyright comes from isPublicDomain below,
+ * which computes the Music Modernization Act's term. The Library's own
+ * National Jukebox statement raises the Act, so a side whose term has expired
+ * has a defensible public-domain argument even though the Library hosts the
  * collection by permission from Sony and EMI.
+ *
+ * Do not reintroduce a literal cutoff year anywhere. The term moves every
+ * January, and a copy of it in another file is how the vetting page ended up
+ * warning about recordings that were already public domain.
  */
 
 /**

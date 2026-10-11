@@ -2,6 +2,7 @@ import { createServer } from 'node:http';
 import { readFileSync } from 'node:fs';
 import { parse } from 'yaml';
 import { readManifest, writeManifest } from './lib/manifest.mjs';
+import { isPublicDomain } from './lib/rights.mjs';
 
 /**
  * A local-only page for approving or rejecting candidate recordings.
@@ -46,21 +47,27 @@ const mmss = (s) =>
   s == null ? '' : `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, '0')}`;
 
 /**
- * Post-1923 National Jukebox sides are hosted by the Library under permission
- * from Sony and EMI, not public domain. Approving one for self-hosting is the
- * one route from vetting to a real rights problem, so it is called out here
- * where the decision is actually made.
+ * A National Jukebox side still inside its copyright term is hosted by the
+ * Library under permission from Sony and EMI, not public domain. Approving one
+ * for self-hosting is the one route from vetting to a real rights problem, so
+ * it is called out here, where the decision is actually made.
+ *
+ * The term comes from isPublicDomain rather than a number written here. This
+ * function used to carry its own `year >= 1923` test and drifted out of step
+ * the moment the real rule learned that 1923-1946 is a rolling 100-year term:
+ * it was warning about recordings that had already entered the public domain.
  */
 export function rightsWarning(loc) {
   if (!loc) return null;
   const jukebox = [...(loc.collections ?? []), loc.collection ?? '']
     .some((n) => /national jukebox/i.test(n));
+  if (!jukebox) return null;
+
   const year = Number(String(loc.date ?? '').slice(0, 4));
-  if (jukebox && year >= 1923) {
-    return `National Jukebox, ${year} — after 1923, so NOT public domain. ` +
-      `Stream it; do not self-host.`;
-  }
-  return null;
+  if (isPublicDomain(year)) return null;
+
+  return `National Jukebox, ${Number.isFinite(year) ? year : 'date unknown'} — ` +
+    `still in copyright, so NOT public domain. Stream it; do not self-host.`;
 }
 
 function page(entries, songTitles, filter) {

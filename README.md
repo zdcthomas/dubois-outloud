@@ -53,9 +53,14 @@ flag.
 
 Library of Congress items carry different rights. American Folklife Center
 field recordings say no known restrictions, so we host a copy. National
-Jukebox items are hosted by permission from Sony and EMI, so only pre-1923
-sides are copied, on Music Modernization Act grounds; later ones stream from
-loc.gov. The rule is in `scripts/lib/rights.mjs`, it only ever *proposes*, and
+Jukebox items are hosted by permission from Sony and EMI, so a side is copied
+only once its Music Modernization Act term has run out; the rest stream from
+loc.gov. That term is a moving target, not a fixed year — pre-1923 recordings
+cleared in 2022, and 1923-1946 ones clear 100 years after publication, so every
+January releases another twelve months. `isPublicDomain` in
+`scripts/lib/rights.mjs` computes it; never hardcode a cutoff year anywhere
+else, which is how the vetting page ended up warning about recordings that were
+already public domain. The rule only ever *proposes*, and
 the rights statement behind every decision is stored beside it in the manifest
 and printed on `/about/`.
 

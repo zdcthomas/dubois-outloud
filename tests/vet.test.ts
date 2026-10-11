@@ -58,9 +58,17 @@ describe('rightsWarning', () => {
     expect(rightsWarning(jukebox('1917-11-21'))).toBeNull();
   });
 
-  it('treats 1923 itself as outside the public domain', () => {
-    expect(rightsWarning(jukebox('1923-01-01'))).toMatch(/NOT public domain/);
+  it('stays silent on 1923, which cleared its 100-year term in 2024', () => {
+    // The warning follows the rolling Music Modernization Act schedule, not a
+    // fixed 1923 line. Boundary years are pinned in public-domain.test.ts,
+    // where the current year is injected; asserting them here would make this
+    // test change meaning every January.
+    expect(rightsWarning(jukebox('1923-01-01'))).toBeNull();
     expect(rightsWarning(jukebox('1922-12-31'))).toBeNull();
+  });
+
+  it('still warns on a side whose term has decades to run', () => {
+    expect(rightsWarning(jukebox('1946-01-01'))).toMatch(/NOT public domain/);
   });
 
   it('finds the collection even when it is not first', () => {
