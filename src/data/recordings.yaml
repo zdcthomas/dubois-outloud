@@ -84,7 +84,7 @@
     checked: 2026-10-10
 - song: nobody-knows-the-trouble-ive-seen
   loc_id: jukebox-71990
-  status: unreviewed
+  status: approved
   delivery: selfhost
   note: null
   loc:
@@ -2205,7 +2205,7 @@
   loc: null
 - song: swing-low-sweet-chariot
   loc_id: jukebox-646729
-  status: unreviewed
+  status: approved
   delivery: selfhost
   note: null
   loc:
@@ -2249,7 +2249,7 @@
     checked: 2026-10-10
 - song: swing-low-sweet-chariot
   loc_id: jukebox-16069
-  status: unreviewed
+  status: rejected
   delivery: selfhost
   note: null
   loc:
