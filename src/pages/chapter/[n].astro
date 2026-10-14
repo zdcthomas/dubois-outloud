@@ -57,12 +57,7 @@ const n = entry.data.chapter!;
 
   {songs.map((song) => (
     <>
-      <Epigraph
-        songTitle={song.title}
-        notation={song.notation}
-        iaItem={song.scan?.ia_item ?? null}
-        page={song.scan?.page ?? null}
-      />
+      <Epigraph songTitle={song.title} notation={song.notation} scan={song.scan} />
       <RecordingList recordings={song.recordings} songTitle={song.title} />
     </>
   ))}
@@ -81,6 +76,20 @@ const n = entry.data.chapter!;
 
   <style>
     .eyebrow { text-transform: uppercase; letter-spacing: .08em; font-size: .8rem; }
+    /* The verse epigraph, written by fetch-text.mjs as <pre class="poem">.
+       :global because it comes out of <Content />, which scoped styles miss.
+       The block is centred but the lines stay left of each other, so the
+       poet's indentation still reads. pre-wrap so a long line folds on a
+       phone instead of running off the page. */
+    article :global(.poem) {
+      font-family: inherit;
+      font-style: italic;
+      line-height: 1.7;
+      white-space: pre-wrap;
+      width: fit-content;
+      max-width: 100%;
+      margin: 2.5rem auto;
+    }
     .chapter-nav { display: flex; justify-content: space-between; margin-top: 3rem; }
   </style>
 </Base>

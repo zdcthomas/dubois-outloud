@@ -46,16 +46,37 @@ describe('songs.yaml', () => {
     }
   });
 
-  it('gives any song that has scan coordinates a sane crop box', () => {
-    // Most songs are still null — finding each page index is curation work.
-    // The ones that are filled in must describe a real rectangle, because a
-    // zero or inverted box crops to nothing and sharp throws at build time.
-    for (const song of songs.filter((s) => s.scan !== null)) {
-      const [left, top, right, bottom] = song.scan!.crop;
+  it('names a scan for every song, so no chapter head comes up blank', () => {
+    expect(songs.filter((s) => s.scan === null)).toEqual([]);
+  });
+
+  it('gives any Internet Archive scan a sane crop box', () => {
+    // A zero or inverted box crops to nothing, and sharp throws at build time.
+    // Plate scans carry no box — they are already cropped — so they skip this.
+    const cropped = songs.filter((s) => s.scan !== null && 'crop' in s.scan);
+    expect(cropped.length).toBeGreaterThan(0);
+    for (const song of cropped) {
+      const scan = song.scan as { page: number; crop: number[] };
+      const [left, top, right, bottom] = scan.crop;
       expect(right).toBeGreaterThan(left);
       expect(bottom).toBeGreaterThan(top);
-      expect(song.scan!.page).toBeGreaterThan(0);
+      expect(scan.page).toBeGreaterThan(0);
     }
+  });
+
+  it('accepts a plate scan', () => {
+    const good = { ...songs[0], scan: { plate: 'https://way.net/x/01.gif' } };
+    expect(() => songsSchema.parse(good)).not.toThrow();
+  });
+
+  it('rejects a plate that is not a URL', () => {
+    // A bare filename would send fetchBinary nowhere useful, and the chapter
+    // head would fail at fetch time rather than here.
+    expect(() => songsSchema.parse({ ...songs[0], scan: { plate: '01.gif' } })).toThrow();
+  });
+
+  it('rejects a scan that is neither shape', () => {
+    expect(() => songsSchema.parse({ ...songs[0], scan: { page: 16 } })).toThrow();
   });
 
   it('rejects a chapter outside 1..14', () => {

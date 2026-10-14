@@ -11,17 +11,33 @@ import { z } from 'zod';
  * applies these schemas at build time, which is what the design requires.
  */
 
+/**
+ * Cut the staff out of a page scan of the 1903 first edition at the Internet
+ * Archive. The better source — a page is 1272x2079, so the crop stays sharp
+ * — but every box has to be found by hand against a printed page.
+ */
+export const iaScanSchema = z.object({
+  ia_item: z.string().min(1),
+  page: z.number().int().positive(),
+  crop: z.tuple([z.number(), z.number(), z.number(), z.number()]),
+});
+
+/**
+ * An already-cropped plate from the musical hypertext edition at way.net,
+ * which scanned all eighteen around 2000. About 440px wide, so softer than an
+ * Internet Archive crop, but it needs no hand work. The engravings are from
+ * 1903 and in the public domain; a faithful scan of a flat public-domain page
+ * adds no new copyright.
+ */
+export const plateScanSchema = z.object({
+  plate: z.string().url(),
+});
+
 export const songsSchema = z.object({
   slug: z.string().regex(/^[a-z0-9-]+$/),
   chapter: z.number().int().min(1).max(14),
   title: z.string().min(1),
-  scan: z
-    .object({
-      ia_item: z.string().min(1),
-      page: z.number().int().positive(),
-      crop: z.tuple([z.number(), z.number(), z.number(), z.number()]),
-    })
-    .nullable(),
+  scan: z.union([iaScanSchema, plateScanSchema]).nullable(),
 });
 
 export type Song = z.infer<typeof songsSchema>;

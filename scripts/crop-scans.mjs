@@ -44,6 +44,23 @@ export async function cropStaff({ ia_item: iaItem, page, crop }) {
     .toBuffer();
 }
 
+/**
+ * Convert an already-cropped plate to PNG, without cutting anything.
+ *
+ * way.net serves these as GIFs from a site nobody has maintained since about
+ * 2000, so this is the one fetch here that could go away. It fails loudly like
+ * every other one: a missing plate stops the build rather than leaving a
+ * chapter head silently blank.
+ */
+export async function fetchPlate({ plate }) {
+  const { buf } = await fetchBinary(plate);
+  return sharp(buf).png({ compressionLevel: 9 }).toBuffer();
+}
+
+/** Pick the right fetch for whichever shape of `scan` a song carries. */
+export const notationFor = (scan) =>
+  'plate' in scan ? fetchPlate(scan) : cropStaff(scan);
+
 /** Write a full page out, so a human can read coordinates off it. */
 async function probe(iaItem, page) {
   const { buf } = await fetchBinary(iiifUrl(iaItem, page));
@@ -66,8 +83,9 @@ async function main() {
 
   if (songs.length === 0) {
     console.log(
-      'No songs have scan coordinates yet, so there is nothing to crop.\n' +
-        'Find a page with:  pnpm fetch:scans -- --probe cu31924024920492 16\n' +
+      'No songs name a scan yet, so there is nothing to fetch.\n' +
+        'Either point `plate` at an already-cropped staff, or find a page with:\n' +
+        '  node scripts/crop-scans.mjs --probe cu31924024920492 16\n' +
         'then put its page index and crop box into src/data/songs.yaml.',
     );
     return;
@@ -75,18 +93,19 @@ async function main() {
 
   const failures = [];
   for (const song of songs) {
+    const where = 'plate' in song.scan ? song.scan.plate : `page ${song.scan.page}`;
     try {
-      const png = await cropStaff(song.scan);
+      const png = await notationFor(song.scan);
       writeFileSync(`${OUT_DIR}/${notationFilename(song.slug)}`, png);
-      console.log(`  ${notationFilename(song.slug)}  page ${song.scan.page}`);
+      console.log(`  ${notationFilename(song.slug)}  ${where}`);
     } catch (err) {
-      failures.push(`${song.slug} (page ${song.scan.page}): ${err.message}`);
+      failures.push(`${song.slug} (${where}): ${err.message}`);
     }
   }
 
-  console.log(`Cropped ${songs.length - failures.length} of ${songs.length}.`);
+  console.log(`Wrote ${songs.length - failures.length} of ${songs.length}.`);
   if (failures.length > 0) {
-    console.error(`\n${failures.length} crops failed:`);
+    console.error(`\n${failures.length} failed:`);
     for (const line of failures) console.error(`  - ${line}`);
     process.exit(1);
   }

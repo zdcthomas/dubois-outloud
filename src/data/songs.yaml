@@ -1,6 +1,16 @@
 # The spiritual Du Bois placed at each chapter head, from the 1903 edition.
-# `scan` holds the page index and crop box within Internet Archive item
-# cu31924024920492; Task 10 fills them in by inspection.
+#
+# `scan` says where the bar of music comes from, in one of two shapes:
+#
+#   ia_item / page / crop  cut it out of a page scan of the 1903 first edition
+#                          at the Internet Archive. Sharp, but the box has to
+#                          be found by hand.
+#   plate                  an already-cropped staff from the musical hypertext
+#                          edition at way.net, which scanned all eighteen
+#                          around 2000. About 440px wide, so softer, but free.
+#
+# Prefer `plate` until someone wants a sharper staff for a given chapter, then
+# probe the page and replace it. Chapter 1 is already cropped that way.
 #
 # Chapter 14, "Of the Sorrow Songs", carries five songs rather than one.
 # The Forethought and the Afterthought carry none and so have no entry.
@@ -18,68 +28,85 @@
 - slug: my-lord-what-a-mourning
   chapter: 2
   title: "My Lord, What a Mourning"
-  scan: null
+  scan:
+    plate: https://way.net/SoulsOfBlackFolk/02MyLord.gif
 - slug: a-great-camp-meeting-in-the-promised-land
   chapter: 3
   title: "A Great Camp-meeting in the Promised Land"
-  scan: null
+  scan:
+    plate: https://way.net/SoulsOfBlackFolk/03GreatCamp.gif
 - slug: my-ways-cloudy
   chapter: 4
   title: "My Way's Cloudy"
-  scan: null
+  scan:
+    plate: https://way.net/SoulsOfBlackFolk/04MyWaylsCloudy.gif
 - slug: the-rocks-and-the-mountains
   chapter: 5
   title: "The Rocks and the Mountains"
-  scan: null
+  scan:
+    plate: https://way.net/SoulsOfBlackFolk/05RocksAndMountains.gif
 - slug: march-on
   chapter: 6
   title: "March On"
-  scan: null
+  scan:
+    plate: https://way.net/SoulsOfBlackFolk/06MarchOn.gif
 - slug: bright-sparkles-in-the-churchyard
   chapter: 7
   title: "Bright Sparkles in the Churchyard"
-  scan: null
+  scan:
+    plate: https://way.net/SoulsOfBlackFolk/07BrightSparkles.gif
 - slug: children-youll-be-called-on
   chapter: 8
   title: "Children, You'll Be Called On"
-  scan: null
+  scan:
+    plate: https://way.net/SoulsOfBlackFolk/08ChildrenBeCalled.gif
 - slug: im-a-rolling
   chapter: 9
   title: "I'm a Rolling"
-  scan: null
+  scan:
+    plate: https://way.net/SoulsOfBlackFolk/09ImARolling.gif
 - slug: steal-away
   chapter: 10
   title: "Steal Away"
-  scan: null
+  scan:
+    plate: https://way.net/SoulsOfBlackFolk/10StealAway.gif
 - slug: i-hope-my-mother-will-be-there
   chapter: 11
   title: "I Hope My Mother Will Be There"
-  scan: null
+  scan:
+    plate: https://way.net/SoulsOfBlackFolk/11HopeMyMother.gif
 - slug: swing-low-sweet-chariot
   chapter: 12
   title: "Swing Low, Sweet Chariot"
-  scan: null
+  scan:
+    plate: https://way.net/SoulsOfBlackFolk/12SwingLow.gif
 - slug: ill-hear-the-trumpet-sound
   chapter: 13
   title: "I'll Hear the Trumpet Sound"
-  scan: null
+  scan:
+    plate: https://way.net/SoulsOfBlackFolk/13HearTheTrumpet.gif
 - slug: wrestlin-jacob
   chapter: 14
   title: "Wrestlin' Jacob"
-  scan: null
+  scan:
+    plate: https://way.net/SoulsOfBlackFolk/14WrestlingJacob.gif
 - slug: do-bana-coba
   chapter: 14
   title: "Do Bana Coba"
-  scan: null
+  scan:
+    plate: https://way.net/SoulsOfBlackFolk/14DoBana.gif
 - slug: my-soul-wants-something-thats-new
   chapter: 14
   title: "My Soul Wants Something That's New"
-  scan: null
+  scan:
+    plate: https://way.net/SoulsOfBlackFolk/14MySoul.gif
 - slug: poor-rosy
   chapter: 14
   title: "Poor Rosy"
-  scan: null
+  scan:
+    plate: https://way.net/SoulsOfBlackFolk/14PoorRosy.gif
 - slug: weary-traveller
   chapter: 14
   title: "Weary Traveller"
-  scan: null
+  scan:
+    plate: https://way.net/SoulsOfBlackFolk/14WearyTraveller.gif
