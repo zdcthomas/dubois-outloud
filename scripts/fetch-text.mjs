@@ -110,6 +110,35 @@ function dropHeadingLines(lines, count) {
   return lines.slice(i);
 }
 
+/**
+ * Mark up the verse epigraph at the head of a chapter.
+ *
+ * Every numbered chapter opens with a poem, then a `[Illustration]` line where
+ * the 1903 plate of the sorrow song sat. That first plate is the one the
+ * Epigraph component now renders above the text, so the marker is dropped.
+ * Chapter 14 carries four more markers further down, next to prose that points
+ * straight at them ("and thus they sing:"); those stay, because removing them
+ * would leave the sentence pointing at nothing.
+ *
+ * The verse goes in a <pre> so the poet's line breaks and indentation survive.
+ * Markdown leaves the inside of a raw HTML block alone, so Gutenberg's
+ * `_underscore_` italics are converted here; nothing else in the verse needs it.
+ */
+export function markUpEpigraph(body) {
+  const at = body.indexOf('[Illustration]');
+  if (at < 0) return body; // the Forethought and the Afterthought carry no poem.
+
+  const verse = body
+    .slice(0, at)
+    .trim()
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/_([^_\n]+)_/g, '<em>$1</em>');
+  const rest = body.slice(at + '[Illustration]'.length).trim();
+
+  return `<pre class="poem">\n${verse}\n</pre>\n\n${rest}`;
+}
+
 function toMarkdown({ chapter, heading, body }) {
   return [
     '---',
@@ -118,7 +147,7 @@ function toMarkdown({ chapter, heading, body }) {
     'source: "Project Gutenberg eBook 408, the 1903 edition, public domain"',
     '---',
     '',
-    body,
+    markUpEpigraph(body),
     '',
   ].join('\n');
 }

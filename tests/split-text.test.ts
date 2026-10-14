@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
-import { splitBook } from '../scripts/fetch-text.mjs';
+import { markUpEpigraph, splitBook } from '../scripts/fetch-text.mjs';
 
 const raw = readFileSync('tests/fixtures/gutenberg/pg408-sample.txt', 'utf8');
 const sections = splitBook(raw);
@@ -104,5 +104,32 @@ describe('splitBook', () => {
     // picking one.
     const doubled = raw.replace(/^XIV\.[ \t]*$/m, 'XIV.\nXIV.');
     expect(() => splitBook(doubled)).toThrow(/XIV/);
+  });
+});
+
+describe('markUpEpigraph', () => {
+  it('wraps the verse and drops the head plate marker', () => {
+    const out = markUpEpigraph('Line one,\n    Line two.\n\nBYRON.\n\n[Illustration]\n\nThe prose.');
+    expect(out).toBe(
+      '<pre class="poem">\nLine one,\n    Line two.\n\nBYRON.\n</pre>\n\nThe prose.',
+    );
+  });
+
+  it('keeps the markers chapter 14 prose points at', () => {
+    const out = markUpEpigraph('Verse.\n\n[Illustration]\n\nthus:\n\n[Illustration]\n\nAnd on.');
+    expect(out.match(/\[Illustration\]/g)).toHaveLength(1);
+  });
+
+  it('carries Gutenberg underscore italics into the <pre>', () => {
+    // Markdown leaves a raw HTML block alone, so _..._ inside the verse would
+    // otherwise render as literal underscores.
+    const out = markUpEpigraph('_Who hath forgotten?_\n\n[Illustration]\n\nProse.');
+    expect(out).toContain('<em>Who hath forgotten?</em>');
+  });
+
+  it('leaves a section with no poem untouched', () => {
+    expect(markUpEpigraph('Hear my cry, O God the Reader.')).toBe(
+      'Hear my cry, O God the Reader.',
+    );
   });
 });
